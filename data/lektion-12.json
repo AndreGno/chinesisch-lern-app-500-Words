@@ -1,6 +1,49 @@
 {
   "nummer": 12,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "我想學畫國畫。你可以教我嗎？",
+      "pinyin": "wǒ   xiǎng xué    huà     guó   huà            nǐ      kě      yǐ      jiāo   wǒ     ma",
+      "de": "Ich möchte gerne chinesische Malerei lernen. Kannst du mir das beibringen?",
+      "audio": "audio/12-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我畫得不好，只能教你一點簡單的。",
+      "pinyin": "wǒ   huà   de     bù   hǎo         zhǐ  néng  jiāo   nǐ      yì   diǎn  jiǎn   dān   de",
+      "de": "Ich male nicht gut. Ich kann dir nur etwas Einfaches beibringen.",
+      "audio": "audio/12-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你也會唱華語歌嗎？",
+      "pinyin": "nǐ       yě      hùi  chàng    huá    yǔ       gē      ma",
+      "de": "Kannst du auch chinesische Lieder singen?",
+      "audio": "audio/12-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "會唱幾首。",
+      "pinyin": "hùi  chàng  jǐ   shǒu",
+      "de": "Ich kann ein paar Lieder singen.",
+      "audio": "audio/12-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼，你也教我唱華語歌吧。",
+      "pinyin": "nà     me              nǐ       yě     jiāo    wǒ   chàng    huá  yǔ       gē      ba",
+      "de": "Na dann kannst du mir auch das Singen von chinesischen Liedern beibringen.",
+      "audio": "audio/12-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "好啊，我教你唱一首「梅花」。",
+      "pinyin": "hǎo   a            wǒ   jiāo   nǐ  chàng   yì   shǒu       méi  huā",
+      "de": "Ja gut, ich bringe dir das Lied “Pflaumenblüten” bei.",
+      "audio": "audio/12-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "想",
@@ -19,6 +62,42 @@
       "zhuyin": "・ㄉㄜ",
       "pinyin": "de",
       "de": "eine Nachsilbe zu Verben"
+    },
+    {
+      "zh": "只",
+      "zhuyin": "ㄓˇ",
+      "pinyin": "zhǐ",
+      "de": "nur"
+    },
+    {
+      "zh": "能",
+      "zhuyin": "ㄋㄥˊ",
+      "pinyin": "néng",
+      "de": "können"
+    },
+    {
+      "zh": "語",
+      "zhuyin": "ㄩˇ",
+      "pinyin": "yǔ",
+      "de": "Sprache"
+    },
+    {
+      "zh": "簡單",
+      "zhuyin": "ㄐㄧㄢˇ ㄉㄢ",
+      "pinyin": "jiǎn dān",
+      "de": "einfach, leicht"
+    },
+    {
+      "zh": "唱",
+      "zhuyin": "ㄔㄤˋ",
+      "pinyin": "chàng",
+      "de": "singen"
+    },
+    {
+      "zh": "歌",
+      "zhuyin": "ㄍㄜ",
+      "pinyin": "gē",
+      "de": "das Lied"
     }
   ],
   "wiederholung": [
@@ -43,5 +122,66 @@
       "zh": "那麼也教我唱華語歌吧。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "「梅花」是一首很有名的歌，是嗎？",
+      "pinyin": "méi   huā        shì     yì   shǒu  hěn  yǒu  míng  de   gē           shì   ma",
+      "de": "“Pflaumenblüten” ist ein bekanntes Lied, nicht wahr?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊。",
+      "pinyin": "shì     a",
+      "de": "Ja, das stimmt."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你會唱嗎？",
+      "pinyin": "nǐ      hùi  chàng  ma",
+      "de": "Kannst du es singen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "會。",
+      "pinyin": "hùi",
+      "de": "Ja."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你可以教我唱嗎？",
+      "pinyin": "nǐ      kě     yǐ     jiāo   wǒ  chàng  ma",
+      "de": "Kannst du es mir beibringen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "可以是可以，可是你得先會寫這兩個字。",
+      "pinyin": "kě     yǐ     shì   kě     yǐ           kě    shì     nǐ    děi   xiān  hùi    xiě   zhè  liǎng  ge     zì",
+      "de": "Ja, das kann ich schon, aber du musst zuerst diese zwei Wörter schreiben können."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我已經會寫這兩個字了。",
+      "pinyin": "wǒ    yǐ    jīng  hùi   xiě    zhè  liǎng   ge    zì     le",
+      "de": "Ich kann sie schon schreiben."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這真沒想到。",
+      "pinyin": "zhè   zhēn  méi  xiǎng  dào",
+      "de": "Das hätte ich nicht gedacht."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "是啊，我會很用功的，下一次來我",
+      "pinyin": "shì     a            wǒ    hùi   hěn  yòng  gōng  de           xià     yí      cì      lái    wǒ",
+      "de": "會唱得比你更好。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "沒關係。好老師才有好學生。",
+      "pinyin": "méi  guān   xì            hǎo    lǎo    shī    cái   yǒu   hǎo   xué  shēng",
+      "de": "Das ist gut so! Ein guter Schüler kommt von einem guten Lehrer."
+    }
+  ]
 }

@@ -1,6 +1,56 @@
 {
   "nummer": 5,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你到這裡來學中文嗎？",
+      "pinyin": "nǐ    dào   zhè     lǐ     lái    xué  zhōng wén   ma",
+      "de": "Kommst du hierher, um Chinesisch zu lernen?",
+      "audio": "audio/05-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我來學中文。",
+      "pinyin": "shì     de           wǒ    lái    xué  zhōng  wén",
+      "de": "Ja, ich komme, um Chinesisch zu lernen.",
+      "audio": "audio/05-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼我們是同學。",
+      "pinyin": "nà     me    wǒ   men   shì   tóng   xué",
+      "de": "Dann sind wir Schulkameraden.",
+      "audio": "audio/05-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "誰是我們的老師？",
+      "pinyin": "shéi   shì    wǒ  men   de    lǎo   shī",
+      "de": "Wer ist unser Lehrer?",
+      "audio": "audio/05-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "李先生是我們的老師。",
+      "pinyin": "Lǐ   xiān  shēng  shì    wǒ   men   de    lǎo   shī",
+      "de": "Herr Li ist unser Lehrer.",
+      "audio": "audio/05-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "他是華人嗎？",
+      "pinyin": "tā     shì     huá   rén    ma",
+      "de": "Ist er Chinese?",
+      "audio": "audio/05-06.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他是華人，他會說中文",
+      "pinyin": "tā     shì     huá    rén            tā      hùi  shuō  zhōng  wén",
+      "de": "也會寫中文。",
+      "audio": "audio/05-07.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "這裡",
@@ -19,6 +69,36 @@
       "zhuyin": "・ㄉㄜ",
       "pinyin": "de",
       "de": "1.Attributpartikel   2. betonende Satzpartikel"
+    },
+    {
+      "zh": "同學",
+      "zhuyin": "ㄊㄨㄥˊ  ㄒㄩㄝˊ",
+      "pinyin": "tóng  xué",
+      "de": "der Schulkamerad, der Klassenkamerad"
+    },
+    {
+      "zh": "誰",
+      "zhuyin": "ㄕㄟˊ",
+      "pinyin": "shéi",
+      "de": "wer"
+    },
+    {
+      "zh": "華人",
+      "zhuyin": "ㄏㄨㄚˊ  ㄖㄣˊ",
+      "pinyin": "huá   rén",
+      "de": "Chinese"
+    },
+    {
+      "zh": "會",
+      "zhuyin": "ㄏㄨㄟˋ",
+      "pinyin": "hùi",
+      "de": "können, wollen"
+    },
+    {
+      "zh": "說話",
+      "zhuyin": "ㄕㄨㄛ  ㄏㄨㄚˋ",
+      "pinyin": "shuō  huà",
+      "de": "sprechen, sagen"
     }
   ],
   "wiederholung": [
@@ -35,5 +115,48 @@
       "zh": "那麼我們是同學。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "誰是我們的老師？",
+      "pinyin": "shéi   shì   wǒ   men   de    lǎo   shī",
+      "de": "Wer ist unser Lehrer?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "李先生是我們的老師。",
+      "pinyin": "Lǐ   xiān  shēng  shì   wǒ   men   de    lǎo   shī",
+      "de": "Herr Li ist unser Lehrer."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他教我們什麼？",
+      "pinyin": "tā    jiāo  wǒ   men  shé   me",
+      "de": "Was lehrt er uns?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "他教我們說中文，",
+      "pinyin": "tā      jiāo    wǒ    men  shuō  zhōng  wén",
+      "de": "他也教我們寫毛筆字。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你也來學中文嗎？",
+      "pinyin": "nǐ     yě     lái   xué  zhōng  wén   ma",
+      "de": "Kommst du auch zum Chinesischlernen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我們都是李老師的學生。",
+      "pinyin": "shì     de          wǒ  men  dōu   shì    Lǐ     lǎo   shī    de    xué  shēng",
+      "de": "Ja, wir sind alle Schüler von Herrn Li."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼我們是同學。",
+      "pinyin": "nà    me    wǒ  men   shì   tóng  xué",
+      "de": "Dann sind wir also Klassenkameraden."
+    }
+  ]
 }

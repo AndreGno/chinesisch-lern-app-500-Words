@@ -1,6 +1,63 @@
 {
   "nummer": 18,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "現在幾點了？",
+      "pinyin": "xiàn   zài     jǐ    diǎn   le",
+      "de": "Wie spät ist es jetzt?",
+      "audio": "audio/18-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "已經快六點半了。",
+      "pinyin": "yǐ     jīng  kuài  lìu   diǎn   bàn   le",
+      "de": "Es ist schon bald halb sieben.",
+      "audio": "audio/18-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那我們來不及吃晚飯了。",
+      "pinyin": "nà    wǒ   men   lái    bù     jí     chī   wǎn  fàn    le",
+      "de": "Dann kommen wir nicht rechtzeitig zum Abendessen.",
+      "audio": "audio/18-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "張先生家離我們家不遠。",
+      "pinyin": "Zhāng  xiān  shēng  jiā     lí       wǒ   men    jiā      bù    yuǎn",
+      "de": "Herr Zhangs Haus ist nicht weit von unserem Haus entfernt.",
+      "audio": "audio/18-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "可是也不近。走路要三十分鐘。",
+      "pinyin": "kě    shì    yě     bú    jìn         zǒu    lù    yào   sān   shí    fēn  zhōng",
+      "de": "Aber es ist auch nicht nah. Zu Fuß dauert es 30 Minuten.",
+      "audio": "audio/18-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "開車去，只要十分鐘。",
+      "pinyin": "kāi   chē   qù          zhǐ   yào   shí   fēn  zhōng",
+      "de": "Mit dem Auto dauert es nur 10 Minuten.",
+      "audio": "audio/18-06.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "要是開車去，六點五十走也來得及。",
+      "pinyin": "yào   shì    kāi   chē    qù         lìu   diǎn   wǔ   shí    zǒu    yě    lái     de    jí",
+      "de": "Wenn wir mit dem Auto hinfahren, reicht es, zehn Minuten vor sieben",
+      "audio": "audio/18-07.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，所以不必急，慢慢來吧。",
+      "pinyin": "shì     a           suǒ   yǐ     bú     bì      jí         màn  màn   lái    ba",
+      "de": "Ach ja, deshalb brauchen wir uns nicht zu beeilen. Lassen wir uns Zeit!",
+      "audio": "audio/18-08.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "現在",
@@ -19,6 +76,48 @@
       "zhuyin": "ㄇㄢˋ",
       "pinyin": "màn",
       "de": "langsam (nachgehen: Uhr)"
+    },
+    {
+      "zh": "來不及",
+      "zhuyin": "ㄌㄞˊ ㄅㄨˋ ㄐㄧˊ",
+      "pinyin": "lái bù jí",
+      "de": "Es ist zu spät."
+    },
+    {
+      "zh": "吃",
+      "zhuyin": "ㄔ",
+      "pinyin": "chī",
+      "de": "essen"
+    },
+    {
+      "zh": "飯",
+      "zhuyin": "ㄈㄢˋ",
+      "pinyin": "fàn",
+      "de": "das Essen, die Mahlzeit, der Reis"
+    },
+    {
+      "zh": "離",
+      "zhuyin": "ㄌㄧˊ",
+      "pinyin": "lí",
+      "de": "fern von, weit von"
+    },
+    {
+      "zh": "遠",
+      "zhuyin": "ㄩㄢˇ",
+      "pinyin": "yuǎn",
+      "de": "fern, weit"
+    },
+    {
+      "zh": "近",
+      "zhuyin": "ㄐㄧㄣˋ",
+      "pinyin": "jìn",
+      "de": "nah"
+    },
+    {
+      "zh": "路",
+      "zhuyin": "ㄌㄨˋ",
+      "pinyin": "lù",
+      "de": "die Straße."
     }
   ],
   "wiederholung": [
@@ -31,5 +130,42 @@
       "zh": "已經快六點半了。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "李中家離我們家遠不遠？",
+      "pinyin": "Lǐ  zhōng  jiā     lí     wǒ   men   jiā   yuǎn  bù   yuǎn",
+      "de": "Liegt Herr Lis Haus weit von unserem Haus weg?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不遠，走路要二十分鐘，開車不到十分鐘。",
+      "pinyin": "bù   yuǎn       zǒu   lù     yào    èr    shí   fēn  zhōng      kāi   chē    bú   dào   shí   fēn  zhōng",
+      "de": "Nein, nicht weit. Zu Fuß braucht man 20 Minuten. Mit dem Auto dauert es keine 10 Minuten."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "現在太晚了，走路來不及了，我們開車去吧。",
+      "pinyin": "\u0000",
+      "de": "Nun ist es zu spät. Zu Fuß schaffen wir es nicht mehr rechtzeitig. Fahren wir doch mit dem Auto hin."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "好的，開車一定來得及。",
+      "pinyin": "hǎo    de          kāi   chē   yí    dìng   lái    de     jí",
+      "de": "Gut. Mit dem Auto schaffen wir es bestimmt."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "別開得太快。",
+      "pinyin": "bié    kāi    de     tài   kuài",
+      "de": "Fahr nicht zu schnell!"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "好的，我慢慢開。",
+      "pinyin": "hǎo   de          wǒ   màn  màn  kāi",
+      "de": "Gut, ich fahre langsam."
+    }
+  ]
 }

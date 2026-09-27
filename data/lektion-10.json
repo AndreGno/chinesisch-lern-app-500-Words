@@ -1,6 +1,42 @@
 {
   "nummer": 10,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你學中文多久了？",
+      "pinyin": "nǐ     xué  zhōng  wén  duō   jiǔ     le",
+      "de": "Wie lange lernst du schon Chinesisch?",
+      "audio": "audio/10-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我才學了兩個月。你學了多久了？",
+      "pinyin": "wǒ    cái    xué   le   liǎng   ge   yuè          nǐ    xué    le    duō   jiǔ     le",
+      "de": "Ich lerne es erst seit zwei Monaten. Wie lange lernst du schon Chinesisch?",
+      "audio": "audio/10-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我已經學了三年了。",
+      "pinyin": "wǒ    yǐ    jīng  xué    le    sān   nián   le",
+      "de": "Ich lerne es schon seit drei Jahren.",
+      "audio": "audio/10-03.mp3"
+    },
+    {
+      "sprecher": "丙",
+      "zh": "我還沒學呢！",
+      "pinyin": "wǒ   hái   méi   xué   ne",
+      "de": "Ich habe noch nicht angefangen Chinesisch zu lernen.",
+      "audio": "audio/10-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "沒關係，你可以到這裡來學。",
+      "pinyin": "méi  guān   xì          nǐ     kě     yǐ    dào   zhè    lǐ      lái   xué",
+      "de": "Das macht nichts. Du kannst es hier lernen.",
+      "audio": "audio/10-05.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "了",
@@ -19,6 +55,36 @@
       "zhuyin": "ㄘㄞˊ",
       "pinyin": "cái",
       "de": "nur, erst"
+    },
+    {
+      "zh": "已經",
+      "zhuyin": "ㄧˇ ㄐㄧㄥ",
+      "pinyin": "yǐ jīng",
+      "de": "schon, bereits"
+    },
+    {
+      "zh": "關係",
+      "zhuyin": "ㄍㄨㄢ ㄒㄧˋ",
+      "pinyin": "guān xì",
+      "de": "die Beziehung, der Zusammenhang, sich beziehen auf, betreffen"
+    },
+    {
+      "zh": "上",
+      "zhuyin": "ㄕㄤˋ",
+      "pinyin": "shàng",
+      "de": "oben, auf, zu, nach"
+    },
+    {
+      "zh": "年",
+      "zhuyin": "ㄋㄧㄢˊ",
+      "pinyin": "nián",
+      "de": "das Jahr"
+    },
+    {
+      "zh": "月",
+      "zhuyin": "ㄩㄝˋ",
+      "pinyin": "yuè",
+      "de": "der Monat"
     }
   ],
   "wiederholung": [

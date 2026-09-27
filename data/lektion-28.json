@@ -1,12 +1,121 @@
 {
   "nummer": 28,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "我想上街去買東西。",
+      "pinyin": "wǒ  xiǎng  shàng  jiē     qù     mǎi   dōng   xi",
+      "de": "Ich möchte in die Stadt einkaufen gehen.",
+      "audio": "audio/28-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你想買什麼？",
+      "pinyin": "nǐ  xiǎng  mǎi   shé   me",
+      "de": "Was möchtest du kaufen?",
+      "audio": "audio/28-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我想買一雙鞋子，兩雙襪子。",
+      "pinyin": "wǒ   xiǎng  mǎi    yì  shuāng  xié      zi         liǎng  shuāng  wà     zi",
+      "de": "同時想買一套運動衣。",
+      "audio": "audio/28-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "正好我也想買一條運動褲。",
+      "pinyin": "zhèng hǎo  wǒ    yě  xiǎng  mǎi   yì    tiáo  yùn  dòng  kù",
+      "de": "Das trifft sich ja gut. Ich möchte auch eine Sporthose kaufen.",
+      "audio": "audio/28-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你要買什麼牌子的？",
+      "pinyin": "nǐ    yào   mǎi   shé   me   pái     zi     de",
+      "de": "Welche Marke möchtest du kaufen?",
+      "audio": "audio/28-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "什麼牌子都可以。",
+      "pinyin": "shé   me   pái     zi    dōu   kě     yǐ",
+      "de": "Mir ist jede Marke recht.",
+      "audio": "audio/28-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "雙",
       "zhuyin": "ㄕㄨㄤ",
       "pinyin": "shuāng",
       "de": "Paar, das Paar, zwei"
+    },
+    {
+      "zh": "鞋",
+      "zhuyin": "ㄒㄧㄝˊ",
+      "pinyin": "xié",
+      "de": "die Schuhe"
+    },
+    {
+      "zh": "襪",
+      "zhuyin": "ㄨㄚˋ",
+      "pinyin": "wà",
+      "de": "die Socke"
+    },
+    {
+      "zh": "套",
+      "zhuyin": "ㄊㄠˋ",
+      "pinyin": "tào",
+      "de": "der Satz, die Garnitur"
+    },
+    {
+      "zh": "運",
+      "zhuyin": "ㄩㄣˋ",
+      "pinyin": "yùn",
+      "de": "sich bewegen, transportieren, liefern"
+    },
+    {
+      "zh": "動",
+      "zhuyin": "ㄉㄨㄥˋ",
+      "pinyin": "dòng",
+      "de": "sich bewegen"
+    },
+    {
+      "zh": "衣服",
+      "zhuyin": "ㄧ ㄈㄨˊ",
+      "pinyin": "yī  fú",
+      "de": "die Kleidung"
+    },
+    {
+      "zh": "褲",
+      "zhuyin": "ㄎㄨˋ",
+      "pinyin": "kù",
+      "de": "die Hose"
+    },
+    {
+      "zh": "牌",
+      "zhuyin": "ㄆㄞˊ",
+      "pinyin": "pái",
+      "de": "die Marke, das Schild"
+    },
+    {
+      "zh": "名",
+      "zhuyin": "ㄇㄧㄥˊ",
+      "pinyin": "míng",
+      "de": "der Name, berühmt"
+    },
+    {
+      "zh": "正",
+      "zhuyin": "ㄓㄥˋ",
+      "pinyin": "zhèng",
+      "de": "gerade, jetzt"
+    },
+    {
+      "zh": "折",
+      "zhuyin": "ㄓㄜˊ",
+      "pinyin": "zhé",
+      "de": "brechen, Rabatt geben, biegen, falten"
     }
   ],
   "wiederholung": [
@@ -55,5 +164,72 @@
       "zh": "那也便宜不少。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你這雙運動鞋是什麼牌子的？",
+      "pinyin": "nǐ    zhè  shuāng  yùn  dòng  xié     shì     shé    me    pái      zi      de",
+      "de": "Von welcher Marke sind deine Sportschuhe?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是大同牌的。",
+      "pinyin": "shì     dà   tóng   pái   de",
+      "de": "Sie sind von Da-tong."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這個牌子很有名。",
+      "pinyin": "zhè    ge    pái    zi     hěn  yǒu  míng",
+      "de": "Diese Marke ist sehr bekannt."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的。",
+      "pinyin": "shì    de",
+      "de": "Ja."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "很多人喜歡用名牌的東西。",
+      "pinyin": "hěn    duō    rén     xǐ   huān   yòng  míng  pái     de     dōng   xi",
+      "de": "Viele Leute benutzen gern Markenartikel."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "名牌的東西做得好。",
+      "pinyin": "míng  pái    de   dōng   xi   zuò   de    hǎo",
+      "de": "Markenartikel sind gut gemacht."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "可是太貴了。",
+      "pinyin": "kě    shì     tài    gùi    le",
+      "de": "Aber sie sind zu teuer."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "貴是貴，可是不容易壞，同時也好看些。",
+      "pinyin": "gùi   shì   gùi          kě    shì    bù   róng   yì   huài    tóng   shí    yě   hǎo   kàn   xiē",
+      "de": "Sie sind teuer, aber sie gehen nicht leicht kaputt und sehen auch besser aus."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你這雙鞋子是不錯。",
+      "pinyin": "nǐ      zhè  shuāng  xié    zi      shì     bú    cuò",
+      "de": "Deine Schuhe sehen echt nicht schlecht aus."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "下次打折，你也去買一雙吧！",
+      "pinyin": "xià    cì     dǎ    zhé         nǐ      yě     qù   mǎi   yì  shuāng  ba",
+      "de": "Kaufe dir beim nächsten Schlussverkauf doch auch ein Paar!"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "好的。",
+      "pinyin": "hǎo    de",
+      "de": "Mache ich."
+    }
+  ]
 }

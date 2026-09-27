@@ -1,6 +1,42 @@
 {
   "nummer": 24,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你和你的家人住在一起嗎？",
+      "pinyin": "nǐ    hàn    nǐ     de    jiā    rén    zhù   zài    yì     qǐ     ma",
+      "de": "Wohnst du mit deinen Familienangehörigen zusammen?",
+      "audio": "audio/24-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我和爸爸、媽媽、哥哥、姊姊",
+      "pinyin": "shì    de          wǒ   hàn    bà    ba          mā   ma          gē    ge           jiě    jie",
+      "de": "住在一起，你呢？",
+      "audio": "audio/24-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我家很遠，所以我一個人在這裡租房子住。",
+      "pinyin": "wǒ   jiā   hěn   yuǎn       suǒ    yǐ     wǒ    yí     ge    rén   zài    zhè     lǐ     zū   fáng   zi   zhù",
+      "de": "Meine Familie ist weit weg von hier, deswegen wohne ich hier allein in einem",
+      "audio": "audio/24-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "房租很貴吧？",
+      "pinyin": "fáng   zū    hěn   gùi    ba",
+      "de": "Die Miete ist sicher hoch?",
+      "audio": "audio/24-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "房租不貴，不過房間很小。",
+      "pinyin": "fáng   zū    bú    gùi          bú   guò  fáng  jiān   hěn  xiǎo",
+      "de": "Nein. Die Miete ist nicht hoch, aber das Zimmer ist sehr klein.",
+      "audio": "audio/24-05.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "住",
@@ -19,6 +55,72 @@
       "zhuyin": "ㄈㄨˋ ㄑㄧㄣ",
       "pinyin": "fù qīn",
       "de": "der Vater"
+    },
+    {
+      "zh": "媽媽",
+      "zhuyin": "ㄇㄚ ・ㄇㄚ",
+      "pinyin": "mā ma",
+      "de": "Mama"
+    },
+    {
+      "zh": "母親",
+      "zhuyin": "ㄇㄨˇ ㄑㄧㄣ",
+      "pinyin": "mǔ qīn",
+      "de": "die Mutter"
+    },
+    {
+      "zh": "哥哥",
+      "zhuyin": "ㄍㄜ ・ㄍㄜ",
+      "pinyin": "gē ge",
+      "de": "älterer Bruder"
+    },
+    {
+      "zh": "姊姊",
+      "zhuyin": "ㄐㄧㄝˇ ・ㄐㄧㄝ",
+      "pinyin": "jiě jie",
+      "de": "ältere Schwester"
+    },
+    {
+      "zh": "弟弟",
+      "zhuyin": "ㄉㄧˋ ・ㄉㄧ",
+      "pinyin": "dì di",
+      "de": "jüngerer Bruder"
+    },
+    {
+      "zh": "妹妹",
+      "zhuyin": "ㄇㄟˋ ・ㄇㄟ",
+      "pinyin": "mèi mei",
+      "de": "jüngere Schwester"
+    },
+    {
+      "zh": "租",
+      "zhuyin": "ㄗㄨ",
+      "pinyin": "zū",
+      "de": "mieten"
+    },
+    {
+      "zh": "房",
+      "zhuyin": "ㄈㄤˊ",
+      "pinyin": "fáng",
+      "de": "das Haus"
+    },
+    {
+      "zh": "些",
+      "zhuyin": "ㄒㄧㄝ",
+      "pinyin": "xiē",
+      "de": "etwas, ein paar"
+    },
+    {
+      "zh": "口",
+      "zhuyin": "ㄎㄡˇ",
+      "pinyin": "kǒu",
+      "de": "der Mund, die Person"
+    },
+    {
+      "zh": "念",
+      "zhuyin": "ㄋㄧㄢˋ",
+      "pinyin": "niàn",
+      "de": "an jemand denken, sich erinnern an"
     }
   ],
   "wiederholung": [
@@ -67,5 +169,66 @@
       "zh": "我很想念他們。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你們家有幾口人？",
+      "pinyin": "nǐ    men   jiā   yǒu    jǐ    kǒu   rén",
+      "de": "Wie viele Personen seid ihr in der Familie?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們家有六口人。",
+      "pinyin": "wǒ  men   jiā   yǒu   lìu    kǒu   rén",
+      "de": "Wir sind zu sechst."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你們都住在一起嗎？",
+      "pinyin": "nǐ    men  dōu  zhù    zài    yì    qǐ     ma",
+      "de": "Wohnt ihr alle zusammen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，不過有些親人在國外。",
+      "pinyin": "shì    de           bú   guò   yǒu   xiē   qīn   rén    zài   guó   wài",
+      "de": "Ja, aber manche Familienangehörigen sind im Ausland."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "有些什麼親人？",
+      "pinyin": "yǒu  xiē    shé    me   qīn   rén",
+      "de": "Welche Familienangehörige hast du?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我祖父母住在加拿大，外祖父母住在",
+      "pinyin": "wǒ    zǔ    fù    mǔ    zhù   zài    jiā    ná     dà         wài    zǔ     fù    mǔ   zhù   zài",
+      "de": "英國，我阿姨住在日本。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你去看過他們嗎？",
+      "pinyin": "nǐ     qù   kàn   guò    tā   men   ma",
+      "de": "Hast du sie mal besucht?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "加拿大跟英國我都去過了。",
+      "pinyin": "jiā    ná     dà   gēn   yīng  guó   wǒ  dōu    qù   guò    le",
+      "de": "In Kanada und in England bin ich schon gewesen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "為什麼不去日本呢？",
+      "pinyin": "wèi   shé   me    bú    qù     rì     běn    ne",
+      "de": "Warum nicht in Japan?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "因為我阿姨還在上學，所以她",
+      "pinyin": "yīn    wèi    wǒ      ā       yí      hái    zài   shàng  xué           suǒ    yǐ       tā",
+      "de": "租的房間很小，我去了不太方便。"
+    }
+  ]
 }

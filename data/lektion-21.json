@@ -43,6 +43,60 @@
       "zhuyin": "ㄉㄚˇ",
       "pinyin": "dǎ",
       "de": "schlagen, tippen, spielen"
+    },
+    {
+      "zh": "電",
+      "zhuyin": "ㄉㄧㄢˋ",
+      "pinyin": "diàn",
+      "de": "die Elektrizität, der Strom"
+    },
+    {
+      "zh": "玉",
+      "zhuyin": "ㄩˋ",
+      "pinyin": "yù",
+      "de": "die Jade"
+    },
+    {
+      "zh": "班",
+      "zhuyin": "ㄅㄢ",
+      "pinyin": "bān",
+      "de": "die Klasse"
+    },
+    {
+      "zh": "老闆",
+      "zhuyin": "ㄌㄠˇ ㄅㄢˇ",
+      "pinyin": "lǎo  bǎn",
+      "de": "der Arbeitgeber, der Chef"
+    },
+    {
+      "zh": "碼",
+      "zhuyin": "ㄇㄚˇ",
+      "pinyin": "mǎ",
+      "de": "die Ziffer"
+    },
+    {
+      "zh": "查",
+      "zhuyin": "ㄔㄚˊ",
+      "pinyin": "chá",
+      "de": "prüfen, nachschlagen, nachlesen"
+    },
+    {
+      "zh": "朋友",
+      "zhuyin": "ㄆㄥˊ ㄧㄡˇ",
+      "pinyin": "péng  yǒu",
+      "de": "der Freund"
+    },
+    {
+      "zh": "放",
+      "zhuyin": "ㄈㄤˋ",
+      "pinyin": "fàng",
+      "de": "loslassen, freilassen, hinstellen"
+    },
+    {
+      "zh": "心",
+      "zhuyin": "ㄒㄧㄣ",
+      "pinyin": "xīn",
+      "de": "das Herz"
     }
   ],
   "wiederholung": [
@@ -87,5 +141,54 @@
       "zh": "再見。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你要給誰打電話？",
+      "pinyin": "nǐ     yào  gěi   shéi   dǎ    diàn  huà",
+      "de": "Wen willst du anrufen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我要給老闆打電話，你知道",
+      "pinyin": "wǒ    yào   gěi   lǎo   bǎn    dǎ   diàn  huà          nǐ    zhī   dào",
+      "de": "他的電話號碼嗎？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你等一下，我幫你查一查。",
+      "pinyin": "nǐ    děng  yí     xià         wǒ   bāng  nǐ    chá    yì    chá",
+      "de": "Warte einen Augenblick! Ich schaue nach."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不用查了，我想起來了。",
+      "pinyin": "bú  yòng  chá    le          wǒ   xiǎng  qǐ    lái     le",
+      "de": "Du brauchst sie nicht mehr nachzuschauen. Sie ist mir wieder eingefallen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你打電話給他有事嗎？",
+      "pinyin": "nǐ     dǎ   diàn  huà   gěi     tā    yǒu   shì    ma",
+      "de": "Willst du ihn aus einem bestimmten Grund anrufen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有件事要跟他商量一下。",
+      "pinyin": "yǒu   jiàn   shì    yào   gēn     tā   shāng  liáng  yí    xià",
+      "de": "Ich möchte mit ihm etwas besprechen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "下了班還商量公事，方便嗎？",
+      "pinyin": "xià     le     bān     hái  shāng liáng  gōng   shì          fāng   biàn   ma",
+      "de": "Ist es gut, nach der Arbeit noch über dienstliche Angelegenheiten zu sprechen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "放心，是件簡單的事。",
+      "pinyin": "fàng  xīn         shì   jiàn  jiǎn   dān   de    shì",
+      "de": "Keine Sorge, es ist eine einfache Sache."
+    }
+  ]
 }

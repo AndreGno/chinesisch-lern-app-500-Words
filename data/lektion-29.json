@@ -1,6 +1,56 @@
 {
   "nummer": 29,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "我們去看電影，好嗎？",
+      "pinyin": "wǒ  men   qù    kàn  diàn  yǐng       hǎo   ma",
+      "de": "Gehen wir ins Kino?",
+      "audio": "audio/29-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "今天是星期天，電影票不好買。",
+      "pinyin": "jīn    tiān  shì   xīng   qí    tiān        diàn  yǐng  piào   bù   hǎo  mǎi",
+      "de": "Heute ist Sonntag. Es ist nicht leicht, eine Kinokarte zu bekommen.",
+      "audio": "audio/29-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼到海邊去玩。",
+      "pinyin": "nà    me    dào  hǎi   biān  qù   wán",
+      "de": "Dann gehen wir zum Strand.",
+      "audio": "audio/29-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "對，海邊不但風景好，而且還可以游泳。",
+      "pinyin": "dùi         hǎi   biān   bú    dàn  fēng  jǐng   hǎo        ér     qiě   hái    kě     yǐ    yóu   yǒng",
+      "de": "Das ist gut. Am Strand sieht man nicht nur die schöne Landschaft, man kann dort",
+      "audio": "audio/29-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我們怎麼去？",
+      "pinyin": "wǒ    men  zěn   me   qù",
+      "de": "Wie kommen wir hin?",
+      "audio": "audio/29-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們坐公共汽車去。",
+      "pinyin": "wǒ  men  zuò  gōng  gòng  qì   chē   qù",
+      "de": "Wir fahren mit dem Bus.",
+      "audio": "audio/29-06.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "車票一張多少錢？",
+      "pinyin": "chē  piào    yì  zhāng  duō  shǎo  qián",
+      "de": "Was kostet die Fahrkarte?",
+      "audio": "audio/29-07.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "影",
@@ -13,6 +63,72 @@
       "zhuyin": "ㄆㄧㄠˋ",
       "pinyin": "piào",
       "de": "die Karte"
+    },
+    {
+      "zh": "海",
+      "zhuyin": "ㄏㄞˇ",
+      "pinyin": "hǎi",
+      "de": "das Meer, die See"
+    },
+    {
+      "zh": "邊",
+      "zhuyin": "ㄅㄧㄢ",
+      "pinyin": "biān",
+      "de": "die Seite, der Rand"
+    },
+    {
+      "zh": "風",
+      "zhuyin": "ㄈㄥ",
+      "pinyin": "fēng",
+      "de": "der Wind"
+    },
+    {
+      "zh": "景",
+      "zhuyin": "ㄐㄧㄥˇ",
+      "pinyin": "jǐng",
+      "de": "die Landschaft"
+    },
+    {
+      "zh": "游泳",
+      "zhuyin": "ㄧㄡˊ ㄩㄥˇ",
+      "pinyin": "yóu  yǒng",
+      "de": "schwimmen"
+    },
+    {
+      "zh": "但",
+      "zhuyin": "ㄉㄢˋ",
+      "pinyin": "dàn",
+      "de": "aber"
+    },
+    {
+      "zh": "而且",
+      "zhuyin": "ㄦˊ ㄑㄧㄝˇ",
+      "pinyin": "ér  qiě",
+      "de": "sondern auch"
+    },
+    {
+      "zh": "坐",
+      "zhuyin": "ㄗㄨㄛˋ",
+      "pinyin": "zuò",
+      "de": "sitzen"
+    },
+    {
+      "zh": "汽",
+      "zhuyin": "ㄑㄧˋ",
+      "pinyin": "qì",
+      "de": "der Dampf, das Gas"
+    },
+    {
+      "zh": "算",
+      "zhuyin": "ㄙㄨㄢˋ",
+      "pinyin": "suàn",
+      "de": "rechnen, zählen"
+    },
+    {
+      "zh": "帶",
+      "zhuyin": "ㄉㄞˋ",
+      "pinyin": "dài",
+      "de": "mitbringen, mitnehmen, bringen"
     }
   ],
   "wiederholung": [
@@ -45,5 +161,54 @@
       "zh": "車票一張多少錢？"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "海邊的風景真好。",
+      "pinyin": "hǎi   biān   de   fēng  jǐng  zhēn  hǎo",
+      "de": "Die Landschaft am Strand ist sehr schön."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "下星期我們再去游泳。",
+      "pinyin": "xià   xīng   qí    wǒ   men   zài    qù   yóu  yǒng",
+      "de": "Nächste Woche gehen wir wieder schwimmen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "下星期我想去看電影。",
+      "pinyin": "xià   xīng   qí    wǒ  xiǎng  qù   kàn   diàn  yǐng",
+      "de": "Nächste Woche möchte ich ins Kino gehen."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "聽說那部電影很長。",
+      "pinyin": "tīng  shuō   nà     bù    diàn  yǐng  hěn  cháng",
+      "de": "Der Film soll sehr lang sein."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "一邊吃東西一邊看，不是也很有意思嗎？",
+      "pinyin": "yì   biān  chī    dōng   xi      yì    biān  kàn          bú    shì     yě    hěn   yǒu    yì      si     ma",
+      "de": "Macht es nicht auch Spaß, während des Filmes zu essen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "可是坐得太久，會很累的。",
+      "pinyin": "kě    shì   zuò    de    tài    jiǔ          hùi   hěn    lèi    de",
+      "de": "Aber das lange Sitzen kann sehr müde machen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "不會的，聽說那部電影不但好看，而且歌",
+      "pinyin": "bú    hùi    de         tīng  shuō   nà    bù  diàn  yǐng   bú   dàn   hǎo   kàn         ér     qiě    gē",
+      "de": "也好聽，你會覺得時間過得很快。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那麼我們早點去買票。",
+      "pinyin": "nà    me   wǒ   men  zǎo  diǎn    qù   mǎi  piào",
+      "de": "Na dann gehen wir früher die Eintrittskarten kaufen."
+    }
+  ]
 }

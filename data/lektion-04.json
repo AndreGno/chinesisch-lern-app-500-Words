@@ -1,6 +1,56 @@
 {
   "nummer": 4,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你到那裡去？",
+      "pinyin": "nǐ    dào    nǎ     lǐ     qù",
+      "de": "Wohin gehst du?",
+      "audio": "audio/04-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我到學校去。",
+      "pinyin": "wǒ   dào  xué   xiào   qù",
+      "de": "Ich gehe zur Schule.",
+      "audio": "audio/04-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你去做什麼？",
+      "pinyin": "nǐ     qù    zuò  shé    me",
+      "de": "Warum gehst du dorthin?",
+      "audio": "audio/04-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我去學中文。",
+      "pinyin": "wǒ     qù     xué   zhōng   wén",
+      "de": "Ich gehe dorthin, um Chinesisch zu lernen.",
+      "audio": "audio/04-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "李先生也去學中文嗎？",
+      "pinyin": "Lǐ   xiān  shēng  yě     qù    xué  zhōng  wén  ma",
+      "de": "Geht Herr Li auch dorthin, um Chinesisch zu lernen?",
+      "audio": "audio/04-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不，他去教中文。",
+      "pinyin": "bù            tā       qù     jiāo  zhōng  wén",
+      "de": "Nein, er unterrichtet Chinesisch.",
+      "audio": "audio/04-06.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼，他是老師，我們是學生。",
+      "pinyin": "nà    me           tā    shì    lǎo   shī         wǒ   men   shì  xué  shēng",
+      "de": "Dann ist er Lehrer, und wir sind Schüler.",
+      "audio": "audio/04-07.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "學",
@@ -13,6 +63,30 @@
       "zhuyin": "ㄒㄩㄝˊ  ㄒㄧㄠˋ",
       "pinyin": "xué xiào",
       "de": "die Schule"
+    },
+    {
+      "zh": "做",
+      "zhuyin": "ㄗㄨㄛˋ",
+      "pinyin": "zuò",
+      "de": "machen, tun"
+    },
+    {
+      "zh": "教",
+      "zhuyin": "ㄐㄧㄠ",
+      "pinyin": "jiāo",
+      "de": "lehren, unterrichten"
+    },
+    {
+      "zh": "老師",
+      "zhuyin": "ㄌㄠˇ  ㄕ",
+      "pinyin": "lǎo shī",
+      "de": "der Lehrer"
+    },
+    {
+      "zh": "學生",
+      "zhuyin": "ㄒㄩㄝˊ  ㄕㄥ",
+      "pinyin": "xué  shēng",
+      "de": "der Schüler"
     }
   ],
   "wiederholung": [
@@ -45,5 +119,48 @@
       "zh": "他是老師，我們是學生。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你到那裡去？",
+      "pinyin": "nǐ    dào    nǎ      lǐ     qù",
+      "de": "Wohin gehst du?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我到學校去。",
+      "pinyin": "wǒ   dào  xué   xiào   qù",
+      "de": "Ich gehe zur Schule."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你到學校去做什麼？",
+      "pinyin": "nǐ   dào   xué  xiào   qù   zuò   shé    me",
+      "de": "Warum gehst du zur Schule? / Was machst du in der Schule?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我到學校去學中文。",
+      "pinyin": "wǒ  dào   xué   xiào   qù  xué  zhōng  wén",
+      "de": "你到那裡去？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我也到學校去。",
+      "pinyin": "wǒ    yě   dào   xué  xiào   qù",
+      "de": "Ich gehe auch zur Schule."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你到學校去做什麼？",
+      "pinyin": "nǐ    dào   xué   xiào  qù   zuò   shé   me",
+      "de": "Warum gehst du zur Schule?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我到學校去教中文。",
+      "pinyin": "wǒ   dào  xué   xiào  qù   jiāo  zhōng  wén",
+      "de": "Ich gehe zur Schule, um Chinesisch zu unterrichten."
+    }
+  ]
 }

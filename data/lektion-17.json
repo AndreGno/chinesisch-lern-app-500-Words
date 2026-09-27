@@ -1,12 +1,133 @@
 {
   "nummer": 17,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "請問，毛筆一枝多少錢？",
+      "pinyin": "qǐng  wèn        máo   bǐ     yì    zhī   duō   shǎo  qián",
+      "de": "Wie viel kostet bitte ein Pinsel?",
+      "audio": "audio/17-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這種筆一枝五百塊。",
+      "pinyin": "zhè  zhǒng  bǐ     yì     zhī    wǔ    bǎi   kuài",
+      "de": "Solche Pinsel kosten pro Stück 500 NT$.",
+      "audio": "audio/17-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "五百塊？太貴了。",
+      "pinyin": "wǔ    bǎi   kuài        tài    gùi     le",
+      "de": "500 NT$? Das ist zu teuer.",
+      "audio": "audio/17-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們也有便宜的。",
+      "pinyin": "wǒ   men   yě   yǒu   pián   yí     de",
+      "de": "Wir haben auch billigere.",
+      "audio": "audio/17-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "便宜的好寫嗎？",
+      "pinyin": "pián   yí    de     hǎo  xiě    ma",
+      "de": "Schreiben die billigeren Pinsel gut?",
+      "audio": "audio/17-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "便宜的也好寫，只是不好看。",
+      "pinyin": "pián   yí     de     yě   hǎo   xiě         zhǐ    shì    bù    hǎo  kàn",
+      "de": "Die Billigeren schreiben auch gut. Sie sehen nur nicht so schön aus.",
+      "audio": "audio/17-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "錢",
       "zhuyin": "ㄑㄧㄢˊ",
       "pinyin": "qián",
       "de": "das Geld"
+    },
+    {
+      "zh": "塊",
+      "zhuyin": "ㄎㄨㄞˋ",
+      "pinyin": "kuài",
+      "de": "Zählwort für Geld in Taiwandollar"
+    },
+    {
+      "zh": "毛",
+      "zhuyin": "ㄇㄠˊ",
+      "pinyin": "máo",
+      "de": "0.10 NT$"
+    },
+    {
+      "zh": "分",
+      "zhuyin": "ㄈㄣ",
+      "pinyin": "fēn",
+      "de": "0.01-0.09 NT$"
+    },
+    {
+      "zh": "種",
+      "zhuyin": "ㄓㄨㄥˇ",
+      "pinyin": "zhǒng",
+      "de": "die Sorte, die Art"
+    },
+    {
+      "zh": "貴",
+      "zhuyin": "ㄍㄨㄟˋ",
+      "pinyin": "guèi",
+      "de": "teuer"
+    },
+    {
+      "zh": "便宜",
+      "zhuyin": "ㄆㄧㄢˊ ㄧˊ",
+      "pinyin": "pián yí",
+      "de": "billig"
+    },
+    {
+      "zh": "共",
+      "zhuyin": "ㄍㄨㄥˋ",
+      "pinyin": "gòng",
+      "de": "insgesamt, zusammen, gemeinsam"
+    },
+    {
+      "zh": "看",
+      "zhuyin": "ㄎㄢˋ",
+      "pinyin": "kàn",
+      "de": "sehen"
+    },
+    {
+      "zh": "零錢",
+      "zhuyin": "ㄌㄧㄥˊ ㄑㄧㄢˊ",
+      "pinyin": "líng qián",
+      "de": "das Kleingeld"
+    },
+    {
+      "zh": "對",
+      "zhuyin": "ㄉㄨㄟˋ",
+      "pinyin": "duèi",
+      "de": "richtig, korrekt"
+    },
+    {
+      "zh": "換",
+      "zhuyin": "ㄏㄨㄢˋ",
+      "pinyin": "huàn",
+      "de": "wechseln, umtauschen"
+    },
+    {
+      "zh": "開",
+      "zhuyin": "ㄎㄞ",
+      "pinyin": "kāi",
+      "de": "öffnen, aufmachen"
+    },
+    {
+      "zh": "找",
+      "zhuyin": "ㄓㄠˇ",
+      "pinyin": "zhǎo",
+      "de": "suchen"
     }
   ],
   "wiederholung": [
@@ -67,5 +188,78 @@
       "zh": "沒關係，我可以換開。好了，找你兩百塊，謝謝。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你買了些什麼？",
+      "pinyin": "nǐ    mǎi    le    xiē    shé   me",
+      "de": "Was hast du gekauft?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我買了一些文具。",
+      "pinyin": "wǒ   mǎi    le      yì    xiē   wén   jù",
+      "de": "Ich habe einige Schreibwaren gekauft."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你在那裡買的？",
+      "pinyin": "nǐ     zài    nǎ     lǐ     mǎi   de",
+      "de": "Wo hast du sie gekauft?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我在百貨公司買的。",
+      "pinyin": "wǒ    zài    bǎi  huò  gōng   sī    mǎi    de",
+      "de": "Ich habe sie im Kaufhaus gekauft."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "百貨公司的東西貴不貴？",
+      "pinyin": "bǎi   huò  gōng   sī     de   dōng   xi    gùi    bú   gùi",
+      "de": "Sind die Sachen im Kaufhaus teuer?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不一定，有的貴，有的便宜。",
+      "pinyin": "bù     yí   dìng        yǒu   de    gùi        yǒu   de    pián   yí",
+      "de": "Nicht unbedingt. Manche sind teuer, manche billig."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你一共用了多少錢？",
+      "pinyin": "nǐ     yí    gòng  yòng   le    duō  shǎo  qián",
+      "de": "Wie viel hast du insgesamt ausgegeben?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一共用了三百二十塊。",
+      "pinyin": "yí  gòng  yòng   le     sān    bǎi     èr     shí   kuài",
+      "de": "Ich habe insgesamt 320 NT$ ausgegeben."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你準備零錢了嗎？",
+      "pinyin": "nǐ   zhǔn  bèi   líng  qián    le    ma",
+      "de": "Hast du Kleingeld vorbereitet?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "沒有，我給他們五百塊，他們找我錢。",
+      "pinyin": "méi  yǒu         wǒ   gěi     tā    men  wǔ   bǎi   kuài         tā    men  zhǎo  wǒ  qián",
+      "de": "Nein, ich gab ihnen 500 NT$. Sie haben mir herausgegeben."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他們找了多少？",
+      "pinyin": "tā    men  zhǎo   le   duō  shǎo",
+      "de": "Wie viel haben sie herausgegeben?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你說呢？",
+      "pinyin": "nǐ   shuō   ne",
+      "de": "Was glaubst du?"
+    }
+  ]
 }

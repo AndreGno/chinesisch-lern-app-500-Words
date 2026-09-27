@@ -1,6 +1,49 @@
 {
   "nummer": 9,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "請問貴姓？",
+      "pinyin": "qǐng  wèn gùi   xìng",
+      "de": "Darf ich bitte nach Ihrem Namen fragen?",
+      "audio": "audio/09-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我姓王，叫世平。",
+      "pinyin": "wǒ  xìng  Wáng     jiào   shì   píng",
+      "de": "Mein Familienname ist Wang, mein Vorname ist Shi-ping.",
+      "audio": "audio/09-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我叫林大中。那位女士是誰？",
+      "pinyin": "wǒ   jiào   Lín   dà  zhōng      nà    wèi   nyǔ   shì    shì   shéi",
+      "de": "Ich heiße Lin Da-zhong. Wer ist die Dame dort?",
+      "audio": "audio/09-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "他是李有年的太太。來，我給你們介紹介紹。",
+      "pinyin": "tā    shì    Lǐ    yǒu  nián   de     tài    tai          lái         wǒ   gěi    nǐ   men    jiè   shào  jiè  shào",
+      "de": "李太太，這位是林先生。",
+      "audio": "audio/09-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我叫林大中，是有年的同學。",
+      "pinyin": "wǒ   jiào  Lín    dà   zhōng      shì   yǒu  nián   de   tóng  xué",
+      "de": "Ich heiße Lin Da-zhong. Ich bin ein Mitschüler von You-nian.",
+      "audio": "audio/09-05.mp3"
+    },
+    {
+      "sprecher": "丙",
+      "zh": "很高興認識你。",
+      "pinyin": "hěn   gāo  xìng  rèn    shì    nǐ",
+      "de": "Es freut mich, Sie kennen zu lernen.",
+      "audio": "audio/09-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "請",
@@ -19,6 +62,54 @@
       "zhuyin": "ㄍㄨㄟˋ",
       "pinyin": "gùi",
       "de": "teuer, höfliche Anrede"
+    },
+    {
+      "zh": "姓",
+      "zhuyin": "ㄒㄧㄥˋ",
+      "pinyin": "xìng",
+      "de": "der Familienname"
+    },
+    {
+      "zh": "叫",
+      "zhuyin": "ㄐㄧㄠˋ",
+      "pinyin": "jiào",
+      "de": "rufen, heißen, nennen"
+    },
+    {
+      "zh": "位",
+      "zhuyin": "ㄨㄟˋ",
+      "pinyin": "wèi",
+      "de": "die Stelle, die Position; Zählwort für Personen"
+    },
+    {
+      "zh": "女士",
+      "zhuyin": "ㄋㄩˇ ㄕˋ",
+      "pinyin": "nyǔ shì",
+      "de": "die Dame, die Frau"
+    },
+    {
+      "zh": "給",
+      "zhuyin": "ㄍㄟˇ",
+      "pinyin": "gěi",
+      "de": "geben, für"
+    },
+    {
+      "zh": "介紹",
+      "zhuyin": "ㄐㄧㄝˋ ㄕㄠˋ",
+      "pinyin": "jiè shào",
+      "de": "vorstellen"
+    },
+    {
+      "zh": "高",
+      "zhuyin": "ㄍㄠ",
+      "pinyin": "gāo",
+      "de": "groß, hoch"
+    },
+    {
+      "zh": "高興",
+      "zhuyin": "ㄍㄠ ㄒㄧㄥˋ",
+      "pinyin": "gāo xìng",
+      "de": "froh, glücklich"
     }
   ],
   "wiederholung": [
@@ -27,5 +118,36 @@
       "zh": "請問貴姓？"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "請問，您貴姓？",
+      "pinyin": "qǐng  wèn          nín   gùi  xìng",
+      "de": "Wie heißen Sie bitte?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我叫林大中，我是新來的學生。",
+      "pinyin": "wǒ  jiào   Lín    dà   zhōng     wǒ    shì    xīn   lái     de   xué  shēng",
+      "de": "Ich heiße Lin Da-zhong. Ich bin ein neuer Schüler."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "來，我給你介紹幾位同學。",
+      "pinyin": "lái          wǒ   gěi    nǐ     jiè   shào   jǐ     wèi   tóng  xué",
+      "de": "這位是王美華。這位是李有年。"
+    },
+    {
+      "sprecher": "三人",
+      "zh": "很高興認識你。",
+      "pinyin": "hěn   gāo  xìng  rèn   shì    nǐ",
+      "de": "Es freut mich, dich kennen zu lernen."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "認識你們我真高興。",
+      "pinyin": "rèn   shì    nǐ    men   wǒ  zhēn  gāo  xìng",
+      "de": "Es freut mich sehr, euch kennen zu lernen."
+    }
+  ]
 }

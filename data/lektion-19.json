@@ -1,6 +1,49 @@
 {
   "nummer": 19,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "請問張先生在家嗎？",
+      "pinyin": "qǐng  wèn  Zhāng  xiān  shēng   zài     jiā      ma",
+      "de": "Verzeihung, ist Herr Chang zu Hause?",
+      "audio": "audio/19-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "在，在，請問你們是…",
+      "pinyin": "zài         zài         qǐng  wèn   nǐ    men  shì",
+      "de": "Ja, er ist zu Hause. Sie sind ……..",
+      "audio": "audio/19-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我叫林大中，這位是我太太。",
+      "pinyin": "wǒ    jiào  Lín    dà  zhōng      zhè  wèi   shì     wǒ   tài    tai",
+      "de": "Ich heiße Lin Da-zhong. Das ist meine Frau.",
+      "audio": "audio/19-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是林先生、林太太。歡迎，歡迎。",
+      "pinyin": "shì    Lín   xiān  shēng       Lín    tài     tai            huān  yíng       huān  yíng",
+      "de": "Herr Lin, Frau Lin, willkommen!",
+      "audio": "audio/19-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "來麻煩你們了。",
+      "pinyin": "lái    má    fán    nǐ   men   le",
+      "de": "Entschuldigen Sie bitte die Störung!",
+      "audio": "audio/19-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那裡，請進，你們坐一會兒。",
+      "pinyin": "nǎ      lǐ         qǐng   jìn          nǐ   men   zuò   yì    hǔi     ēr",
+      "de": "他馬上就回來。",
+      "audio": "audio/19-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "歡迎",
@@ -19,6 +62,48 @@
       "zhuyin": "ㄐㄧㄣˋ",
       "pinyin": "jìn",
       "de": "herein, hinein, (hin)gehen"
+    },
+    {
+      "zh": "坐",
+      "zhuyin": "ㄗㄨㄛˋ",
+      "pinyin": "zuò",
+      "de": "sich setzen, sitzen, Platz nehmen, fahren (als Passagier)"
+    },
+    {
+      "zh": "兒",
+      "zhuyin": "ㄦˊ",
+      "pinyin": "ér",
+      "de": "das Kind; als Suffix hinter Nomen, Adverbien und Adjektiven angehängt,"
+    },
+    {
+      "zh": "馬",
+      "zhuyin": "ㄇㄚˇ",
+      "pinyin": "mǎ",
+      "de": "das Pferd"
+    },
+    {
+      "zh": "回",
+      "zhuyin": "ㄏㄨㄟˊ",
+      "pinyin": "húi",
+      "de": "zurück, zurückgehen, nach Hause gehen."
+    },
+    {
+      "zh": "讓",
+      "zhuyin": "ㄖㄤˋ",
+      "pinyin": "ràng",
+      "de": "lassen"
+    },
+    {
+      "zh": "等",
+      "zhuyin": "ㄉㄥˇ",
+      "pinyin": "děng",
+      "de": "warten"
+    },
+    {
+      "zh": "剛",
+      "zhuyin": "ㄍㄤ",
+      "pinyin": "gāng",
+      "de": "gerade, eben, soeben, genau"
     }
   ],
   "wiederholung": [
@@ -59,5 +144,72 @@
       "zh": "我們現在就一塊兒來畫畫吧。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "聽說你有很多畫，我想去看看。",
+      "pinyin": "tīng  shuō  nǐ    yǒu   hěn   duō  huà         wǒ  xiǎng  qù   kàn  kàn",
+      "de": "Ich habe gehört, du hast viele Gemälde. Ich möchte sie mir mal anschauen."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "好啊，隨時歡迎你到我家來。",
+      "pinyin": "hǎo    a            súi    shí   huān  yíng   nǐ     dào    wǒ    jiā     lái",
+      "de": "Gerne! Du bist jederzeit willkommen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "明天下午你有空嗎？",
+      "pinyin": "míng  tiān  xià   wǔ     nǐ    yǒu  kòng  ma",
+      "de": "Hast du morgen Nachmittag Zeit?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有空。你兩點半來好嗎？",
+      "pinyin": "yǒu  kòng       nǐ   liǎng  diǎn  bàn   lái    hǎo   ma",
+      "de": "Ja, ich habe Zeit. Kommst du um halb drei?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "會不會很麻煩你？",
+      "pinyin": "hùi   bú    hùi   hěn   má   fán    nǐ",
+      "de": "Macht es dir vielleicht Umstände?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一點兒都不麻煩。",
+      "pinyin": "yì    diǎn   ēr    dōu    bù   má    fán",
+      "de": "Überhaupt nicht!"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "好，那麼明天下午見。",
+      "pinyin": "hǎo         nà    me  míng  tiān   xià   wǔ   jiàn",
+      "de": "Gut, dann sehen wir uns morgen Nachmittag."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "對不起，我來晚了。讓你久等了。",
+      "pinyin": "dùi     bù    qǐ          wǒ    lái   wǎn    le         ràng   nǐ     jiǔ   děng  le",
+      "de": "Ich habe mich verspätet. Entschuldige, dass ich dich lange warten ließ."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "現在才剛剛兩點半，你來得剛好。",
+      "pinyin": "xiàn   zài     cái  gāng  gāng  liǎng  diǎn  bàn          nǐ     lái     de   gāng   hǎo",
+      "de": "Es ist jetzt gerade halb drei. Du kommst gerade rechtzeitig."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "先坐一會兒，等一下再看畫吧。",
+      "pinyin": "xiān   zuò    yì    hǔi    er         děng   yí    xià   zài    kàn   huà   ba",
+      "de": "Setzen wir uns erst einen Augenblick hin, die Gemälde schauen wir uns dann an."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不用坐了，我們就一起看畫吧。",
+      "pinyin": "bú  yòng  zuò    le          wǒ  men    jiù    yì     qǐ    kàn   huà   ba",
+      "de": "Es ist nicht nötig, dass wir uns hinsetzen. Schauen wir uns doch gemeinsam die"
+    }
+  ]
 }

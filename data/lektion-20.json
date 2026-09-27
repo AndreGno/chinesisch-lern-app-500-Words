@@ -1,6 +1,42 @@
 {
   "nummer": 20,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你們想學什麼？",
+      "pinyin": "nǐ    men  xiǎng  xué   shé   me",
+      "de": "Was möchtet ihr lernen?",
+      "audio": "audio/20-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們想學山水畫。",
+      "pinyin": "wǒ  men  xiǎng  xué  shān  shǔi   huà",
+      "de": "Wir möchten Landschaftsmalerei lernen.",
+      "audio": "audio/20-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我先畫一幅，你們看看。",
+      "pinyin": "wǒ  xiān   huà   yì     fú           nǐ   men   kàn  kàn",
+      "de": "樹在前頭，山在後頭，水裡畫幾塊石",
+      "audio": "audio/20-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "看起來不難，畫起來就不容易了。",
+      "pinyin": "kàn    qǐ     lái    bù    nán        huà    qǐ     lái    jiù     bù   róng   yì    le",
+      "de": "Es sieht nicht schwierig aus, aber in der Praxis ist es doch nicht einfach zu malen.",
+      "audio": "audio/20-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "來，你們試試看。",
+      "pinyin": "lái          nǐ    men   shì   shì    kàn",
+      "de": "Kommt! Versucht es mal!",
+      "audio": "audio/20-05.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "山",
@@ -19,6 +55,60 @@
       "zhuyin": "ㄈㄨˊ",
       "pinyin": "fú",
       "de": "ein Stück (Zählwort für Gemälde oder Bilder)"
+    },
+    {
+      "zh": "樹",
+      "zhuyin": "ㄕㄨˋ",
+      "pinyin": "shù",
+      "de": "der Baum"
+    },
+    {
+      "zh": "石",
+      "zhuyin": "ㄕˊ",
+      "pinyin": "shí",
+      "de": "der Stein"
+    },
+    {
+      "zh": "鳥",
+      "zhuyin": "ㄋㄧㄠˇ",
+      "pinyin": "niǎo",
+      "de": "der Vogel"
+    },
+    {
+      "zh": "隻",
+      "zhuyin": "ㄓ",
+      "pinyin": "zhī",
+      "de": "Zählwort für Tiere (Vögel, Hunde usw.)"
+    },
+    {
+      "zh": "難",
+      "zhuyin": "ㄋㄢˊ",
+      "pinyin": "nán",
+      "de": "schwierig, schwer."
+    },
+    {
+      "zh": "難看",
+      "zhuyin": "ㄋㄢˊ ㄎㄢˋ",
+      "pinyin": "nán  kàn",
+      "de": "hässlich, nicht gut aussehenู"
+    },
+    {
+      "zh": "難過",
+      "zhuyin": "ㄋㄢˊ ㄍㄨㄛˋ",
+      "pinyin": "nán  guò",
+      "de": "traurig"
+    },
+    {
+      "zh": "容易",
+      "zhuyin": "ㄖㄨㄥˊ ㄧˋ",
+      "pinyin": "róng yì",
+      "de": "leicht"
+    },
+    {
+      "zh": "試",
+      "zhuyin": "ㄕˋ",
+      "pinyin": "shì",
+      "de": "versuchen, probieren"
     }
   ],
   "wiederholung": [
@@ -43,5 +133,48 @@
       "zh": "來，你們試試看。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "這幅畫是誰畫的？",
+      "pinyin": "zhè    fú    huà   shì   shéi   huà   de",
+      "de": "Wer hat dieses Bild gemalt?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這是我畫的，畫得不好。",
+      "pinyin": "zhè   shì    wǒ    huà   de         huà    de    bù    hǎo",
+      "de": "Das habe ich gemalt. Es ist nicht gut gemalt."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那裡，你畫得很好。遠山、近樹都畫得很好。",
+      "pinyin": "nǎ     lǐ            nǐ   huà    de    hěn   hǎo       yuǎn  shān       jìn   shù   dōu   huà   de    hěn   hǎo",
+      "de": "要是樹下再畫一個人，那就更有意思了。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我覺得人很難畫。",
+      "pinyin": "wǒ    jué    de    rén   hěn   nán   huà",
+      "de": "Ich finde, es ist sehr schwierig, Menschen zu malen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你可以畫簡單一點兒啊！",
+      "pinyin": "nǐ     kě     yǐ     huà  jiǎn  dān    yì   diǎn    er      a",
+      "de": "Du kannst es einfacher malen."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你畫一個人給我看看好嗎？",
+      "pinyin": "nǐ    huà     yí     ge   rén   gěi    wǒ   kàn   kàn   hǎo   ma",
+      "de": "Zeige mir bitte, wie ein Mensch gemalt wird."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我也畫得不好，不過可以試試看。",
+      "pinyin": "wǒ   yě    huà   de     bù    hǎo         bú   guò    kě     yǐ     shì   shì   kàn",
+      "de": "Ich male auch nicht gut, aber ich kann es mal versuchen."
+    }
+  ]
 }

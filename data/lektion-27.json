@@ -1,6 +1,56 @@
 {
   "nummer": 27,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "先生，請問到第一銀行怎麼走？",
+      "pinyin": "xiān  shēng    qǐng  wèn   dào   dì     yī    yín  háng   zěn   me  zǒu",
+      "de": "Entschuldigung! Wie kommt man bitte zur \"First Bank\"?",
+      "audio": "audio/27-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你先向右走，到十字路口左轉，然後再",
+      "pinyin": "nǐ   xiān  xiàng  yòu  zǒu       dào    shí    zì     lù    kǒu  zuǒ  zhuǎn      rán   hòu   zài",
+      "de": "一直走過兩個紅綠燈就到中山北路了。",
+      "audio": "audio/27-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "第一銀行在中山北路嗎？",
+      "pinyin": "dì      yī     yín   háng  zài  zhōng  shān  běi    lù     ma",
+      "de": "Ist die \"First Bank\" in der Zhong-shan North Straße?",
+      "audio": "audio/27-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，在一家百貨公司對面。",
+      "pinyin": "shì    de           zài     yì    jiā    bǎi   huò  gōng   sī    dùi  miàn",
+      "de": "Ja, sie liegt gegenüber einem Kaufhaus.",
+      "audio": "audio/27-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我知道了，那家百貨公司很大。",
+      "pinyin": "wǒ   zhī   dào    le          nà     jiā    bǎi   huò  gōng  sī     hěn   dà",
+      "de": "Ah, jetzt weiß ich es, das Kaufhaus ist sehr groß.",
+      "audio": "audio/27-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不過，過馬路要小心，那條路上車子很多。",
+      "pinyin": "bú   guò        guò   mǎ    lù    yào   xiǎo  xīn         nà    tiáo   lù  shàng  chē    zi    hěn   duō",
+      "de": "Aber seien Sie vorsichtig beim Überqueren der Straße! Auf dieser Straße herrscht",
+      "audio": "audio/27-06.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "好的，我走地下道，謝謝你。",
+      "pinyin": "hǎo    de         wǒ   zǒu    dì     xià   dào         xiè   xie    nǐ",
+      "de": "Gut. Ich nehme die Unterführung. Vielen Dank!",
+      "audio": "audio/27-07.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "第",
@@ -25,6 +75,48 @@
       "zhuyin": "ㄒㄧㄤˋ",
       "pinyin": "xiàng",
       "de": "die Richtung, abbiegen"
+    },
+    {
+      "zh": "然",
+      "zhuyin": "ㄖㄢˊ",
+      "pinyin": "rán",
+      "de": "aber, gleich wie"
+    },
+    {
+      "zh": "紅",
+      "zhuyin": "ㄏㄨㄥˊ",
+      "pinyin": "hóng",
+      "de": "rot"
+    },
+    {
+      "zh": "綠",
+      "zhuyin": "ㄌㄩˋ",
+      "pinyin": "lyù",
+      "de": "grün"
+    },
+    {
+      "zh": "燈",
+      "zhuyin": "ㄉㄥ",
+      "pinyin": "dēng",
+      "de": "das Licht"
+    },
+    {
+      "zh": "知",
+      "zhuyin": "ㄓ",
+      "pinyin": "zhī",
+      "de": "wissen"
+    },
+    {
+      "zh": "道",
+      "zhuyin": "ㄉㄠˋ",
+      "pinyin": "dào",
+      "de": "der Weg, das Prinzip"
+    },
+    {
+      "zh": "條",
+      "zhuyin": "ㄊㄧㄠˊ",
+      "pinyin": "tiáo",
+      "de": "Zählwort für etwas Schmales und Langes"
     }
   ],
   "wiederholung": [
@@ -57,5 +149,48 @@
       "zh": "好的，我走地下道，謝謝你。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "請問遠東百貨公司在那裡？",
+      "pinyin": "qǐng  wèn   yuǎn  dōng  bǎi    huò   gōng    sī      zài     nǎ       lǐ",
+      "de": "Wo ist bitte das Kaufhaus \"Der Ferne Osten\" ?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "遠東百貨公司在中華路。",
+      "pinyin": "yuǎn  dōng  bǎi   huò   gōng   sī     zài  zhōng  huá   lù",
+      "de": "Das Kaufhaus \"Der Ferne Osten\" ist in der Zhong-hua Straße."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你知道怎麼走嗎？",
+      "pinyin": "nǐ    zhī    dào   zěn   me   zǒu   ma",
+      "de": "Weißt du, wie ich dorthin komme?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你從這裡向前一直走，到第二個",
+      "pinyin": "nǐ    cóng   zhè    lǐ   xiàng  qián    yì     zhí   zǒu          dào    dì      èr     ge",
+      "de": "十字路口的時候過馬路就到了。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "遠東百貨公司就在十字路口嗎？",
+      "pinyin": "yuǎn  dōng  bǎi    huò  gōng   sī      jiù     zài    shí     zì      lù     kǒu   ma",
+      "de": "Ist das Kaufhaus \"Der Ferne Osten\" direkt an der Kreuzung?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，就在十字路口，那裡車子很多，",
+      "pinyin": "shì     de          jiù     zài   shí     zì    lù     kǒu         nà      lǐ    chē    zi   hěn   duō",
+      "de": "過馬路要小心。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我會留意紅綠燈的，謝謝你。",
+      "pinyin": "wǒ     hùi    líu     yì   hóng   lyù  dēng   de            xiè   xie     nǐ",
+      "de": "Ich werde auf die Ampel achten. Danke schön!"
+    }
+  ]
 }

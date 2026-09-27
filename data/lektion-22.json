@@ -7,6 +7,20 @@
       "pinyin": "Lín  xiān  shēng     wèi          wǒ    shì    Lín    dà  zhōng       qǐng  wèn  Wáng xiān  shēng  zài  ma",
       "de": "Hallo, hier spricht Lin Da-zhong. Ist Herr Wang zu Hause?",
       "audio": "audio/22-01.mp3"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "對不起，他不在，我是他太太。",
+      "pinyin": "Wáng  tài    tai         dùi   bú     qǐ            tā     bú    zài         wǒ    shì    tā     tài    tai",
+      "de": "請問有什麼事嗎？",
+      "audio": "audio/22-02.mp3"
+    },
+    {
+      "sprecher": "林先生",
+      "zh": "王太太，你好。是這樣的，",
+      "pinyin": "Lín  xiān  shēng    Wáng  tài    tai          nǐ    hǎo         shì   zhè  yàng   de",
+      "de": "因為有位同學從台北來，",
+      "audio": "audio/22-03.mp3"
     }
   ],
   "woerter": [
@@ -15,6 +29,36 @@
       "zhuyin": "ㄋㄟˋ",
       "pinyin": "nèi",
       "de": "innen, intern"
+    },
+    {
+      "zh": "因",
+      "zhuyin": "ㄧㄣ",
+      "pinyin": "yīn",
+      "de": "der Grund, die Ursache"
+    },
+    {
+      "zh": "問",
+      "zhuyin": "ㄨㄣˋ",
+      "pinyin": "wèn",
+      "de": "fragen"
+    },
+    {
+      "zh": "問題",
+      "zhuyin": "ㄨㄣˋ ㄊㄧˊ",
+      "pinyin": "wèn  tí",
+      "de": "die Frage, das Problem"
+    },
+    {
+      "zh": "留",
+      "zhuyin": "ㄌㄧㄡˊ",
+      "pinyin": "líu",
+      "de": "bleiben, hinterlassen, achten auf"
+    },
+    {
+      "zh": "過",
+      "zhuyin": "ㄍㄨㄛˋ",
+      "pinyin": "guò",
+      "de": "vorbei, nach, vergehen"
     }
   ],
   "wiederholung": [
@@ -47,5 +91,54 @@
       "zh": "謝謝你，我等他回話。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你看過這本書嗎？",
+      "pinyin": "nǐ   kàn   guò   zhè   běn  shū   ma",
+      "de": "Hast du dieses Buch gelesen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我看過。",
+      "pinyin": "wǒ   kàn  guò",
+      "de": "Ja, ich habe es gelesen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這本書有內容嗎？",
+      "pinyin": "zhè   běn  shū   yǒu   nèi   róng  ma",
+      "de": "Ist dieses Buch anspruchsvoll?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這本書很有意思，你一定會喜歡。",
+      "pinyin": "zhè   běn   shū  hěn   yǒu    yì     si           nǐ     yí    dìng  hùi    xǐ   huān",
+      "de": "Das Buch ist sehr interessant. Du wirst es bestimmt mögen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "不過我的中文不好，所以可能會有很多問題。",
+      "pinyin": "bú   guò   wǒ   de  zhōng  wén  bù   hǎo       suǒ    yǐ    kě   néng  hùi  yǒu  hěn   duō  wèn   tí",
+      "de": "Aber mein Chinesisch ist nicht gut, deshalb ist es gut möglich, dass ich viele"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "沒關係，你有問題可以隨時打電話給我。",
+      "pinyin": "méi  guān   xì          nǐ    yǒu   wèn   tí      kě    yǐ     súi    shí    dǎ   diàn  huà   gěi   wǒ",
+      "de": "Das macht nichts. Wenn du Fragen hast, kannst du mich jederzeit anrufen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你的電話號碼是幾號？",
+      "pinyin": "nǐ     de   diàn   huà   hào   mǎ   shì     jǐ    hào",
+      "de": "Wie ist deine Telefonnummer?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "６３４２１９５，不過星期天別給我",
+      "pinyin": "lìu    san    sì     èr      yī    jǐu    wǔ          bú   guò  xīng   qí    tiān   bié    gěi   wǒ",
+      "de": "打電話，因為我要去找我的女朋友。"
+    }
+  ]
 }

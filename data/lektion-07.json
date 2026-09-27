@@ -1,6 +1,49 @@
 {
   "nummer": 7,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "這所學校有多少學生？",
+      "pinyin": "zhè  suǒ   xué  xiào  yǒu  duō  shǎo  xué  shēng",
+      "de": "Wie viele Schüler hat diese Schule?",
+      "audio": "audio/07-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有兩千五百多個學生。",
+      "pinyin": "yǒu  liǎng  qiān  wǔ     bǎi   duō    ge    xué  shēng",
+      "de": "Es sind über 2,500 Schüler.",
+      "audio": "audio/07-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這所學校真不小。",
+      "pinyin": "szhè suǒ  xué  xiào  zhēn   bù   xiǎo",
+      "de": "Diese Schule ist wirklich ziemlich groß.",
+      "audio": "audio/07-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，這是所大學校。",
+      "pinyin": "shì      a           zhè  shì    suǒ    dà   xué  xiào",
+      "de": "Ja, das ist eine große Schule.",
+      "audio": "audio/07-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "學校裡有沒有外國學生？",
+      "pinyin": "xué   xiào   lǐ    yǒu   méi  yǒu   wài  guó  xué  shēng",
+      "de": "Gibt es ausländische Schüler in der Schule?",
+      "audio": "audio/07-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "外國學生很多。",
+      "pinyin": "wài  guó  xué  shēng  hěn  duō",
+      "de": "Es gibt viele ausländische Schüler.",
+      "audio": "audio/07-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "所",
@@ -25,6 +68,48 @@
       "zhuyin": "ㄉㄨㄛ  ㄕㄠˇ",
       "pinyin": "duō   shǎo",
       "de": "wie viel, wie viele, mehr oder weniger"
+    },
+    {
+      "zh": "百",
+      "zhuyin": "ㄅㄞˇ",
+      "pinyin": "bǎi",
+      "de": "100"
+    },
+    {
+      "zh": "千",
+      "zhuyin": "ㄑㄧㄢ",
+      "pinyin": "qiān",
+      "de": "1,000"
+    },
+    {
+      "zh": "萬",
+      "zhuyin": "ㄨㄢˋ",
+      "pinyin": "wàn",
+      "de": "10,000"
+    },
+    {
+      "zh": "零",
+      "zhuyin": "ㄌㄧㄥˊ",
+      "pinyin": "líng",
+      "de": "0"
+    },
+    {
+      "zh": "真",
+      "zhuyin": "ㄓㄣ",
+      "pinyin": "zhēn",
+      "de": "wirklich, echt"
+    },
+    {
+      "zh": "啊",
+      "zhuyin": "・ㄚ",
+      "pinyin": "a",
+      "de": "betonende Satzpartikel"
+    },
+    {
+      "zh": "沒",
+      "zhuyin": "ㄇㄟˊ",
+      "pinyin": "méi",
+      "de": "nicht, kein"
     }
   ],
   "wiederholung": [
@@ -53,5 +138,66 @@
       "zh": "外國學生很多。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你有多少本書？",
+      "pinyin": "nǐ   yǒu  duō   shǎo  běn  shū",
+      "de": "Wie viele Bücher hast du?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我有一萬多本。",
+      "pinyin": "wǒ   yǒu    yí   wàn  duō   běn",
+      "de": "Ich habe über 10,000 (Bücher)."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你的書真多。",
+      "pinyin": "nǐ    de    shū  zhēn  duō",
+      "de": "Du hast aber sehr viele Bücher."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊。我的書不少。",
+      "pinyin": "shì     a           wǒ    de   shū    bù  shǎo",
+      "de": "Ja, ich habe eine ganze Menge Bücher."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這裡有幾所中文學校？",
+      "pinyin": "zhè     lǐ     yǒu     jǐ      suǒ  zhōng  wén   xué   xiào",
+      "de": "Wie viele chinesische Schulen gibt es hier?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一所也沒有。",
+      "pinyin": "yì   suǒ    yě   méi   yǒu",
+      "de": "Keine einzige."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你有沒有孩子？",
+      "pinyin": "nǐ    yǒu   méi  yǒu   hái    zi",
+      "de": "Hast du Kinder?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有兩個，兩個都是男孩。",
+      "pinyin": "yǒu  liǎng  ge        liǎng   ge   dōu   shì    nán   hái",
+      "de": "Zwei, beide sind Jungen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他們有沒有學中文？",
+      "pinyin": "tā    men  yǒu  méi  yǒu    xué zhōng  wén",
+      "de": "Lernen sie Chinesisch?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "他們沒學。",
+      "pinyin": "tā    men  méi   xué",
+      "de": "Sie lernen kein Chinesisch."
+    }
+  ]
 }

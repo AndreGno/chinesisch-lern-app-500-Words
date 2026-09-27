@@ -23,18 +23,25 @@
       "audio": "audio/01-03.mp3"
     },
     {
+      "sprecher": "王先生",
+      "zh": "我很好，謝謝您。",
+      "pinyin": "Wáng  xiān  shēng    wǒ   hěn   hǎo       xiè    xie   nín",
+      "de": "Es geht mir gut, danke schön!",
+      "audio": "audio/01-04.mp3"
+    },
+    {
       "sprecher": "李太太",
       "zh": "王太太好嗎？",
       "pinyin": "Lǐ     tài    tai      Wáng   tài     tai   hǎo   ma",
       "de": "Wie geht es Frau Wang?",
-      "audio": "audio/01-04.mp3"
+      "audio": "audio/01-05.mp3"
     },
     {
       "sprecher": "王先生",
       "zh": "她很好，謝謝。",
       "pinyin": "Wáng  xiān  shēng       tā    hěn   hǎo         xiè   xie",
       "de": "Es geht ihr gut, danke!",
-      "audio": "audio/01-05.mp3"
+      "audio": "audio/01-06.mp3"
     }
   ],
   "woerter": [
@@ -79,6 +86,48 @@
       "zhuyin": "ㄏㄠˇ",
       "pinyin": "hǎo",
       "de": "gut, schön, in Ordnung"
+    },
+    {
+      "zh": "嗎",
+      "zhuyin": "・ㄇㄚ",
+      "pinyin": "ma",
+      "de": "Ende einer Satzfrage (Schlusspartikel eines Fragesatzes)"
+    },
+    {
+      "zh": "我",
+      "zhuyin": "ㄨㄛˇ",
+      "pinyin": "wǒ",
+      "de": "ich, mir"
+    },
+    {
+      "zh": "他",
+      "zhuyin": "ㄊㄚ",
+      "pinyin": "tā",
+      "de": "er, ihm, ihn"
+    },
+    {
+      "zh": "她",
+      "zhuyin": "ㄊㄚ",
+      "pinyin": "tā",
+      "de": "sie, ihr, sie"
+    },
+    {
+      "zh": "早",
+      "zhuyin": "ㄗㄠˇ",
+      "pinyin": "zǎo",
+      "de": "früh, Guten Morgen!"
+    },
+    {
+      "zh": "很",
+      "zhuyin": "ㄏㄣˇ",
+      "pinyin": "hěn",
+      "de": "sehr"
+    },
+    {
+      "zh": "謝謝",
+      "zhuyin": "ㄒㄧㄝˋ  ・ㄒㄧㄝ",
+      "pinyin": "xiè  xie",
+      "de": "danken, Danke"
     }
   ],
   "wiederholung": [

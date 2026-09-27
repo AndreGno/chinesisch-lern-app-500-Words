@@ -1,6 +1,49 @@
 {
   "nummer": 8,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "學校有很多外國學生，是嗎？",
+      "pinyin": "xué  xiào   yǒu   hěn   duō   wài  guó   xué  shēng        shì    ma",
+      "de": "In der Schule gibt es viele ausländische Schüler, nicht wahr?",
+      "audio": "audio/08-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，有很多。",
+      "pinyin": "shì     a          yǒu   hěn  duō",
+      "de": "Ja, sehr viele.",
+      "audio": "audio/08-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "比本國學生還多嗎？",
+      "pinyin": "bǐ     běn   guó   xué  shēng  hái   duō   ma",
+      "de": "Noch mehr als Einheimische?",
+      "audio": "audio/08-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不，比本國學生少。",
+      "pinyin": "bù           bǐ     běn   guó   xué  shēng  shǎo",
+      "de": "Nein, weniger als Einheimische.",
+      "audio": "audio/08-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "男生跟女生一樣多嗎？",
+      "pinyin": "nán  shēng  gēn    nyǔ  shēng   yí    yàng   duō   ma",
+      "de": "Gibt es genauso viele Schüler wie Schülerinnen?",
+      "audio": "audio/08-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "差不多一樣多。",
+      "pinyin": "chà   bù   duō     yí  yàng  duō",
+      "de": "Fast genauso viel.",
+      "audio": "audio/08-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "比",
@@ -13,6 +56,72 @@
       "zhuyin": "ㄏㄞˊ",
       "pinyin": "hái",
       "de": "noch"
+    },
+    {
+      "zh": "還是",
+      "zhuyin": "ㄏㄞˊ ㄕˋ",
+      "pinyin": "hái shì",
+      "de": "oder"
+    },
+    {
+      "zh": "跟",
+      "zhuyin": "ㄍㄣ",
+      "pinyin": "gēn",
+      "de": "mit, und"
+    },
+    {
+      "zh": "和",
+      "zhuyin": "ㄏㄢˋ",
+      "pinyin": "hàn",
+      "de": "und"
+    },
+    {
+      "zh": "樣",
+      "zhuyin": "ㄧㄤˋ",
+      "pinyin": "yàng",
+      "de": "das Aussehen, die Art"
+    },
+    {
+      "zh": "一樣",
+      "zhuyin": "ㄧˊ ㄧㄤˋ",
+      "pinyin": "yí yàng",
+      "de": "genauso"
+    },
+    {
+      "zh": "差",
+      "zhuyin": "ㄔㄚ",
+      "pinyin": "chā",
+      "de": "schlecht"
+    },
+    {
+      "zh": "差不多",
+      "zhuyin": "ㄔㄚˋ ㄅㄨˋ ㄉㄨㄛ",
+      "pinyin": "chà bù duō",
+      "de": "fast, beinahe"
+    },
+    {
+      "zh": "聰明",
+      "zhuyin": "ㄘㄨㄥ ㄇㄧㄥˊ",
+      "pinyin": "cōng míng",
+      "de": "klug"
+    },
+    {
+      "zh": "笨",
+      "zhuyin": "ㄅㄣˋ",
+      "pinyin": "bèn",
+      "de": "dumm"
+    },
+    {
+      "zh": "用",
+      "zhuyin": "ㄩㄥˋ",
+      "pinyin": "yòng",
+      "de": "benutzen, mit"
+    },
+    {
+      "zh": "用功",
+      "zhuyin": "ㄩㄥˋ ㄍㄨㄥ",
+      "pinyin": "yòng gōng",
+      "de": "fleißig"
     }
   ],
   "wiederholung": [
@@ -57,5 +166,60 @@
       "zh": "他們都很用功。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "這所學校比我們學校大吧？",
+      "pinyin": "zhè   suǒ   xué   xiào    bǐ     wǒ   men   xué  xiào   dà      ba",
+      "de": "Diese Schule ist größer als unsere, nicht wahr?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "差不多一樣大。",
+      "pinyin": "chà    bù   duō    yí   yàng  dà",
+      "de": "Sie sind fast gleich groß."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "學生呢？",
+      "pinyin": "xué  shēng  ne",
+      "de": "Und die Schüler?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "學生比我們多。",
+      "pinyin": "xué  shēng  bǐ    wǒ   men  duō",
+      "de": "Diese Schule hat mehr Schüler als unsere."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "老師呢？",
+      "pinyin": "lǎo   shī    ne",
+      "de": "Und die Lehrer?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "老師比我們少。",
+      "pinyin": "lǎo   shī     bǐ    wǒ   men  shǎo",
+      "de": "Sie hat weniger Lehrer als unsere."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼，還是我們學校好。",
+      "pinyin": "nà    me          hái   shì    wǒ  men  xué  xiào  hǎo",
+      "de": "Dann ist unsere Schule besser."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，我們學校的學生很聰明，",
+      "pinyin": "shì     a            wǒ   men  xué   xiào    de    xué  shēng  hěn  cōng  míng",
+      "de": "也很用功，你說是不是？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "不是！不是！我是一個笨學生。",
+      "pinyin": "bú    shì            bú    shì           wǒ    shì     yí      ge    bèn   xué  shēng",
+      "de": "Nein, nein. Ich bin ein dummer Schüler."
+    }
+  ]
 }

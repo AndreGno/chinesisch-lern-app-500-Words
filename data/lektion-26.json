@@ -1,12 +1,96 @@
 {
   "nummer": 26,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "歡迎，歡迎，你來得很準時。",
+      "pinyin": "huān  yíng      huān  yíng        nǐ     lái    de   hěn   zhǔn  shí",
+      "de": "Willkommen! Willkommen! Du bist sehr pünktlich.",
+      "audio": "audio/26-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你家很好找，我一找就找到了。",
+      "pinyin": "nǐ     jiā   hěn   hǎo  zhǎo        wǒ     yì   zhǎo  jiù   zhǎo  dào   le",
+      "de": "Dein Haus ist einfach zu finden. Ich habe es sofort gefunden.",
+      "audio": "audio/26-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "上次小王來，找了半天，也沒找到。",
+      "pinyin": "shàng    cì    xiǎo  Wáng  lái         zhǎo   le     bàn   tiān          yě    méi   zhǎo  dào",
+      "de": "Letztes Mal hat Wang lange gesucht und es doch nicht finden können.",
+      "audio": "audio/26-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這麼說，我比他聰明，是不是？",
+      "pinyin": "zhè   me  shuō         wǒ    bǐ     tā   cōng  míng       shì   bú    shì",
+      "de": "Das heißt, ich bin also klüger als er, nicht wahr?",
+      "audio": "audio/26-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "上次迷路的事，你好像忘記了？",
+      "pinyin": "shàng    cì      mí     lù     de     shì            nǐ    hǎo  xiàng  wàng  jì      le",
+      "de": "Du hast anscheinend vergessen, dass du dich letztes Mal verlaufen hast?",
+      "audio": "audio/26-05.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "像",
       "zhuyin": "ㄒㄧㄤˋ",
       "pinyin": "xiàng",
       "de": "ähnlich, scheinen"
+    },
+    {
+      "zh": "直",
+      "zhuyin": "ㄓˊ",
+      "pinyin": "zhí",
+      "de": "gerade, direkt"
+    },
+    {
+      "zh": "彎",
+      "zhuyin": "ㄨㄢ",
+      "pinyin": "wān",
+      "de": "kurvig, krumm, gewunden"
+    },
+    {
+      "zh": "轉",
+      "zhuyin": "ㄓㄨㄢˇ",
+      "pinyin": "zhuǎn",
+      "de": "wenden, biegen, abbiegen"
+    },
+    {
+      "zh": "左",
+      "zhuyin": "ㄗㄨㄛˇ",
+      "pinyin": "zuǒ",
+      "de": "links"
+    },
+    {
+      "zh": "右",
+      "zhuyin": "ㄧㄡˋ",
+      "pinyin": "yòu",
+      "de": "rechts"
+    },
+    {
+      "zh": "忘",
+      "zhuyin": "ㄨㄤˋ",
+      "pinyin": "wàng",
+      "de": "vergessen"
+    },
+    {
+      "zh": "記",
+      "zhuyin": "ㄐㄧˋ",
+      "pinyin": "jì",
+      "de": "sich merken, notieren, niederschreiben"
+    },
+    {
+      "zh": "迷",
+      "zhuyin": "ㄇㄧˊ",
+      "pinyin": "mí",
+      "de": "verzaubert, verhext, charmant, sich verlaufen"
     }
   ],
   "wiederholung": [
@@ -47,5 +131,54 @@
       "zh": "快進去吧！我父母親都等著看你呢。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "怎麼來得那麼晚？迷路了嗎？",
+      "pinyin": "zěn   me    lái    de     nà    me   wǎn         mí    lù      le    ma",
+      "de": "Warum kommst du so spät? Hast du dich verlaufen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這裡不好找。",
+      "pinyin": "zhè    lǐ     bù    hǎo   zhǎo",
+      "de": "Das Haus hier / Die Straße ist schwer zu finden."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你可以打電話給我，我去接你。",
+      "pinyin": "nǐ     kě     yǐ     dǎ   diàn  huà   gěi    wǒ         wǒ    qù    jiē     nǐ",
+      "de": "Du hättest mich anrufen können, ich hätte dich dann abgeholt."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "可是我忘了你的電話號碼。",
+      "pinyin": "kě    shì   wǒ   wàng  le     nǐ     de    diàn  huà   hào  mǎ",
+      "de": "Ich habe aber deine Telefonnummer vergessen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你好像來過一次。",
+      "pinyin": "nǐ   hǎo  xiàng  lái   guò    yí    cì",
+      "de": "Es scheint so, dass du früher schon mal hier gewesen bist."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，所以我還是找到了，不過來得太晚了。",
+      "pinyin": "shì    a          suǒ     yǐ    wǒ   hái   shì   zhǎo  dào   le           bú   guò   lái    de    tài    wǎn   le",
+      "de": "Ja, deswegen habe ich es schließlich doch finden können. Aber ich bin zu spät"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "沒關係，下次要記住，從我們學校門口一直走，",
+      "pinyin": "méi  guān  xì        xià    cì    yào   jì    zhù      cóng  wǒ  men xué  xiào  mén  kǒu  yì    zhí  zǒu",
+      "de": "到今日百貨公司右轉，就到我家了。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "下次不會忘記了。",
+      "pinyin": "xià     cì     bú   hùi  wàng   jì      le",
+      "de": "Nächstes Mal werde ich es mir merken."
+    }
+  ]
 }

@@ -1,6 +1,49 @@
 {
   "nummer": 30,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "李先生結婚了沒有？",
+      "pinyin": "Lǐ   xiān  shēng  jié    hūn     le    méi   yǒu",
+      "de": "Ist Herr Li verheiratet?",
+      "audio": "audio/30-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "早結婚了，孩子都長得比他高了。",
+      "pinyin": "zǎo   jié   hūn    le           hái    zi    dōu  zhǎng  de    bǐ     tā    gāo    le",
+      "de": "Er ist schon lange verheiratet. Die Kinder sind alle schon größer als er.",
+      "audio": "audio/30-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他的孩子多大了？",
+      "pinyin": "tā    de     hái    zi    duó    dà     le",
+      "de": "Wie alt sind seine Kinder?",
+      "audio": "audio/30-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "兒子十三歲了，女兒比較小，才五歲。",
+      "pinyin": "ér     zi     shí    sān   sùi     le         nyǔ     ér     bǐ    jiào  xiǎo        cái   wǔ    sùi",
+      "de": "Der Sohn ist 13 Jahre alt. Die Tochter ist noch klein, sie ist erst 5 Jahre alt.",
+      "audio": "audio/30-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他的女兒長得怎麼樣？",
+      "pinyin": "tā     de    nyǔ    ér  zhǎng  de   zěn   me   yàng",
+      "de": "Wie sieht seine Tochter aus?",
+      "audio": "audio/30-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "長得很像他太太，眼睛大大的，頭髮長長的。",
+      "pinyin": "zhǎng  de   hěn  xiàng  tā     tài     tai        yǎn   jīng   dà    dà    de          tóu    fǎ  cháng  cháng de",
+      "de": "Sie ist seiner Frau ähnlich, sie hat große Augen und lange Haare.",
+      "audio": "audio/30-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "結",
@@ -13,6 +56,78 @@
       "zhuyin": "ㄐㄧㄝˊ ㄏㄨㄣ",
       "pinyin": "jié  hūn",
       "de": "heiraten"
+    },
+    {
+      "zh": "長",
+      "zhuyin": "ㄔㄤˊ ㄓㄤˇ",
+      "pinyin": "cháng  zhǎng",
+      "de": "lang, wachsen"
+    },
+    {
+      "zh": "高",
+      "zhuyin": "ㄍㄠ",
+      "pinyin": "gāo",
+      "de": "groß, hoch"
+    },
+    {
+      "zh": "比較",
+      "zhuyin": "ㄅㄧˇ ㄐㄧㄠˋ",
+      "pinyin": "bǐ  jiào",
+      "de": "vergleichen, vergleichsweise, relativ"
+    },
+    {
+      "zh": "樣",
+      "zhuyin": "ㄧㄤˋ",
+      "pinyin": "yàng",
+      "de": "die Erscheinung, das Aussehen, der Stil, die Art"
+    },
+    {
+      "zh": "眼睛",
+      "zhuyin": "ㄧㄢˇ ㄐㄧㄥ",
+      "pinyin": "yǎn  jīng",
+      "de": "das Auge"
+    },
+    {
+      "zh": "頭髮",
+      "zhuyin": "ㄊㄡˊ ㄈㄚˇ",
+      "pinyin": "tóu fǎ",
+      "de": "das Haar"
+    },
+    {
+      "zh": "亮",
+      "zhuyin": "ㄌㄧㄤˋ",
+      "pinyin": "liàng",
+      "de": "hell, klar"
+    },
+    {
+      "zh": "漂亮",
+      "zhuyin": "ㄆㄧㄠˋ ㄌㄧㄤˋ",
+      "pinyin": "piào  liàng",
+      "de": "hübsch"
+    },
+    {
+      "zh": "笑",
+      "zhuyin": "ㄒㄧㄠˋ",
+      "pinyin": "xiào",
+      "de": "lachen, lächeln"
+    },
+    {
+      "zh": "門",
+      "zhuyin": "ㄇㄣˊ",
+      "pinyin": "mén",
+      "de": "die Tür, das Tor"
+    },
+    {
+      "zh": "牙",
+      "zhuyin": "ㄧㄚˊ",
+      "pinyin": "yá",
+      "de": "der Zahn"
+    },
+    {
+      "zh": "愛",
+      "zhuyin": "ㄞˋ",
+      "pinyin": "ài",
+      "de": "lieben, mögen"
     }
   ],
   "wiederholung": [
@@ -53,5 +168,60 @@
       "zh": "那才更可愛呢。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "小王有女朋友了！",
+      "pinyin": "siǎo  Wáng  yǒu  nyǔ  péng  yǒu    le̊",
+      "de": "Der kleine Wang hat schon eine Freundin."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "長得怎麼樣？",
+      "pinyin": "zhǎng  de    zěn   me   yàng",
+      "de": "Wie sieht sie aus?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "長得很漂亮，眼睛大大的，頭髮長長的。",
+      "pinyin": "zhǎng  de   hěn  piào  liàng       yǎn   jīng   dà    dà     de          tóu    fǎ   cháng  cháng  de",
+      "de": "Sie sieht hübsch aus mit ihren großen Augen und langen Haaren."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "高不高？",
+      "pinyin": "gāo    bù   gāo",
+      "de": "Ist sie groß?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "不太高，不過也不算矮。",
+      "pinyin": "bú    tài    gāo          bú   guò   yě    bú    suàn  ǎi",
+      "de": "Nicht sehr groß, aber auch nicht sehr klein."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一定很可愛。",
+      "pinyin": "yí   dìng   hěn   kě     ài",
+      "de": "Sie ist bestimmt sehr hübsch."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "是啊，小王很愛她。",
+      "pinyin": "shì      a           xiǎo  Wáng hěn    ài     tā",
+      "de": "Ja, Siao-Wang liebt sie sehr."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "他們快要結婚了嗎？",
+      "pinyin": "tā   men  kuài  yào   jié    hūn    le    ma",
+      "de": "Heiraten sie bald?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "還沒有，她還不到二十歲，不想這麼早結婚。",
+      "pinyin": "hái   méi  yǒu         tā     hái   bú    dào    èr    shí    sùi         bù  xiǎng  zhè   me   zǎo   jié   hūn",
+      "de": "Nein, sie ist noch nicht 20 Jahre alt und möchte nicht so früh heiraten."
+    }
+  ]
 }

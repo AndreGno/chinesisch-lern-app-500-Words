@@ -1,6 +1,49 @@
 {
   "nummer": 14,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "昨天商量了上課的時間。",
+      "pinyin": "zuó   tiān  shāng  liáng   le   shàng   kè     de      shí     jiān",
+      "de": "Gestern ist die Unterrichtszeit besprochen worden.",
+      "audio": "audio/14-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊！還沒商量上課的地方。",
+      "pinyin": "shì      a             hái    méi  shāng  liáng  shàng  kè    de      dì     fāng",
+      "de": "Ach ja! Es wurde noch nicht besprochen, wo der Unterricht stattfindet.",
+      "audio": "audio/14-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你覺得在那裡上課好呢？",
+      "pinyin": "nǐ    jué    de    zài    nǎ      lǐ  shàng   kè   hǎo   ne",
+      "de": "Wo meinst du, dass der Unterricht am besten stattfindet?",
+      "audio": "audio/14-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "沒關係，那裡都可以。",
+      "pinyin": "méi  guān  xì           nǎ      lǐ    dōu   kě     yǐ",
+      "de": "Es ist mir gleich, es ist mir überall recht.",
+      "audio": "audio/14-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你是老師，一定得隨你的方便。",
+      "pinyin": "nǐ     shì    lǎo   shī           yí   dìng  děi    súi    nǐ     de   fāng  biàn",
+      "de": "Du bist der Lehrer. Es muss für dich passend sein.",
+      "audio": "audio/14-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "到我家來上課，你方便嗎？",
+      "pinyin": "dào   wǒ    jiā    lái  shàng  kè           nǐ   fāng  biàn  ma",
+      "de": "Ist es dir recht, wenn ich den Unterricht bei mir zu Hause gebe?",
+      "audio": "audio/14-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "商量",
@@ -13,6 +56,48 @@
       "zhuyin": "ㄉㄧˋ ㄈㄤ",
       "pinyin": "dì fāng",
       "de": "der Platz, der Ort"
+    },
+    {
+      "zh": "在",
+      "zhuyin": "ㄗㄞˋ",
+      "pinyin": "zài",
+      "de": "in"
+    },
+    {
+      "zh": "家",
+      "zhuyin": "ㄐㄧㄚ",
+      "pinyin": "jiā",
+      "de": "die Familie, das Haus"
+    },
+    {
+      "zh": "覺得",
+      "zhuyin": "ㄐㄩㄝˊ ・ㄉㄜ",
+      "pinyin": "xué  de",
+      "de": "fühlen, denken, finden, glauben"
+    },
+    {
+      "zh": "隨",
+      "zhuyin": "ㄙㄨㄟˊ",
+      "pinyin": "súi",
+      "de": "folgen"
+    },
+    {
+      "zh": "便",
+      "zhuyin": "ㄅㄧㄢˋ",
+      "pinyin": "biàn",
+      "de": "bequem, angenehm"
+    },
+    {
+      "zh": "再",
+      "zhuyin": "ㄗㄞˋ",
+      "pinyin": "zài",
+      "de": "wieder, noch einmal, dann"
+    },
+    {
+      "zh": "見",
+      "zhuyin": "ㄐㄧㄢˋ",
+      "pinyin": "jiàn",
+      "de": "sehen"
     }
   ],
   "wiederholung": [
@@ -53,5 +138,72 @@
       "zh": "好的，再見。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "我到你家去方便嗎？",
+      "pinyin": "wǒ   dào    nǐ     jiā     qù   fāng  biàn  ma",
+      "de": "Passt es dir, wenn ich zu dir nach Hause komme?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有什麼不方便？",
+      "pinyin": "yǒu   shé   me    bù  fāng  biàn",
+      "de": "Warum soll es unpassend sein?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你太太會不會不高興？",
+      "pinyin": "nǐ     tài     tai    hùi   bú    hùi    bù    gāo  xìng",
+      "de": "Könnte deine Frau verstimmt werden? / Wird deine Frau sich ärgern?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不會的，她每天晚上也畫畫。",
+      "pinyin": "bú    hùi    de             tā    měi   tiān  wǎn  shàng   yě    huà   huà",
+      "de": "Ach nein! Sie malt auch jeden Abend."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那你們兩個都是畫家。",
+      "pinyin": "nà     nǐ   men  liǎng  ge   dōu   shì    huà   jiā",
+      "de": "Dann seid ihr beide Maler."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不能說是畫家，我們都畫得不好。",
+      "pinyin": "bù   néng  shuō  shì    huà    jiā           wǒ   men  dōu   huà    de      bù    hǎo",
+      "de": "Maler kann man uns nicht nennen. Wir malen nicht gut."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你們隨便一畫，都比我畫得好。",
+      "pinyin": "nǐ    men  súi   biàn    yí   huà         dōu   bǐ     wǒ   huà   de    hǎo",
+      "de": "Auch wenn ihr einfach irgendetwas malt, malt ihr besser als ich."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我覺得你很聰明，有空多畫一畫，",
+      "pinyin": "wǒ   jué     de     nǐ     hěn   cōng  míng      yǒu   kòng  duō   huà    yí    huà",
+      "de": "以後一定會畫得很好。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "謝謝你這麼說。",
+      "pinyin": "xiè    xie    nǐ    zhè   me   shuō",
+      "de": "Vielen Dank, dass du das sagst."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你可以請你太太一起來。",
+      "pinyin": "nǐ     kě     yǐ   qǐng    nǐ    tài     tai      yī    qǐ     lái",
+      "de": "Du kannst gerne deine Frau dazu einladen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這得跟她商量商量。",
+      "pinyin": "zhè    děi     gēn     tā   shāng  liáng  shāng  liáng",
+      "de": "Das muss ich mit ihr besprechen."
+    }
+  ]
 }

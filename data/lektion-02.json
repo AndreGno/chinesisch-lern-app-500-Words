@@ -35,6 +35,13 @@
       "pinyin": "Wáng  xiān  shēng      nín   máng  ma",
       "de": "Sind Sie beschäftigt?",
       "audio": "audio/02-05.mp3"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我很忙，您呢？",
+      "pinyin": "Lǐ   xiān  shēng      wǒ   hěn  máng      nín     ne",
+      "de": "Ich bin sehr beschäftigt. Und Sie?",
+      "audio": "audio/02-06.mp3"
     }
   ],
   "woerter": [
@@ -49,6 +56,24 @@
       "zhuyin": "・ㄋㄜ",
       "pinyin": "ne",
       "de": "Wie Steht es mit...? Und...? ( Satzschlusspartikel, mit der eine"
+    },
+    {
+      "zh": "不",
+      "zhuyin": "ㄅㄨˋ",
+      "pinyin": "bù",
+      "de": "nein, nicht"
+    },
+    {
+      "zh": "也",
+      "zhuyin": "ㄧㄝˇ",
+      "pinyin": "yě",
+      "de": "auch"
+    },
+    {
+      "zh": "們",
+      "zhuyin": "・ㄇㄣ",
+      "pinyin": "men",
+      "de": "Ein Zeichen, mit dem u. a. bei Personalpronomen die Mehrzahl gebildet wird."
     }
   ],
   "wiederholung": [

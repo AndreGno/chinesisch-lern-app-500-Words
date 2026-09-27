@@ -1,6 +1,49 @@
 {
   "nummer": 3,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "這是什麼？",
+      "pinyin": "zhè   shì   shé  me",
+      "de": "Was ist das?",
+      "audio": "audio/03-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這是一枝筆。",
+      "pinyin": "zhè   shì    yì    zhī     bǐ",
+      "de": "Das ist ein Stift.",
+      "audio": "audio/03-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這是一枝什麼筆？",
+      "pinyin": "zhè    shì     yì    zhī   shé   me    bǐ",
+      "de": "Was für ein Stift ist das?",
+      "audio": "audio/03-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這是一枝毛筆。",
+      "pinyin": "zhè    shì     yì    zhī   máo   bǐ",
+      "de": "Das ist ein Pinsel.",
+      "audio": "audio/03-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那是本什麼書？",
+      "pinyin": "nà    shì   běn    shé   me   shū",
+      "de": "Was für ein Buch ist das?",
+      "audio": "audio/03-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那是本中文書。",
+      "pinyin": "nà     shì     běn  zhōng  wén  shū",
+      "de": "Das ist ein chinesisches Buch.",
+      "audio": "audio/03-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "這",
@@ -24,7 +67,103 @@
       "zh": "什麼",
       "zhuyin": "ㄕㄜˊ  ・ㄇㄜ",
       "pinyin": "shé  me",
-      "de": "（ㄕㄣˊ  ・ㄇㄜ；shén  me）was"
+      "de": "was"
+    },
+    {
+      "zh": "一",
+      "zhuyin": "ㄧ",
+      "pinyin": "yī",
+      "de": "eins"
+    },
+    {
+      "zh": "二",
+      "zhuyin": "ㄦˋ",
+      "pinyin": "èr",
+      "de": "zwei"
+    },
+    {
+      "zh": "三",
+      "zhuyin": "ㄙㄢ",
+      "pinyin": "sān",
+      "de": "drei"
+    },
+    {
+      "zh": "四",
+      "zhuyin": "ㄙˋ",
+      "pinyin": "sì",
+      "de": "vier"
+    },
+    {
+      "zh": "五",
+      "zhuyin": "ㄨˇ",
+      "pinyin": "wǔ",
+      "de": "fünf"
+    },
+    {
+      "zh": "六",
+      "zhuyin": "ㄌㄧㄡˋ",
+      "pinyin": "lìu",
+      "de": "sechs"
+    },
+    {
+      "zh": "七",
+      "zhuyin": "ㄑㄧ",
+      "pinyin": "qī",
+      "de": "sieben"
+    },
+    {
+      "zh": "八",
+      "zhuyin": "ㄅㄚ",
+      "pinyin": "bā",
+      "de": "acht"
+    },
+    {
+      "zh": "九",
+      "zhuyin": "ㄐㄧㄡˇ",
+      "pinyin": "jǐu",
+      "de": "neun"
+    },
+    {
+      "zh": "十",
+      "zhuyin": "ㄕˊ",
+      "pinyin": "shí",
+      "de": "zehn"
+    },
+    {
+      "zh": "枝",
+      "zhuyin": "ㄓ",
+      "pinyin": "zhī",
+      "de": "das Stück (Zählwort für Stifte)"
+    },
+    {
+      "zh": "筆",
+      "zhuyin": "ㄅㄧˇ",
+      "pinyin": "bǐ",
+      "de": "der Stift, das Schreibzeug"
+    },
+    {
+      "zh": "毛",
+      "zhuyin": "ㄇㄠˊ",
+      "pinyin": "máo",
+      "de": "das Haar"
+    },
+    {
+      "zh": "本",
+      "zhuyin": "ㄅㄣˇ",
+      "pinyin": "běn",
+      "de": "Zählwort für Hefte und Bücher."
+    },
+    {
+      "zh": "書",
+      "zhuyin": "ㄕㄨ",
+      "pinyin": "shū",
+      "de": "das Buch"
+    },
+    {
+      "zh": "中文",
+      "zhuyin": "ㄓㄨㄥ  ㄨㄣˊ",
+      "pinyin": "zhōng wén",
+      "de": "Chinesisch"
     }
   ],
   "wiederholung": [
@@ -53,5 +192,54 @@
       "zh": "那是本中文書。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "這是枝什麼筆？",
+      "pinyin": "zhè   shì   zhī   shé  me    bǐ",
+      "de": "Was für ein Stift ist das?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這是枝毛筆。",
+      "pinyin": "zhè  shì    zhī   máo   bǐ",
+      "de": "Das ist ein Pinsel."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那是枝什麼筆？",
+      "pinyin": "nà    shì   zhī   shé    me    bǐ",
+      "de": "Was für ein Stift ist das?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那是枝鉛筆。",
+      "pinyin": "nà    shì   zhī   qiān    bǐ",
+      "de": "Das ist ein Bleistift."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這兩本是什麼書？",
+      "pinyin": "zhè  liǎng  běn  shì  shé   me   shū",
+      "de": "Was für Bücher sind diese zwei (Bücher)?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這兩本是中文書。",
+      "pinyin": "zhè  liǎng  běn   shì  zhōng  wén  shū",
+      "de": "Diese zwei (Bücher) sind chinesische Bücher."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那三本是什麼書？",
+      "pinyin": "nà    sān   běn   shì   shé   me   shū",
+      "de": "Was für Bücher sind die drei (Bücher) dort?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那三本是英文書。",
+      "pinyin": "nà    sān   běn   shì   yīng  wén  shū",
+      "de": "Die drei Bücher dort sind englische Bücher."
+    }
+  ]
 }

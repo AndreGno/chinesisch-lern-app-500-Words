@@ -1,12 +1,115 @@
 {
   "nummer": 25,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你一個人住在外面，一定很不方便。",
+      "pinyin": "nǐ      yí     ge    rén   zhù   zài   wài  miàn         yí   dìng  hěn   bù   fāng  biàn",
+      "de": "Es ist bestimmt sehr unpraktisch, so alleine außerhalb der Familie zu wohnen.",
+      "audio": "audio/25-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我很想家，所以我週末常回去。",
+      "pinyin": "shì    de            wǒ   hěn  xiǎng  jiā           suǒ    yǐ     wǒ   zhōu  mò  cháng  húi    qù",
+      "de": "Ja, ich vermisse meine Familie sehr, deswegen gehe ich oft am Wochenende heim.",
+      "audio": "audio/25-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這個週末你到我家來玩兩天吧！",
+      "pinyin": "zhè    ge  zhōu   mò    nǐ    dào   wǒ   jiā     lái   wán  liǎng  tiān  ba",
+      "de": "Komm doch an diesem Wochenende für 2 Tage zu mir nach Hause!",
+      "audio": "audio/25-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "會不會太麻煩你們？",
+      "pinyin": "hùi   bú    hùi    tài   má    fán    nǐ    men",
+      "de": "Würde ich euch damit nicht zu sehr zur Last fallen?",
+      "audio": "audio/25-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "不會的，你不要客氣，我父母親很歡迎客人。",
+      "pinyin": "bú   hùi    de           nǐ    bú    yào   kè    qì           wǒ    fù    mǔ   qīn  hěn  guān  yíng   kè   rén",
+      "de": "Nein, keine Sorge! Meine Eltern sind sehr gastfreundlich.",
+      "audio": "audio/25-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "住在你家方便嗎？",
+      "pinyin": "zhù    zài    nǐ     jiā   fāng  biàn  ma",
+      "de": "Geht das in Ordnung, wenn ich bei euch wohne?",
+      "audio": "audio/25-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "週末",
       "zhuyin": "ㄓㄡ ㄇㄛˋ",
       "pinyin": "zhōu  mò",
       "de": "das Wochenende"
+    },
+    {
+      "zh": "常",
+      "zhuyin": "ㄔㄤˊ",
+      "pinyin": "cháng",
+      "de": "oft, häufig"
+    },
+    {
+      "zh": "玩",
+      "zhuyin": "ㄨㄢˊ",
+      "pinyin": "wán",
+      "de": "spielen"
+    },
+    {
+      "zh": "客",
+      "zhuyin": "ㄎㄜˋ",
+      "pinyin": "kè",
+      "de": "der Gast"
+    },
+    {
+      "zh": "氣",
+      "zhuyin": "ㄑㄧˋ",
+      "pinyin": "qì",
+      "de": "die Luft, die Atmosphäre, verärgert sein"
+    },
+    {
+      "zh": "非常",
+      "zhuyin": "ㄈㄟ ㄔㄤˊ",
+      "pinyin": "fēi  cháng",
+      "de": "sehr, äußerst, außergewöhnlich, außerordentlich"
+    },
+    {
+      "zh": "臥",
+      "zhuyin": "ㄨㄛˋ",
+      "pinyin": "wò",
+      "de": "schlafen, liegen"
+    },
+    {
+      "zh": "廳",
+      "zhuyin": "ㄊㄧㄥ",
+      "pinyin": "tīng",
+      "de": "der Saal, die Halle"
+    },
+    {
+      "zh": "院子",
+      "zhuyin": "ㄩㄢˋ ・ㄗ",
+      "pinyin": "yuàn zi",
+      "de": "der Hof"
+    },
+    {
+      "zh": "球",
+      "zhuyin": "ㄑㄧㄡˊ",
+      "pinyin": "qíu",
+      "de": "der Ball"
+    },
+    {
+      "zh": "址",
+      "zhuyin": "ㄓˇ",
+      "pinyin": "zhǐ",
+      "de": "der Sitz"
     }
   ],
   "wiederholung": [
@@ -51,5 +154,54 @@
       "zh": "不用了，只要給我地址，我一定找得到。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你平常在家裡做什麼？",
+      "pinyin": "nǐ    píng  cháng  zài    jiā     lǐ     zuò    shé   me",
+      "de": "Was machst du normalerweise zu Hause?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我一有空就玩電腦。",
+      "pinyin": "wǒ    yì   yǒu   kòng  jiù   wán  diàn  nǎo",
+      "de": "Immer wenn ich Zeit habe, spiele ich am Computer."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "別一天到晚在屋子裡，天氣好的時候，",
+      "pinyin": "bié    yì    tiān   dào  wǎn   zài   wū    zi      lǐ          tiān    qì    hǎo    de    shí   hòu",
+      "de": "應該出來玩玩。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "對，這個週末我們一起去打網球，好不好？",
+      "pinyin": "dùi         zhè   ge   zhōu  mò   wǒ   men    yì     qǐ     qù    dǎ  wǎng  qíu         hǎo    bù    hǎo",
+      "de": "Richtig. Wollen wir dieses Wochenende zusammen Tennis spielen?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "好，可是到那裡去打呢？",
+      "pinyin": "hǎo         kě    shì    dào   nǎ      lǐ     qù    dǎ     ne",
+      "de": "Gut! Aber wo sollen wir spielen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "可以到我們學校打。",
+      "pinyin": "kě     yǐ     dào    wǒ   men  xué   xiào    dǎ",
+      "de": "Wir können zu unserer Schule gehen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你們學校在那裡？",
+      "pinyin": "nǐ    men   xué   xiào   zài    nǎ       lǐ",
+      "de": "Wo ist eure Schule?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們學校不遠，我給你地址你一定找得到。",
+      "pinyin": "wǒ   men  xué  xiào   bù   yuǎn       wǒ    gěi    nǐ     dì     zhǐ    nǐ      yí   dìng  zhǎo  de    dào",
+      "de": "Unsere Schule ist nicht weit von hier. Ich gebe dir die Adresse, du kannst sie"
+    }
+  ]
 }

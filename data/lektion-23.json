@@ -30,11 +30,18 @@
       "audio": "audio/23-04.mp3"
     },
     {
+      "sprecher": "王先生",
+      "zh": "也不是，是沒人接。",
+      "pinyin": "Wáng  xiān  shēng       yě     bú     shì        shì   méi   rén    jiē",
+      "de": "會不會是電話號碼錯了？",
+      "audio": "audio/23-05.mp3"
+    },
+    {
       "sprecher": "王太太",
       "zh": "應該不會。",
       "pinyin": "Wáng  tài   tai          yīng   gāi    bú   hùi",
       "de": "Das kann doch nicht sein.",
-      "audio": "audio/23-05.mp3"
+      "audio": "audio/23-06.mp3"
     }
   ],
   "woerter": [
@@ -43,6 +50,78 @@
       "zhuyin": "ㄊㄨㄥ",
       "pinyin": "tōng",
       "de": "durch, erreichen, hinführen"
+    },
+    {
+      "zh": "講",
+      "zhuyin": "ㄐㄧㄤˇ",
+      "pinyin": "jiǎng",
+      "de": "reden, sprechen, sagen"
+    },
+    {
+      "zh": "壞",
+      "zhuyin": "ㄏㄨㄞˋ",
+      "pinyin": "huài",
+      "de": "schlecht, verfault, kaputt"
+    },
+    {
+      "zh": "接",
+      "zhuyin": "ㄐㄧㄝ",
+      "pinyin": "jiē",
+      "de": "nehmen, empfangen, fortsetzen"
+    },
+    {
+      "zh": "錯",
+      "zhuyin": "ㄘㄨㄛˋ",
+      "pinyin": "cuò",
+      "de": "falsch"
+    },
+    {
+      "zh": "洗",
+      "zhuyin": "ㄒㄧˇ",
+      "pinyin": "xǐ",
+      "de": "waschen"
+    },
+    {
+      "zh": "手",
+      "zhuyin": "ㄕㄡˇ",
+      "pinyin": "shǒu",
+      "de": "die Hand"
+    },
+    {
+      "zh": "聽",
+      "zhuyin": "ㄊㄧㄥ",
+      "pinyin": "tīng",
+      "de": "zuhören, hören"
+    },
+    {
+      "zh": "鈴",
+      "zhuyin": "ㄌㄧㄥˊ",
+      "pinyin": "líng",
+      "de": "die Klingel"
+    },
+    {
+      "zh": "聲",
+      "zhuyin": "ㄕㄥ",
+      "pinyin": "shēng",
+      "de": "das Geräusch"
+    },
+    {
+      "zh": "趕",
+      "zhuyin": "ㄍㄢˇ",
+      "pinyin": "gǎn",
+      "de": "nachlaufen, erreichen"
+    },
+    {
+      "zh": "掛",
+      "zhuyin": "ㄍㄨㄚˋ",
+      "pinyin": "guà",
+      "de": "hängen"
+    },
+    {
+      "zh": "斷",
+      "zhuyin": "ㄉㄨㄢˋ",
+      "pinyin": "duàn",
+      "de": "abschneiden, brechen, unterbrechen"
     }
   ],
   "wiederholung": [
@@ -79,5 +158,54 @@
       "zh": "喂！"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "請問林先生在嗎？",
+      "pinyin": "qǐng  wèn   Lín   xiān  shēng  zài   ma",
+      "de": "Könnte ich bitte mit Herrn Lin sprechen?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我就是，請問你是…",
+      "pinyin": "wǒ   jiù    shì        qǐng  wèn   nǐ    shì",
+      "de": "Am Apparat. Wer spricht da bitte?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我是王世平。",
+      "pinyin": "wǒ    shì   Wáng  shì  píng",
+      "de": "Hier spricht Wang Shi-ping."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "世平，你好嗎？",
+      "pinyin": "shì   píng        nǐ    hǎo   ma",
+      "de": "Shi-ping, wie geht’s?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "給你打電話真不容易。昨天沒人接，",
+      "pinyin": "gěi    nǐ    dǎ    diàn   huà  zhēn  bù   róng   yì         zuó   tiān  méi   rén    jiē",
+      "de": "今天打了幾次又都在講話中。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "真對不起，這幾天我很忙。有什麼事嗎？",
+      "pinyin": "zhēn  dùi    bù    qǐ           zhè    jǐ    tiān   wǒ   hěn  máng      yǒu   shé   me    shì   ma",
+      "de": "Tut mir Leid. Ich habe in diesen Tagen viel zu tun. Was gibt’s?"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我想請問你小李的電話是幾號。",
+      "pinyin": "wǒ  xiǎng  qǐng  wèn   nǐ    xiǎo    Lǐ     de    diàn   huà    shì     jǐ    hào",
+      "de": "Ich möchte dich nach der Telefonnummer von Herrn Li fragen."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你別掛斷，我去查一查，馬上告訴你。",
+      "pinyin": "nǐ     bié    guà  duàn         wǒ    qù     chá    yì     chá          mǎ  shàng  gào   sù      nǐ",
+      "de": "Leg bitte nicht auf! Ich sehe nach und sage sie dir dann gleich."
+    }
+  ]
 }

@@ -1,6 +1,49 @@
 {
   "nummer": 6,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你有幾個學生？",
+      "pinyin": "nǐ    yǒu    jǐ      ge   xué  shēng",
+      "de": "Wie viele Schüler hast du?",
+      "audio": "audio/06-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我有二十五個學生。",
+      "pinyin": "wǒ   yǒu   èr     shí   wǔ     ge   xué  shēng",
+      "de": "Ich habe fünfundzwanzig Schüler.",
+      "audio": "audio/06-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他們都是大人吧？",
+      "pinyin": "tā   men  dōu   shì    dà    rén    ba",
+      "de": "Sind sie alle Erwachsene, nicht wahr?",
+      "audio": "audio/06-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不一定，有大人，也有小孩。",
+      "pinyin": "bù     yí   dìng       yǒu    dà    rén         yě    yǒu   xiǎo  hái",
+      "de": "Nicht alle, manche sind Erwachsene, manche sind Kinder.",
+      "audio": "audio/06-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "有女生嗎？",
+      "pinyin": "yǒu  nyǔ  shēng  ma",
+      "de": "Gibt es auch Schülerinnen?",
+      "audio": "audio/06-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有，一半是女生，一半是男生。",
+      "pinyin": "yǒu         yí    bàn  shì   nyǔ  shēng       yí    bàn   shì   nán  shēng",
+      "de": "Ja, die eine Hälfte sind Schülerinnen, die andere Hälfte sind Schüler.",
+      "audio": "audio/06-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "有",
@@ -18,7 +61,61 @@
       "zh": "個",
       "zhuyin": "ㄍㄜˋ",
       "pinyin": "gè",
-      "de": "（・ㄍㄜ；ge）das Stück (Zählwort)"
+      "de": "das Stück (Zählwort)"
+    },
+    {
+      "zh": "十",
+      "zhuyin": "ㄕˊ",
+      "pinyin": "shí",
+      "de": "zehn"
+    },
+    {
+      "zh": "大",
+      "zhuyin": "ㄉㄚˋ",
+      "pinyin": "dà",
+      "de": "groß, riesig"
+    },
+    {
+      "zh": "小",
+      "zhuyin": "ㄒㄧㄠˇ",
+      "pinyin": "xiǎo",
+      "de": "klein"
+    },
+    {
+      "zh": "孩",
+      "zhuyin": "ㄏㄞˊ",
+      "pinyin": "hái",
+      "de": "Kind, Kinder"
+    },
+    {
+      "zh": "男",
+      "zhuyin": "ㄋㄢˊ",
+      "pinyin": "nán",
+      "de": "männlich, Mann"
+    },
+    {
+      "zh": "女",
+      "zhuyin": "ㄋㄩˇ",
+      "pinyin": "nyǔ",
+      "de": "weiblich, Frau"
+    },
+    {
+      "zh": "吧",
+      "zhuyin": "・ㄅㄚ",
+      "pinyin": "ba",
+      "de": "1. Aufforderung"
+    },
+    {
+      "zh": "一定",
+      "zhuyin": "ㄧˊ  ㄉㄧㄥˋ",
+      "pinyin": "yí  dìng",
+      "de": "unbedingt, bestimmt"
+    },
+    {
+      "zh": "不一定",
+      "zhuyin": "ㄅㄨˋ  ㄧˊ  ㄉㄧㄥˋ",
+      "pinyin": "bù  yí  dìng",
+      "de": "nicht unbedingt่"
     }
   ],
   "wiederholung": [
@@ -47,5 +144,66 @@
       "zh": "有，一半是女生，一半是男生。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你有幾枝筆？",
+      "pinyin": "nǐ    yǒu    jǐ     zhī     bǐ",
+      "de": "Wie viele Stifte hast du?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我有六枝筆。",
+      "pinyin": "wǒ   yǒu   lìu   zhī     bǐ",
+      "de": "Ich habe sechs Stifte."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "都是毛筆嗎？",
+      "pinyin": "dōu   shì   máo   bǐ     ma",
+      "de": "Sind das alles Pinsel?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不都是，兩枝是毛筆，四枝是原子筆。",
+      "pinyin": "bù   dōu  shì        liǎng  zhī    shì   máo   bǐ           sì    zhī     shì  yuán   zǐ     bǐ",
+      "de": "Nicht alle, zwei sind Pinsel und vier sind Kugelschreiber."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你有幾本書？",
+      "pinyin": "nǐ  yǒu    jǐ    běn   shū",
+      "de": "Wie viele Bücher hast du?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我有二十本書，一半是中文的，",
+      "pinyin": "wǒ  yǒu     èr    shí   běn  shū           yí   bàn   shì  zhōng  wén  de",
+      "de": "一半是英文的。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "李太太，你有孩子吧？",
+      "pinyin": "Lǐ     tài     tai          nǐ   yǒu    hái    zi     ba",
+      "de": "Frau Li, Sie haben doch sicher Kinder?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有兩個，一個男的，一個女的。",
+      "pinyin": "yǒu  liǎng  ge           yí     ge   nán    de           yí    ge    nyǔ   de",
+      "de": "Ja, ich habe zwei, einen Jungen und ein Mädchen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "老師都很忙吧？",
+      "pinyin": "lǎo   shī   dōu   hěn  máng  ba",
+      "de": "Die Lehrer sind wohl alle sehr beschäftigt?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不一定，有的忙，有的不忙。",
+      "pinyin": "bù     yí   dìng        yǒu   de  máng       yǒu   de     bù  máng",
+      "de": "Nicht unbedingt, manche sind beschäftigt, manche nicht."
+    }
+  ]
 }

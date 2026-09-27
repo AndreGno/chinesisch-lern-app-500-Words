@@ -1,6 +1,49 @@
 {
   "nummer": 13,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "前天教你的歌你會了嗎？",
+      "pinyin": "qián  tiān   jiāo    nǐ    de     gē     nǐ     hùi    le    ma",
+      "de": "Kannst du das Lied singen, das ich dir vorgestern beigebracht habe?",
+      "audio": "audio/13-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "昨天唱了一天，已經會了。",
+      "pinyin": "zuó   tiān  chàng le    yì   tiān           yǐ    jīng   hùi    le",
+      "de": "Gestern habe ich den ganzen Tag geübt. Nun kann ich es schon.",
+      "audio": "audio/13-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "真是好學生。",
+      "pinyin": "zhēn   shì    hǎo   xué  shēng",
+      "de": "Ein guter Schüler!",
+      "audio": "audio/13-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "什麼時候教我畫國畫？",
+      "pinyin": "shén  me    shí    hòu   jiāo    wǒ   huà    guó  huà",
+      "de": "Wann bringst du mir chinesische Malerei bei?",
+      "audio": "audio/13-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我白天很忙，晚上才有時間。",
+      "pinyin": "wǒ    bái   tiān   hěn  máng       wǎn  shàng  cái   yǒu    shí   jiān",
+      "de": "Tagsüber habe ich viel zu tun. Ich habe erst abends Zeit.",
+      "audio": "audio/13-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "今天晚上可以嗎？",
+      "pinyin": "jīn   tiān  wǎn shàng  kě    yǐ    ma",
+      "de": "Wie wäre es heute Abend?",
+      "audio": "audio/13-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "前",
@@ -13,6 +56,60 @@
       "zhuyin": "ㄊㄧㄢ",
       "pinyin": "tiān",
       "de": "der Tag"
+    },
+    {
+      "zh": "昨",
+      "zhuyin": "ㄗㄨㄛˊ",
+      "pinyin": "zuó",
+      "de": "gestern"
+    },
+    {
+      "zh": "今",
+      "zhuyin": "ㄐㄧㄣ",
+      "pinyin": "jīn",
+      "de": "nun, jetzt"
+    },
+    {
+      "zh": "明",
+      "zhuyin": "ㄇㄧㄥˊ",
+      "pinyin": "míng",
+      "de": "hell, klar, deutlich"
+    },
+    {
+      "zh": "白",
+      "zhuyin": "ㄅㄞˊ",
+      "pinyin": "bái",
+      "de": "weiß, klar"
+    },
+    {
+      "zh": "後",
+      "zhuyin": "ㄏㄡˋ",
+      "pinyin": "hòu",
+      "de": "hinter, hinten, spät, rückwärts"
+    },
+    {
+      "zh": "晚",
+      "zhuyin": "ㄨㄢˇ",
+      "pinyin": "wǎn",
+      "de": "spät, abends"
+    },
+    {
+      "zh": "間",
+      "zhuyin": "ㄐㄧㄢ",
+      "pinyin": "jiān",
+      "de": "trennen, der Raum"
+    },
+    {
+      "zh": "空",
+      "zhuyin": "ㄎㄨㄥˋ",
+      "pinyin": "kòng",
+      "de": "leer, frei sein, Zeit haben"
+    },
+    {
+      "zh": "事",
+      "zhuyin": "ㄕˋ",
+      "pinyin": "shì",
+      "de": "die Sache, die Tätigkeit, die Beschäftigung"
     }
   ],
   "wiederholung": [

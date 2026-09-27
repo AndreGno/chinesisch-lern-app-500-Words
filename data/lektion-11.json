@@ -1,12 +1,108 @@
 {
   "nummer": 11,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "你一星期上幾次課？",
+      "pinyin": "nǐ      yì   xīng   qí   shàng  jǐ      cì     kè",
+      "de": "Wie oft hast du in der Woche Unterricht?",
+      "audio": "audio/11-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一星期兩次。",
+      "pinyin": "yì   xīng   qí   liǎng   cì",
+      "de": "Zweimal in der Woche.",
+      "audio": "audio/11-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "每次多久？",
+      "pinyin": "měi   cì     duō   jiǔ",
+      "de": "Wie lange dauert es jedes Mal?",
+      "audio": "audio/11-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "每次兩個鐘頭。",
+      "pinyin": "měi    cì    liǎng   ge  zhōng  tóu",
+      "de": "Jedes Mal dauert es zwei Stunden.",
+      "audio": "audio/11-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "什麼時候上課？",
+      "pinyin": "shé    me    shí    hòu  shàng  kè",
+      "de": "Wann findet der Unterricht statt?",
+      "audio": "audio/11-05.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "星期",
       "zhuyin": "ㄒㄧㄥ ㄑㄧˊ",
       "pinyin": "xīng qí",
       "de": "die Woche"
+    },
+    {
+      "zh": "次",
+      "zhuyin": "ㄘˋ",
+      "pinyin": "cì",
+      "de": "mal"
+    },
+    {
+      "zh": "每",
+      "zhuyin": "ㄇㄟˇ",
+      "pinyin": "měi",
+      "de": "jedes Mal"
+    },
+    {
+      "zh": "鐘頭",
+      "zhuyin": "ㄓㄨㄥ ㄊㄡˊ",
+      "pinyin": "zhōng tóu",
+      "de": "die Stunde"
+    },
+    {
+      "zh": "時候",
+      "zhuyin": "ㄕˊ ㄏㄡˋ",
+      "pinyin": "shí hòu",
+      "de": "die Zeit, wann"
+    },
+    {
+      "zh": "午",
+      "zhuyin": "ㄨˇ",
+      "pinyin": "wǔ",
+      "de": "der Mittag"
+    },
+    {
+      "zh": "點",
+      "zhuyin": "ㄉㄧㄢˇ",
+      "pinyin": "diǎn",
+      "de": "der Punkt,... Uhr"
+    },
+    {
+      "zh": "分",
+      "zhuyin": "ㄈㄣ",
+      "pinyin": "fēn",
+      "de": "die Minute"
+    },
+    {
+      "zh": "下",
+      "zhuyin": "ㄒㄧㄚˋ",
+      "pinyin": "xià",
+      "de": "nächste, unter, unten"
+    },
+    {
+      "zh": "累",
+      "zhuyin": "ㄌㄟˋ",
+      "pinyin": "lèi",
+      "de": "müde, anstrengend"
+    },
+    {
+      "zh": "意思",
+      "zhuyin": "ㄧˋ ・ㄙ",
+      "pinyin": "yì si",
+      "de": "der Sinn, die Bedeutung"
     }
   ],
   "wiederholung": [
@@ -43,5 +139,54 @@
       "zh": "一點都不累。學中文很有意思。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "你在學中文嗎？",
+      "pinyin": "nǐ      zài     xué  zhōng  wén  ma",
+      "de": "Lernst du Chinesisch?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我在學校學中文。",
+      "pinyin": "shì      de            wǒ     zài    xué   xiào   xué  zhōng  wén",
+      "de": "Ja, ich lerne Chinesisch in der Schule."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "一個禮拜上幾次課？",
+      "pinyin": "yí     ge      lǐ     bài  shàng  jǐ     cì     kè",
+      "de": "Wie oft hast du Unterricht in der Woche?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一個禮拜一次。",
+      "pinyin": "yí     ge      lǐ     bài     yí    cì",
+      "de": "Einmal in der Woche."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "每次幾個鐘頭？",
+      "pinyin": "měi     cì      jǐ      ge  zhōng  tóu",
+      "de": "Wie viele Stunden dauert es jedes Mal?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一次三個鐘頭。",
+      "pinyin": "yí      cì     sān    ge   zhōng  tóu",
+      "de": "Jedes Mal dauert es drei Stunden."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "三個鐘頭？累不累？",
+      "pinyin": "sān     ge  zhōng  tóu          lèi     bú     lèi",
+      "de": "Drei Stunden? Ist es nicht anstrengend?"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不累，不累。一會兒學說話，一會兒",
+      "pinyin": "bú     lèi           bú     lèi            yì     hǔi    er     xué  shuō  huà            yì    hǔi    er",
+      "de": "學寫字，很有意思，一點都不累。"
+    }
+  ]
 }

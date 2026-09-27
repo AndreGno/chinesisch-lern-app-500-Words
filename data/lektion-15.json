@@ -1,6 +1,49 @@
 {
   "nummer": 15,
-  "text": [],
+  "text": [
+    {
+      "sprecher": "甲",
+      "zh": "太太，你要不要學畫畫？",
+      "pinyin": "tài    tai           nǐ    yào   bú    yào   xué  huà   huà",
+      "de": "Möchtest du malen lernen?",
+      "audio": "audio/15-01.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我不要學。",
+      "pinyin": "wǒ    bú   yào   xué",
+      "de": "Ich möchte es nicht lernen.",
+      "audio": "audio/15-02.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你不喜歡畫畫嗎？",
+      "pinyin": "nǐ     bù     xǐ   huān  huà   huà   ma",
+      "de": "Malst du nicht gern?",
+      "audio": "audio/15-03.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不是不喜歡，只是覺得我沒有那個天才。",
+      "pinyin": "bú    shì    bù     xǐ   huān        zhǐ   shì    jué    de    wǒ   méi  yǒu    nà    ge    tiān   cái",
+      "de": "Es ist nicht so, dass ich es nicht mag. Ich denke nur, dass ich kein Talent dazu habe.",
+      "audio": "audio/15-04.mp3"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "只要有興趣，天才是可以練習出來的。",
+      "pinyin": "zhǐ   yào  yǒu   xìng   qù        tiān   cái    shì    kě     yǐ   liàn    xí    chū    lái    de",
+      "de": "Wenn man Interesse hat, kann man durch Üben Genie werden.",
+      "audio": "audio/15-05.mp3"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "可是我每天都很忙。",
+      "pinyin": "kě    shì    wǒ   měi  tiān   dōu  hěn  máng",
+      "de": "Aber ich habe jeden Tag sehr viel zu tun.",
+      "audio": "audio/15-06.mp3"
+    }
+  ],
   "woerter": [
     {
       "zh": "要",
@@ -13,6 +56,66 @@
       "zhuyin": "ㄅㄧㄝˊ",
       "pinyin": "bié",
       "de": "nicht; verneinende Befehlsform"
+    },
+    {
+      "zh": "喜歡",
+      "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
+      "pinyin": "xǐ  huān",
+      "de": "mögen, gern haben"
+    },
+    {
+      "zh": "天才",
+      "zhuyin": "ㄊㄧㄢ ㄘㄞˊ",
+      "pinyin": "tiān  cái",
+      "de": "das Talent, das Genie"
+    },
+    {
+      "zh": "趣",
+      "zhuyin": "ㄑㄩˋ",
+      "pinyin": "qù",
+      "de": "interessant, lustig, Spaß machen"
+    },
+    {
+      "zh": "興趣",
+      "zhuyin": "ㄒㄧㄥˋ ㄑㄩˋ",
+      "pinyin": "xìng  qù",
+      "de": "Interesse"
+    },
+    {
+      "zh": "練習",
+      "zhuyin": "ㄌㄧㄢˋ ㄒㄧˊ",
+      "pinyin": "liàn  xí",
+      "de": "üben"
+    },
+    {
+      "zh": "應該",
+      "zhuyin": "ㄧㄥ ㄍㄞ",
+      "pinyin": "yīng gāi",
+      "de": "sollen"
+    },
+    {
+      "zh": "走",
+      "zhuyin": "ㄗㄡˇ",
+      "pinyin": "zǒu",
+      "de": "gehen, weggehen"
+    },
+    {
+      "zh": "出去",
+      "zhuyin": "ㄔㄨ ㄑㄩˋ",
+      "pinyin": "chū qù",
+      "de": "ausgehen, nach draußen gehen"
+    },
+    {
+      "zh": "就",
+      "zhuyin": "ㄐㄧㄡˋ",
+      "pinyin": "jìu",
+      "de": "dann, sobald, gleich"
+    },
+    {
+      "zh": "起",
+      "zhuyin": "ㄑㄧˇ",
+      "pinyin": "qǐ",
+      "de": "aufstehen"
     }
   ],
   "wiederholung": [
@@ -49,5 +152,36 @@
       "zh": "好吧，我就跟你一起去學吧。"
     }
   ],
-  "anwendung": []
+  "anwendung": [
+    {
+      "sprecher": "甲",
+      "zh": "我很喜歡畫畫，可是沒有天才。",
+      "pinyin": "wǒ    hěn   xǐ   huān  huà   huà         kě    shì   méi   yǒu  tiān   cái",
+      "de": "Ich male sehr gern, aber ich habe leider kein Talent dazu."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "只要喜歡，你就應該去學。",
+      "pinyin": "zhǐ   yào    xǐ   huān         nǐ     jìu   yīng  gāi    qù   xué",
+      "de": "Wenn es dir Spaß macht, solltest du es lernen."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼我應該多練習。",
+      "pinyin": "nà    me    wǒ  yīng   gāi  duō   liàn   xí",
+      "de": "Ich muss dann viel üben."
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，練習久了就有興趣。",
+      "pinyin": "shì     a          liàn    xí     jiǔ     le     jìu   yǒu   xìng  qù",
+      "de": "Ja, je mehr man übt, desto mehr Interesse bekommt man."
+    },
+    {
+      "sprecher": "甲",
+      "zh": "走，我們一起去學吧。",
+      "pinyin": "zǒu         wǒ  men    yì    qǐ      qù   xué    ba",
+      "de": "Komm, wir gehen zusammen, um malen zu lernen."
+    }
+  ]
 }
