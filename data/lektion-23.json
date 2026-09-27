@@ -31,9 +31,9 @@
     },
     {
       "sprecher": "王先生",
-      "zh": "也不是，是沒人接。",
-      "pinyin": "Wáng  xiān  shēng       yě     bú     shì        shì   méi   rén    jiē",
-      "de": "會不會是電話號碼錯了？",
+      "zh": "也不是，是沒人接。會不會是電話號碼錯了？",
+      "pinyin": "Wáng  xiān  shēng       yě     bú     shì        shì   méi   rén    jiē hùi   bú     hùi    shì   diàn   huà   hào    mǎ    cuò     le",
+      "de": "Auch nicht. Niemand meldet sich. Ist die Nummer vielleicht falsch?",
       "audio": "audio/23-05.mp3"
     },
     {
@@ -185,9 +185,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "給你打電話真不容易。昨天沒人接，",
-      "pinyin": "gěi    nǐ    dǎ    diàn   huà  zhēn  bù   róng   yì         zuó   tiān  méi   rén    jiē",
-      "de": "今天打了幾次又都在講話中。"
+      "zh": "給你打電話真不容易。昨天沒人接，今天打了幾次又都在講話中。",
+      "pinyin": "gěi    nǐ    dǎ    diàn   huà  zhēn  bù   róng   yì         zuó   tiān  méi   rén    jiē jīn   tiān   dǎ      le     jǐ      cì    yòu   dōu   zài  jiǎng  huà  zhōng",
+      "de": "Es ist nicht einfach, dich telefonisch zu erreichen. Gestern ging niemand ans"
     },
     {
       "sprecher": "乙",

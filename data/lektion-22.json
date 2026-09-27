@@ -10,16 +10,16 @@
     },
     {
       "sprecher": "王太太",
-      "zh": "對不起，他不在，我是他太太。",
-      "pinyin": "Wáng  tài    tai         dùi   bú     qǐ            tā     bú    zài         wǒ    shì    tā     tài    tai",
-      "de": "請問有什麼事嗎？",
+      "zh": "對不起，他不在，我是他太太。請問有什麼事嗎？",
+      "pinyin": "Wáng  tài    tai         dùi   bú     qǐ            tā     bú    zài         wǒ    shì    tā     tài    tai qǐng  wèn  yǒu    shé    me    shì    ma",
+      "de": "Er ist leider nicht zu Hause. Ich bin seine Frau. Worum geht es bitte?",
       "audio": "audio/22-02.mp3"
     },
     {
       "sprecher": "林先生",
-      "zh": "王太太，你好。是這樣的，",
-      "pinyin": "Lín  xiān  shēng    Wáng  tài    tai          nǐ    hǎo         shì   zhè  yàng   de",
-      "de": "因為有位同學從台北來，",
+      "zh": "王太太，你好。是這樣的，因為有位同學從台北來，所以我請了幾位朋友，明天晚上六點鐘，在梅花飯店吃飯，不知道王先生能不能來？",
+      "pinyin": "Lín  xiān  shēng    Wáng  tài    tai          nǐ    hǎo         shì   zhè  yàng   de yīn   wèi   yǒu  wèi  tóng  xué   cóng  tái    běi   lái suǒ    yǐ     wǒ  qǐng    le     jǐ     wèi  péng  yǒu     míng  tiān  wǎn  shàng lìu   diǎn  zhōng     zài   méi   huā   fàn  diàn   chī   fàn bù     zhī    dào  Wáng  xiān  shēng  néng   bù   néng   lái",
+      "de": "Guten Tag, Frau Wang! Es geht um folgendes: Weil ein Schulkamerad von",
       "audio": "audio/22-03.mp3"
     }
   ],
@@ -136,9 +136,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "６３４２１９５，不過星期天別給我",
-      "pinyin": "lìu    san    sì     èr      yī    jǐu    wǔ          bú   guò  xīng   qí    tiān   bié    gěi   wǒ",
-      "de": "打電話，因為我要去找我的女朋友。"
+      "zh": "６３４２１９５，不過星期天別給我打電話，因為我要去找我的女朋友。",
+      "pinyin": "lìu    san    sì     èr      yī    jǐu    wǔ          bú   guò  xīng   qí    tiān   bié    gěi   wǒ dǎ   diàn  huà        yīn   wèi    wǒ   yào   qù   zhǎo  wǒ    de   nyǔ  péng  yǒu",
+      "de": "6342 1 9 5. Aber ruf mich nicht am Sonntag an, weil ich da zu meiner Freundin"
     }
   ]
 }

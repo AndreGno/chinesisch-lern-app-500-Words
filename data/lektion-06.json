@@ -177,9 +177,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "我有二十本書，一半是中文的，",
-      "pinyin": "wǒ  yǒu     èr    shí   běn  shū           yí   bàn   shì  zhōng  wén  de",
-      "de": "一半是英文的。"
+      "zh": "我有二十本書，一半是中文的，一半是英文的。",
+      "pinyin": "wǒ  yǒu     èr    shí   běn  shū           yí   bàn   shì  zhōng  wén  de yí   bàn   shì   yīng  wén   de",
+      "de": "Ich habe zwanzig Bücher, die Hälfte sind chinesische, die andere Hälfte englische."
     },
     {
       "sprecher": "甲",

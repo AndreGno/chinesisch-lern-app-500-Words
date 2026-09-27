@@ -150,9 +150,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "我要給老闆打電話，你知道",
-      "pinyin": "wǒ    yào   gěi   lǎo   bǎn    dǎ   diàn  huà          nǐ    zhī   dào",
-      "de": "他的電話號碼嗎？"
+      "zh": "我要給老闆打電話，你知道他的電話號碼嗎？",
+      "pinyin": "wǒ    yào   gěi   lǎo   bǎn    dǎ   diàn  huà          nǐ    zhī   dào tā     de    diàn  huà   hào   mǎ   ma",
+      "de": "Ich will den Chef anrufen. Hast du seine Telefonnummer?"
     },
     {
       "sprecher": "甲",

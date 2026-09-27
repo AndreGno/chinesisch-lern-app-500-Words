@@ -45,9 +45,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "他是華人，他會說中文",
-      "pinyin": "tā     shì     huá    rén            tā      hùi  shuō  zhōng  wén",
-      "de": "也會寫中文。",
+      "zh": "他是華人，他會說中文也會寫中文。",
+      "pinyin": "tā     shì     huá    rén            tā      hùi  shuō  zhōng  wén yě    hùi   xiě  zhōng  wén",
+      "de": "Ja, er ist Chinese. Er kann Chinesisch sprechen und schreiben.",
       "audio": "audio/05-07.mp3"
     }
   ],
@@ -136,9 +136,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "他教我們說中文，",
-      "pinyin": "tā      jiāo    wǒ    men  shuō  zhōng  wén",
-      "de": "他也教我們寫毛筆字。"
+      "zh": "他教我們說中文，他也教我們寫毛筆字。",
+      "pinyin": "tā      jiāo    wǒ    men  shuō  zhōng  wén tā     yě    jiāo   wǒ   men   xiě   máo   bǐ    zì",
+      "de": "Er lehrt uns Chinesisch sprechen. Er lehrt uns auch das Pinselschreiben."
     },
     {
       "sprecher": "甲",

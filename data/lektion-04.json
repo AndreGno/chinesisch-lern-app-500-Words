@@ -140,9 +140,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "我到學校去學中文。",
-      "pinyin": "wǒ  dào   xué   xiào   qù  xué  zhōng  wén",
-      "de": "你到那裡去？"
+      "zh": "我到學校去學中文。你到那裡去？",
+      "pinyin": "wǒ  dào   xué   xiào   qù  xué  zhōng  wén nǐ    dào    nǎ     lǐ     qù",
+      "de": "Ich gehe zur Schule, um Chinesisch zu lernen. Wohin gehst du?"
     },
     {
       "sprecher": "甲",

@@ -10,9 +10,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "你先向右走，到十字路口左轉，然後再",
-      "pinyin": "nǐ   xiān  xiàng  yòu  zǒu       dào    shí    zì     lù    kǒu  zuǒ  zhuǎn      rán   hòu   zài",
-      "de": "一直走過兩個紅綠燈就到中山北路了。",
+      "zh": "你先向右走，到十字路口左轉，然後再一直走過兩個紅綠燈就到中山北路了。",
+      "pinyin": "nǐ   xiān  xiàng  yòu  zǒu       dào    shí    zì     lù    kǒu  zuǒ  zhuǎn      rán   hòu   zài yì    zhí    zǒu    guò   liǎng  ge   hóng   lyù  dēng   jiù    dào  zhōng  shān  běi   lù      le",
+      "de": "Gehen Sie zuerst nach rechts, biegen an der Kreuzung links ab, und dann immer",
       "audio": "audio/27-02.mp3"
     },
     {
@@ -170,9 +170,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "你從這裡向前一直走，到第二個",
-      "pinyin": "nǐ    cóng   zhè    lǐ   xiàng  qián    yì     zhí   zǒu          dào    dì      èr     ge",
-      "de": "十字路口的時候過馬路就到了。"
+      "zh": "你從這裡向前一直走，到第二個十字路口的時候過馬路就到了。",
+      "pinyin": "nǐ    cóng   zhè    lǐ   xiàng  qián    yì     zhí   zǒu          dào    dì      èr     ge shí    zì     lù    kǒu    de    shí   hòu   guò   mǎ   lù      jiù   dào    le",
+      "de": "Gehen Sie geradeaus bis zur zweiten Kreuzung und dort über die Straße, dann"
     },
     {
       "sprecher": "甲",
@@ -182,9 +182,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "是的，就在十字路口，那裡車子很多，",
-      "pinyin": "shì     de          jiù     zài   shí     zì    lù     kǒu         nà      lǐ    chē    zi   hěn   duō",
-      "de": "過馬路要小心。"
+      "zh": "是的，就在十字路口，那裡車子很多，過馬路要小心。",
+      "pinyin": "shì     de          jiù     zài   shí     zì    lù     kǒu         nà      lǐ    chē    zi   hěn   duō guò   mǎ    lù    yào   xiǎo  xīn",
+      "de": "Ja, es ist direkt an der Kreuzung. Dort sind viele Autos. Gehen Sie vorsichtig über"
     },
     {
       "sprecher": "甲",

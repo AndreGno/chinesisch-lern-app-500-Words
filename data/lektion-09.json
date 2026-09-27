@@ -24,9 +24,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "他是李有年的太太。來，我給你們介紹介紹。",
-      "pinyin": "tā    shì    Lǐ    yǒu  nián   de     tài    tai          lái         wǒ   gěi    nǐ   men    jiè   shào  jiè  shào",
-      "de": "李太太，這位是林先生。",
+      "zh": "他是李有年的太太。來，我給你們介紹介紹。李太太，這位是林先生。",
+      "pinyin": "tā    shì    Lǐ    yǒu  nián   de     tài    tai          lái         wǒ   gěi    nǐ   men    jiè   shào  jiè  shào Lǐ     tài    tai          zhè  wèi   shì    Lín  xiān  shēng",
+      "de": "Sie ist die Frau von Li You-nian. Komm, ich mache euch miteinander bekannt.",
       "audio": "audio/09-04.mp3"
     },
     {
@@ -133,9 +133,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "來，我給你介紹幾位同學。",
-      "pinyin": "lái          wǒ   gěi    nǐ     jiè   shào   jǐ     wèi   tóng  xué",
-      "de": "這位是王美華。這位是李有年。"
+      "zh": "來，我給你介紹幾位同學。這位是王美華。這位是李有年。那位是高大明。",
+      "pinyin": "lái          wǒ   gěi    nǐ     jiè   shào   jǐ     wèi   tóng  xué zhè   wèi   shì  Wáng  měi   huá         zhè   wèi    shì     Lǐ    yǒu   nián nà    wèi   shì   Gāo   dà  míng",
+      "de": "Komm, ich mache dich mit einigen Mitschülern bekannt. Das ist Wang Mei-hua."
     },
     {
       "sprecher": "三人",

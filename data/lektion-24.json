@@ -10,9 +10,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "是的，我和爸爸、媽媽、哥哥、姊姊",
-      "pinyin": "shì    de          wǒ   hàn    bà    ba          mā   ma          gē    ge           jiě    jie",
-      "de": "住在一起，你呢？",
+      "zh": "是的，我和爸爸、媽媽、哥哥、姊姊住在一起，你呢？",
+      "pinyin": "shì    de          wǒ   hàn    bà    ba          mā   ma          gē    ge           jiě    jie zhù    zài    yì     qǐ           nǐ     ne",
+      "de": "Ja, ich wohne mit meinem Vater, meiner Mutter, meinem älteren Bruder und",
       "audio": "audio/24-02.mp3"
     },
     {
@@ -202,9 +202,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "我祖父母住在加拿大，外祖父母住在",
-      "pinyin": "wǒ    zǔ    fù    mǔ    zhù   zài    jiā    ná     dà         wài    zǔ     fù    mǔ   zhù   zài",
-      "de": "英國，我阿姨住在日本。"
+      "zh": "我祖父母住在加拿大，外祖父母住在英國，我阿姨住在日本。",
+      "pinyin": "wǒ    zǔ    fù    mǔ    zhù   zài    jiā    ná     dà         wài    zǔ     fù    mǔ   zhù   zài yīng  guó           wǒ    ā       yí    zhù   zài    rì     běn",
+      "de": "Meine Großeltern väterlicherseits wohnen in Kanada, und die Großeltern"
     },
     {
       "sprecher": "甲",
@@ -226,9 +226,9 @@
     },
     {
       "sprecher": "乙",
-      "zh": "因為我阿姨還在上學，所以她",
-      "pinyin": "yīn    wèi    wǒ      ā       yí      hái    zài   shàng  xué           suǒ    yǐ       tā",
-      "de": "租的房間很小，我去了不太方便。"
+      "zh": "因為我阿姨還在上學，所以她租的房間很小，我去了不太方便。",
+      "pinyin": "yīn    wèi    wǒ      ā       yí      hái    zài   shàng  xué           suǒ    yǐ       tā zū    de   fáng   jiān  hěn  xiǎo        wǒ    qù     le     bú     tài   fāng  biàn",
+      "de": "Da das Zimmer von meiner Tante, die noch studiert /zur Schule geht, wäre es"
     }
   ]
 }

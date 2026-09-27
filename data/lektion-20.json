@@ -17,9 +17,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "我先畫一幅，你們看看。",
-      "pinyin": "wǒ  xiān   huà   yì     fú           nǐ   men   kàn  kàn",
-      "de": "樹在前頭，山在後頭，水裡畫幾塊石",
+      "zh": "我先畫一幅，你們看看。樹在前頭，山在後頭，水裡畫幾塊石頭，天上再畫兩隻鳥，好了，不難吧？",
+      "pinyin": "wǒ  xiān   huà   yì     fú           nǐ   men   kàn  kàn shù   zài   qián   tou       shān   zài   hòu   tou        shǔi    lǐ    huà    jǐ    kuài   shí tou          tiān  shàng  zài   huà  liǎng   zhī   niǎo         hǎo    le            bù    nán     ba",
+      "de": "Ich male zuerst ein Bild vor. Ihr schaut zu. Die Bäume stehen im Vordergrund",
       "audio": "audio/20-03.mp3"
     },
     {
@@ -148,9 +148,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "那裡，你畫得很好。遠山、近樹都畫得很好。",
-      "pinyin": "nǎ     lǐ            nǐ   huà    de    hěn   hǎo       yuǎn  shān       jìn   shù   dōu   huà   de    hěn   hǎo",
-      "de": "要是樹下再畫一個人，那就更有意思了。"
+      "zh": "那裡，你畫得很好。遠山、近樹都畫得很好。要是樹下再畫一個人，那就更有意思了。",
+      "pinyin": "nǎ     lǐ            nǐ   huà    de    hěn   hǎo       yuǎn  shān       jìn   shù   dōu   huà   de    hěn   hǎo yào   shì    shù    xià   zài     huà    yí      ge    rén           nà     jiù   gèng  yǒu    yì      si      le",
+      "de": "Das stimmt nicht. Du hast gut gemalt. Die Berge im Hintergrund und die Bäume"
     },
     {
       "sprecher": "乙",

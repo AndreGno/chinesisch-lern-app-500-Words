@@ -173,9 +173,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "是啊，我會很用功的，下一次來我",
-      "pinyin": "shì     a            wǒ    hùi   hěn  yòng  gōng  de           xià     yí      cì      lái    wǒ",
-      "de": "會唱得比你更好。"
+      "zh": "是啊，我會很用功的，下一次來我會唱得比你更好。",
+      "pinyin": "shì     a            wǒ    hùi   hěn  yòng  gōng  de           xià     yí      cì      lái    wǒ hùi  chàng   de      bǐ       nǐ    gèng   hǎo",
+      "de": "Ja, ich werde sehr fleißig sein. Wenn ich nächstes Mal komme, werde ich es"
     },
     {
       "sprecher": "乙",

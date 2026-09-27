@@ -17,9 +17,9 @@
     },
     {
       "sprecher": "甲",
-      "zh": "我想買一雙鞋子，兩雙襪子。",
-      "pinyin": "wǒ   xiǎng  mǎi    yì  shuāng  xié      zi         liǎng  shuāng  wà     zi",
-      "de": "同時想買一套運動衣。",
+      "zh": "我想買一雙鞋子，兩雙襪子。同時想買一套運動衣。",
+      "pinyin": "wǒ   xiǎng  mǎi    yì  shuāng  xié      zi         liǎng  shuāng  wà     zi tóng  shí  xiǎng  mǎi   yí    tào   yùn  dòng  yī",
+      "de": "Ich möchte ein Paar Schuhe, zwei Paar Socken und einen Trainingsanzug kaufen.",
       "audio": "audio/28-03.mp3"
     },
     {
