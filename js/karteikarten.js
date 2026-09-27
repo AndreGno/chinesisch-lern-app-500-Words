@@ -2,6 +2,15 @@ import { reviewCard, istFaellig } from "./srs.js";
 
 const SPEICHER_SCHLUESSEL = "karteikarten-status";
 
+// Der Status wird bewusst global nach `zh` (nicht pro Lektion) indiziert, damit ein
+// Wort, das in mehreren Lektionen auftaucht, einen gemeinsamen Lernfortschritt hat.
+// Bekannte, akzeptierte Einschränkung: 2 von 321 Vokabeln im Korpus (毛, 分) haben in
+// unterschiedlichen Lektionen unterschiedliche Bedeutungen bei identischem Zeichen UND
+// identischem Pinyin (毛 = "Haar" vs. "0,10 NT$", 分 = "Minute" vs. "0,01-0,09 NT$") —
+// dort teilen sich beide Bedeutungen denselben Karteikarten-Status. Eine echte Behebung
+// bräuchte ein separates Bedeutungs-Unterscheidungsfeld in den Lektionsdaten, was für
+// 2 von 321 Wörtern nicht gerechtfertigt ist (YAGNI).
+
 function ladeStatus() {
   try {
     return JSON.parse(localStorage.getItem(SPEICHER_SCHLUESSEL) || "{}");
