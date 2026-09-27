@@ -1,5 +1,5 @@
 """Extrahiert alle im PDF eingebetteten MP3-Dateien (echte Sound-Streams, referenziert
-ueber Filespec-Objekte mit /F <name>.mp3 und /EF <</F <stream_xref> 0 R>>)."""
+über Filespec-Objekte mit /F <name>.mp3 und /EF <</F <stream_xref> 0 R>>)."""
 import re
 from pathlib import Path
 
