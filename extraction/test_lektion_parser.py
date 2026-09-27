@@ -165,6 +165,29 @@ def test_parse_dialogue_handles_translation_without_space_before_colon():
     ]
 
 
+def test_parse_dialogue_merges_wrapped_chinese_sentence_across_two_lines():
+    # Reales Beispiel aus Lektion 5, letzter 課文-Eintrag: der chinesische Satz
+    # ist zu lang fuer eine PDF-Zeile und laeuft in eine zweite, unmarkierte
+    # Fortsetzungszeile (ohne Sprecherpraefix) weiter, bevor die deutsche
+    # Uebersetzung kommt.
+    lines = [
+        "甲：他是華人，他會說中文",
+        "tā shì huá rén tā hùi shuō zhōng wén",
+        "也會寫中文。",
+        "yě hùi xiě zhōng wén",
+        "Ja, er ist Chinese. Er kann Chinesisch sprechen und schreiben.",
+    ]
+    result = parse_dialogue(lines)
+    assert result == [
+        {
+            "sprecher": "甲",
+            "zh": "他是華人，他會說中文也會寫中文。",
+            "pinyin": "tā shì huá rén tā hùi shuō zhōng wén yě hùi xiě zhōng wén",
+            "de": "Ja, er ist Chinese. Er kann Chinesisch sprechen und schreiben.",
+        }
+    ]
+
+
 def test_parse_vokabular_extracts_entry():
     lines = ["先生（ㄒㄧㄢ ㄕㄥ；xiān sheng）der Mann, der Herr"]
     result = parse_vokabular(lines)

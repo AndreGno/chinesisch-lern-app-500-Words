@@ -1,10 +1,10 @@
-"""Zerlegt den PDF-Rohtext in (Lektion, Abschnitt)-Buckets anhand der Fussmarker
+"""Zerlegt den PDF-Rohtext in (Lektion, Abschnitt)-Buckets anhand der Fußmarker
 '一 課文 TEXT' / '二 字與詞 SCHRIFTZEICHEN UND WOERTER' / '三 溫習 WIEDERHOLUNG' /
-'四 應用 ANWENDUNG' und der Lektionsueberschrift '第X課'. Parst ausserdem aus den
+'四 應用 ANWENDUNG' und der Lektionsüberschrift '第X課'. Parst außerdem aus den
 gebuckten Zeilen der Abschnitte 課文/應用 Dialog-Triplets (Sprecher/Chinesisch,
-Pinyin, Deutsch), aus dem Abschnitt 字與詞 Vokabeleintraege
+Pinyin, Deutsch), aus dem Abschnitt 字與詞 Vokabeleinträge
 (Zeichen/Zhuyin/Pinyin/Deutsch) sowie aus dem Abschnitt 溫習 Sprecher/Chinesisch-
-Paare ohne Pinyin und Uebersetzung."""
+Paare ohne Pinyin und Übersetzung."""
 import re
 
 from zeichen_fix import fix_text
@@ -35,6 +35,29 @@ def _chinese_number_to_int(cn: str) -> int:
     raise ValueError(f"Unbekannte chinesische Zahl: {cn}")
 
 
+# Diese Funktion arbeitet drei reale PDF-Eigenheiten aus, die die Zuordnung
+# von Seiten zu (Lektion, Abschnitt) erschweren:
+#   1. Der Abschnittsmarker steht auf der ERSTEN Seite eines Abschnitts, nicht
+#      auf der letzten; unmarkierte Folgeseiten gehören zum zuletzt gesehenen
+#      Abschnitt (current_section).
+#   2. Das Inhaltsverzeichnis (目錄) listet ebenfalls "第X課"-Überschriften
+#      für alle 30 Lektionen auf, aber ohne Abschnittsmarker; ein Header
+#      allein (ohne Marker auf derselben Seite) darf die Lektionsnummer daher
+#      nicht vorspulen.
+#   3. Der Anhang (Vokabelindex/Umschriftentabelle) zählt die Lektionsnummer
+#      wieder von vorne hoch, trägt aber nie einen Abschnittsmarker; sobald
+#      die erkannte Nummer sinkt, wird nichts mehr weitergeschrieben.
+#
+# NICHT ausgeglichen wird eine vierte Eigenheit: Die Zuordnung erfolgt auf
+# ganzen Seiten. Wechselt der Abschnitt MITTEN auf einer Seite (Rest von
+# Abschnitt A steht oben, der Marker für Abschnitt B erscheint erst weiter
+# unten auf derselben Seite), landet der Rest von A fälschlich im Bucket von
+# B. Gemessene Auswirkung (verifiziert per len(wiederholung) - len(text) je
+# Lektion als Proxy, Stand nach dem Multi-Line-Fix in parse_dialogue): 68
+# fehlende Dialogzeilen, verteilt auf 17 der 30 Lektionen. Eine vollständige
+# Behebung bräuchte zeilen-/koordinatenbasierte Textextraktion
+# (get_text("dict") statt get_text()), was für dieses Projekt bewusst als
+# YAGNI ausgeklammert wird, nicht aus Versehen fehlt.
 def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
     buckets: dict[int, dict[str, list[str]]] = {}
     current_lesson = 1
@@ -50,22 +73,22 @@ def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
         if header_match:
             new_lesson = _chinese_number_to_int(header_match.group(1))
             if new_lesson < current_lesson:
-                # Der Anhang (z.B. Vokabelindex/Umschriftentabelle) zaehlt die
-                # Lektionsnummer wieder von vorne hoch und traegt nie einen
+                # Der Anhang (z.B. Vokabelindex/Umschriftentabelle) zählt die
+                # Lektionsnummer wieder von vorne hoch und trägt nie einen
                 # Abschnittsmarker. Sobald die Nummer sinkt, ist der eigentliche
                 # Lektionsteil vorbei; ab hier nichts mehr weiterschreiben.
                 current_section = None
                 continue
-            # Das Inhaltsverzeichnis (目錄) listet ebenfalls "第X課"-Ueberschriften
-            # fuer alle 30 Lektionen auf einmal auf, aber ohne Abschnittsmarker.
-            # Eine echte Lektionsseite traegt Header UND ihren ersten Marker
-            # immer gemeinsam; nur dann zaehlt die Lektionsnummer.
+            # Das Inhaltsverzeichnis (目錄) listet ebenfalls "第X課"-Überschriften
+            # für alle 30 Lektionen auf einmal auf, aber ohne Abschnittsmarker.
+            # Eine echte Lektionsseite trägt Header UND ihren ersten Marker
+            # immer gemeinsam; nur dann zählt die Lektionsnummer.
             if section is not None:
                 current_lesson = new_lesson
         # Der Abschnittsmarker steht laut PDF-Layout auf der ERSTEN Seite eines
-        # Abschnitts, nicht auf der letzten. Unmarkierte Folgeseiten gehoeren
+        # Abschnitts, nicht auf der letzten. Unmarkierte Folgeseiten gehören
         # also zum zuletzt gesehenen Abschnitt (current_section), nicht zu
-        # einem erst spaeter erscheinenden.
+        # einem erst später erscheinenden.
         if section is not None:
             current_section = section
         if current_section is None:
@@ -82,34 +105,56 @@ def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
 
 DIALOGUE_LINE = re.compile(r"^([^：]{1,6})：(.+)$")
 TRANSLATION_PREFIX = re.compile(r"^[^:：]+\s*:\s*")
+CJK_CHAR = re.compile(r"[一-鿿]")
 
 
 def parse_dialogue(lines: list[str]) -> list[dict]:
     entries = []
     i = 0
-    while i < len(lines) - 2:
+    n = len(lines)
+    while i < n:
         zh_match = DIALOGUE_LINE.match(lines[i])
-        is_translation_line = (
-            lines[i + 2]
-            and not DIALOGUE_LINE.match(lines[i + 2])
-            and not DIALOGUE_LINE.match(lines[i + 1])
-        )
-        if zh_match and is_translation_line:
-            de_text = TRANSLATION_PREFIX.sub("", lines[i + 2])
-            entries.append(
-                {
-                    "sprecher": zh_match.group(1),
-                    "zh": zh_match.group(2),
-                    # Pinyin-Zeile wird ungeprueft uebernommen: sie enthaelt laut
-                    # PDF-Struktur nie "：", kann also nie faelschlich als
-                    # Dialogzeile matchen.
-                    "pinyin": lines[i + 1],
-                    "de": de_text,
-                }
-            )
-            i += 3
-        else:
+        # Pinyin-Zeile wird ungeprüft übernommen: sie enthält laut
+        # PDF-Struktur nie "：", kann also nie fälschlich als Dialogzeile
+        # matchen. Ein Match hier bedeutet, dass auf die vermeintliche
+        # Chinesisch-Zeile keine Pinyin-Zeile folgt, also kein echtes Triplet
+        # beginnt.
+        if not zh_match or i + 1 >= n or DIALOGUE_LINE.match(lines[i + 1]):
             i += 1
+            continue
+        zh_parts = [zh_match.group(2)]
+        pinyin_parts = [lines[i + 1]]
+        j = i + 2
+        # Ist der chinesische Satz zu lang für eine PDF-Zeile, läuft er in
+        # eine zweite, unmarkierte Fortsetzungszeile (ohne Sprecherpräfix)
+        # weiter, gefolgt von deren eigener Pinyin-Zeile, bevor die deutsche
+        # Übersetzung kommt. Solche Chinesisch/Pinyin-Fortsetzungspaare
+        # werden erkannt (chinesische Zeichen, kein Sprecherpräfix) und
+        # angehängt: zh ohne Trennzeichen (chinesischer Fließtext kennt
+        # keine Leerzeichen zwischen Wörtern), pinyin mit einem Leerzeichen
+        # als Trenner (wie auch innerhalb einer Pinyin-Zeile üblich).
+        while (
+            j + 1 < n
+            and CJK_CHAR.search(lines[j])
+            and not DIALOGUE_LINE.match(lines[j])
+            and not DIALOGUE_LINE.match(lines[j + 1])
+        ):
+            zh_parts.append(lines[j])
+            pinyin_parts.append(lines[j + 1])
+            j += 2
+        if j >= n or DIALOGUE_LINE.match(lines[j]):
+            i += 1
+            continue
+        de_text = TRANSLATION_PREFIX.sub("", lines[j])
+        entries.append(
+            {
+                "sprecher": zh_match.group(1),
+                "zh": "".join(zh_parts),
+                "pinyin": " ".join(pinyin_parts),
+                "de": de_text,
+            }
+        )
+        i = j + 1
     return entries
 
 
