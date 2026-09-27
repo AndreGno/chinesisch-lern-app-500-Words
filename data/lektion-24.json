@@ -1,0 +1,71 @@
+{
+  "nummer": 24,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "住",
+      "zhuyin": "ㄓㄨˋ",
+      "pinyin": "zhù",
+      "de": "wohnenู่"
+    },
+    {
+      "zh": "爸",
+      "zhuyin": "ㄅㄚˋ ・ㄅㄚ",
+      "pinyin": "bà ba",
+      "de": "Papa"
+    },
+    {
+      "zh": "父親",
+      "zhuyin": "ㄈㄨˋ ㄑㄧㄣ",
+      "pinyin": "fù qīn",
+      "de": "der Vater"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你和你的家人住在一起嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我和爸爸、媽媽、哥哥、姊姊住在一起，你呢？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我家很遠，所以我一個人在這裡租房子住。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "房租很貴吧？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "房租不貴，不過房間很小。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你家裡還有些什麼人？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我家裡還有父母親、一個弟弟、兩個妹妹。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你家的人真不少。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "是的，我家有六口人。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你想念他們嗎？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我很想念他們。"
+    }
+  ],
+  "anwendung": []
+}

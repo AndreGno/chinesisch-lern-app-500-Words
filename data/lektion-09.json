@@ -1,0 +1,31 @@
+{
+  "nummer": 9,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "請",
+      "zhuyin": "ㄑㄧㄥˇ",
+      "pinyin": "qǐng",
+      "de": "Bitte"
+    },
+    {
+      "zh": "問",
+      "zhuyin": "ㄨㄣˋ",
+      "pinyin": "wèn",
+      "de": "fragen"
+    },
+    {
+      "zh": "貴",
+      "zhuyin": "ㄍㄨㄟˋ",
+      "pinyin": "gùi",
+      "de": "teuer, höfliche Anrede"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "請問貴姓？"
+    }
+  ],
+  "anwendung": []
+}

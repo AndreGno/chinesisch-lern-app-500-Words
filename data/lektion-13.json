@@ -1,0 +1,53 @@
+{
+  "nummer": 13,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "前",
+      "zhuyin": "ㄑㄧㄢˊ",
+      "pinyin": "qián",
+      "de": "vor, vorne"
+    },
+    {
+      "zh": "天",
+      "zhuyin": "ㄊㄧㄢ",
+      "pinyin": "tiān",
+      "de": "der Tag"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "前天教你的歌，你會了嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "昨天唱了一天，已經會了。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "真是好學生。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "什麼時候教我畫國畫？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我白天很忙，晚上才有時間。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "今天晚上可以嗎？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "今天、明天晚上我都有事，後天我有空。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "後天是五月十號，星期四，我也有空。"
+    }
+  ],
+  "anwendung": []
+}

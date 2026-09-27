@@ -1,0 +1,61 @@
+{
+  "nummer": 8,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "比",
+      "zhuyin": "ㄅㄧˇ",
+      "pinyin": "bǐ",
+      "de": "...im Vergleich zu..."
+    },
+    {
+      "zh": "還",
+      "zhuyin": "ㄏㄞˊ",
+      "pinyin": "hái",
+      "de": "noch"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "學校有很多外國學生，是嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，有很多。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "比本國學生還多嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不，比本國學生少。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "男生跟女生一樣多嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "差不多一樣多。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "男生跟女生一樣聰明嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不一定，有的聰明，有的笨。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "男生用功還是女生用功？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "他們都很用功。"
+    }
+  ],
+  "anwendung": []
+}

@@ -1,0 +1,39 @@
+{
+  "nummer": 5,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "這裡",
+      "zhuyin": "ㄓㄜˋ  ㄌㄧˇ",
+      "pinyin": "zhè  lǐ",
+      "de": "hier, hierher"
+    },
+    {
+      "zh": "來",
+      "zhuyin": "ㄌㄞˊ",
+      "pinyin": "lái",
+      "de": "kommen"
+    },
+    {
+      "zh": "的",
+      "zhuyin": "・ㄉㄜ",
+      "pinyin": "de",
+      "de": "1.Attributpartikel   2. betonende Satzpartikel"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你到這裡來學中文嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，我來學中文。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼我們是同學。"
+    }
+  ],
+  "anwendung": []
+}

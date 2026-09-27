@@ -1,0 +1,61 @@
+{
+  "nummer": 27,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "第",
+      "zhuyin": "ㄉㄧˋ",
+      "pinyin": "dì",
+      "de": "der Rang, die Reihenfolgeี่"
+    },
+    {
+      "zh": "銀",
+      "zhuyin": "ㄧㄣˊ",
+      "pinyin": "yín",
+      "de": "das Silber"
+    },
+    {
+      "zh": "行",
+      "zhuyin": "ㄒㄧㄥˊ ㄏㄤˊ",
+      "pinyin": "xíng háng",
+      "de": "die Firma, das Verhalten, die Zeile"
+    },
+    {
+      "zh": "向",
+      "zhuyin": "ㄒㄧㄤˋ",
+      "pinyin": "xiàng",
+      "de": "die Richtung, abbiegen"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "先生，請問到第一銀行怎麼走？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你先向右走，到十字路口左轉，然後再一直走，"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "第一銀行在中山北路嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是的，在一家百貨公司對面。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我知道了，那家百貨公司很大。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不過，過馬路要小心，那條路上車子很多。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "好的，我走地下道，謝謝你。"
+    }
+  ],
+  "anwendung": []
+}

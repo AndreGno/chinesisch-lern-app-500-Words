@@ -1,0 +1,83 @@
+{
+  "nummer": 23,
+  "text": [
+    {
+      "sprecher": "王先生",
+      "zh": "怎麼打不通呢？",
+      "pinyin": "Wáng  xiān  shēng       zěn   me    dǎ    bù    tōng   ne",
+      "de": "Warum kommt man (telefonisch) nicht durch?",
+      "audio": "audio/23-01.mp3"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "是在講話中嗎？",
+      "pinyin": "Wáng  tài   tai            shì    zài  jiǎng  huà  zhōng  ma",
+      "de": "Ist es besetzt?",
+      "audio": "audio/23-02.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "不是。",
+      "pinyin": "Wáng  xiān  shēng       bú    shì",
+      "de": "Nein.",
+      "audio": "audio/23-03.mp3"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "是電話壞了嗎？",
+      "pinyin": "Wáng  tài    tai         shì   diàn  huà   huài   le    ma",
+      "de": "Ist das Telefon kaputt?",
+      "audio": "audio/23-04.mp3"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "應該不會。",
+      "pinyin": "Wáng  tài   tai          yīng   gāi    bú   hùi",
+      "de": "Das kann doch nicht sein.",
+      "audio": "audio/23-05.mp3"
+    }
+  ],
+  "woerter": [
+    {
+      "zh": "通",
+      "zhuyin": "ㄊㄨㄥ",
+      "pinyin": "tōng",
+      "de": "durch, erreichen, hinführen"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "王先生",
+      "zh": "怎麼打不通呢？"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "是在講話中嗎？"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "不是。"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "是電話壞了嗎？"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "也不是，是沒人接。會不會是電話號碼錯了？"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "應該不會。"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "那麼我再試試看。"
+    },
+    {
+      "sprecher": "林先生",
+      "zh": "喂！"
+    }
+  ],
+  "anwendung": []
+}

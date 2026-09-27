@@ -1,0 +1,75 @@
+{
+  "nummer": 10,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "了",
+      "zhuyin": "・ㄌㄜ",
+      "pinyin": "le",
+      "de": "Satzschlusspartikel, Nachsilbe beim Verb als Zeichen der Vergangenheit oder Vollendung"
+    },
+    {
+      "zh": "久",
+      "zhuyin": "ㄐㄧㄡˇ",
+      "pinyin": "jiǔ",
+      "de": "lange"
+    },
+    {
+      "zh": "才",
+      "zhuyin": "ㄘㄞˊ",
+      "pinyin": "cái",
+      "de": "nur, erst"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你學中文多久了？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我才學了兩個月。你學了多久了？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我已經學了三年了。"
+    },
+    {
+      "sprecher": "丙",
+      "zh": "我還沒學呢！"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "沒關係，你可以到我們學校來學。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你學中文多久了？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我才上了兩個月的課。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你已經學了很久，認識很多字吧。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我認識的字不多。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我還沒學寫字呢。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我也還沒學。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "沒關係。李先生可以教我們。"
+    }
+  ],
+  "anwendung": []
+}

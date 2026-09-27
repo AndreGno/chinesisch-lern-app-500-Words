@@ -1,0 +1,513 @@
+[
+  {
+    "zh": "王",
+    "zhuyin": "ㄨㄤˊ",
+    "pinyin": "Wáng",
+    "de": "Familienname, der König",
+    "lektion": 1
+  },
+  {
+    "zh": "李",
+    "zhuyin": "ㄌㄧˇ",
+    "pinyin": "Lǐ",
+    "de": "Familienname, die Pflaume",
+    "lektion": 1
+  },
+  {
+    "zh": "先生",
+    "zhuyin": "ㄒㄧㄢ  ㄕㄥ",
+    "pinyin": "xiān sheng",
+    "de": "der Mann, der Herr",
+    "lektion": 1
+  },
+  {
+    "zh": "太太",
+    "zhuyin": "ㄊㄞˋ  ・ㄊㄞ",
+    "pinyin": "tài  tai",
+    "de": "die Frau",
+    "lektion": 1
+  },
+  {
+    "zh": "你",
+    "zhuyin": "ㄋㄧˇ",
+    "pinyin": "nǐ",
+    "de": "du, dir, dich",
+    "lektion": 1
+  },
+  {
+    "zh": "您",
+    "zhuyin": "ㄋㄧㄣˊ",
+    "pinyin": "nín",
+    "de": "Sie (höfliche Form für “你”)",
+    "lektion": 1
+  },
+  {
+    "zh": "好",
+    "zhuyin": "ㄏㄠˇ",
+    "pinyin": "hǎo",
+    "de": "gut, schön, in Ordnung",
+    "lektion": 1
+  },
+  {
+    "zh": "忙",
+    "zhuyin": "ㄇㄤˊ",
+    "pinyin": "máng",
+    "de": "beschäftigt, viel zu tun haben",
+    "lektion": 2
+  },
+  {
+    "zh": "呢",
+    "zhuyin": "・ㄋㄜ",
+    "pinyin": "ne",
+    "de": "Wie Steht es mit...? Und...? ( Satzschlusspartikel, mit der eine",
+    "lektion": 2
+  },
+  {
+    "zh": "這",
+    "zhuyin": "ㄓㄜˋ",
+    "pinyin": "zhè",
+    "de": "das, dieses, das hier",
+    "lektion": 3
+  },
+  {
+    "zh": "是",
+    "zhuyin": "ㄕˋ",
+    "pinyin": "shì",
+    "de": "sein (bin, bist, ist, sind, seid, sind)",
+    "lektion": 3
+  },
+  {
+    "zh": "那",
+    "zhuyin": "ㄋㄚˋ",
+    "pinyin": "nà",
+    "de": "das, jenes, das dort",
+    "lektion": 3
+  },
+  {
+    "zh": "什麼",
+    "zhuyin": "ㄕㄜˊ  ・ㄇㄜ",
+    "pinyin": "shé  me",
+    "de": "（ㄕㄣˊ  ・ㄇㄜ；shén  me）was",
+    "lektion": 3
+  },
+  {
+    "zh": "學",
+    "zhuyin": "ㄒㄩㄝˊ",
+    "pinyin": "xué",
+    "de": "lernen",
+    "lektion": 4
+  },
+  {
+    "zh": "學校",
+    "zhuyin": "ㄒㄩㄝˊ  ㄒㄧㄠˋ",
+    "pinyin": "xué xiào",
+    "de": "die Schule",
+    "lektion": 4
+  },
+  {
+    "zh": "這裡",
+    "zhuyin": "ㄓㄜˋ  ㄌㄧˇ",
+    "pinyin": "zhè  lǐ",
+    "de": "hier, hierher",
+    "lektion": 5
+  },
+  {
+    "zh": "來",
+    "zhuyin": "ㄌㄞˊ",
+    "pinyin": "lái",
+    "de": "kommen",
+    "lektion": 5
+  },
+  {
+    "zh": "的",
+    "zhuyin": "・ㄉㄜ",
+    "pinyin": "de",
+    "de": "1.Attributpartikel   2. betonende Satzpartikel",
+    "lektion": 5
+  },
+  {
+    "zh": "有",
+    "zhuyin": "ㄧㄡˇ",
+    "pinyin": "yǒu",
+    "de": "haben, es gibt",
+    "lektion": 6
+  },
+  {
+    "zh": "幾",
+    "zhuyin": "ㄐㄧˇ",
+    "pinyin": "jǐ",
+    "de": "wie viel, wie viele, einige",
+    "lektion": 6
+  },
+  {
+    "zh": "個",
+    "zhuyin": "ㄍㄜˋ",
+    "pinyin": "gè",
+    "de": "（・ㄍㄜ；ge）das Stück (Zählwort)",
+    "lektion": 6
+  },
+  {
+    "zh": "所",
+    "zhuyin": "ㄙㄨㄛˇ",
+    "pinyin": "suǒ",
+    "de": "Zählwort für Gebäude",
+    "lektion": 7
+  },
+  {
+    "zh": "多",
+    "zhuyin": "ㄉㄨㄛ",
+    "pinyin": "duō",
+    "de": "viel, viele",
+    "lektion": 7
+  },
+  {
+    "zh": "少",
+    "zhuyin": "ㄕㄠˇ",
+    "pinyin": "shǎo",
+    "de": "wenig",
+    "lektion": 7
+  },
+  {
+    "zh": "多少",
+    "zhuyin": "ㄉㄨㄛ  ㄕㄠˇ",
+    "pinyin": "duō   shǎo",
+    "de": "wie viel, wie viele, mehr oder weniger",
+    "lektion": 7
+  },
+  {
+    "zh": "比",
+    "zhuyin": "ㄅㄧˇ",
+    "pinyin": "bǐ",
+    "de": "...im Vergleich zu...",
+    "lektion": 8
+  },
+  {
+    "zh": "還",
+    "zhuyin": "ㄏㄞˊ",
+    "pinyin": "hái",
+    "de": "noch",
+    "lektion": 8
+  },
+  {
+    "zh": "請",
+    "zhuyin": "ㄑㄧㄥˇ",
+    "pinyin": "qǐng",
+    "de": "Bitte",
+    "lektion": 9
+  },
+  {
+    "zh": "問",
+    "zhuyin": "ㄨㄣˋ",
+    "pinyin": "wèn",
+    "de": "fragen",
+    "lektion": 9
+  },
+  {
+    "zh": "貴",
+    "zhuyin": "ㄍㄨㄟˋ",
+    "pinyin": "gùi",
+    "de": "teuer, höfliche Anrede",
+    "lektion": 9
+  },
+  {
+    "zh": "了",
+    "zhuyin": "・ㄌㄜ",
+    "pinyin": "le",
+    "de": "Satzschlusspartikel, Nachsilbe beim Verb als Zeichen der Vergangenheit oder Vollendung",
+    "lektion": 10
+  },
+  {
+    "zh": "久",
+    "zhuyin": "ㄐㄧㄡˇ",
+    "pinyin": "jiǔ",
+    "de": "lange",
+    "lektion": 10
+  },
+  {
+    "zh": "才",
+    "zhuyin": "ㄘㄞˊ",
+    "pinyin": "cái",
+    "de": "nur, erst",
+    "lektion": 10
+  },
+  {
+    "zh": "星期",
+    "zhuyin": "ㄒㄧㄥ ㄑㄧˊ",
+    "pinyin": "xīng qí",
+    "de": "die Woche",
+    "lektion": 11
+  },
+  {
+    "zh": "想",
+    "zhuyin": "ㄒㄧㄤˇ",
+    "pinyin": "xiǎng",
+    "de": "denken, vermissen, wollen / möchten",
+    "lektion": 12
+  },
+  {
+    "zh": "畫",
+    "zhuyin": "ㄏㄨㄚˋ",
+    "pinyin": "huà",
+    "de": "malen, zeichnen",
+    "lektion": 12
+  },
+  {
+    "zh": "得",
+    "zhuyin": "・ㄉㄜ",
+    "pinyin": "de",
+    "de": "eine Nachsilbe zu Verben",
+    "lektion": 12
+  },
+  {
+    "zh": "前",
+    "zhuyin": "ㄑㄧㄢˊ",
+    "pinyin": "qián",
+    "de": "vor, vorne",
+    "lektion": 13
+  },
+  {
+    "zh": "天",
+    "zhuyin": "ㄊㄧㄢ",
+    "pinyin": "tiān",
+    "de": "der Tag",
+    "lektion": 13
+  },
+  {
+    "zh": "商量",
+    "zhuyin": "ㄕㄤ ㄌㄧㄤˊ",
+    "pinyin": "shāng liáng",
+    "de": "besprechen, diskutieren",
+    "lektion": 14
+  },
+  {
+    "zh": "地方",
+    "zhuyin": "ㄉㄧˋ ㄈㄤ",
+    "pinyin": "dì fāng",
+    "de": "der Platz, der Ort",
+    "lektion": 14
+  },
+  {
+    "zh": "要",
+    "zhuyin": "ㄧㄠˋ",
+    "pinyin": "yào",
+    "de": "wollen, möchten, verlangen, brauchen",
+    "lektion": 15
+  },
+  {
+    "zh": "別",
+    "zhuyin": "ㄅㄧㄝˊ",
+    "pinyin": "bié",
+    "de": "nicht; verneinende Befehlsform",
+    "lektion": 15
+  },
+  {
+    "zh": "準備",
+    "zhuyin": "ㄓㄨㄣˇ ㄅㄟˋ",
+    "pinyin": "zhǔn bèi",
+    "de": "vorbereiten, vorhaben",
+    "lektion": 16
+  },
+  {
+    "zh": "些",
+    "zhuyin": "ㄒㄧㄝ",
+    "pinyin": "xiē",
+    "de": "einige, ein wenig; Zeichen für kleine Mengenangabe",
+    "lektion": 16
+  },
+  {
+    "zh": "具",
+    "zhuyin": "ㄐㄩˋ",
+    "pinyin": "jù",
+    "de": "der Gebrauchsgegenstand, das Werkzeug",
+    "lektion": 16
+  },
+  {
+    "zh": "錢",
+    "zhuyin": "ㄑㄧㄢˊ",
+    "pinyin": "qián",
+    "de": "das Geld",
+    "lektion": 17
+  },
+  {
+    "zh": "現在",
+    "zhuyin": "ㄒㄧㄢˋ ㄗㄞˋ",
+    "pinyin": "xiàn zài",
+    "de": "jetzt",
+    "lektion": 18
+  },
+  {
+    "zh": "快",
+    "zhuyin": "ㄎㄨㄞˋ",
+    "pinyin": "kuài",
+    "de": "schnell, bald, fast",
+    "lektion": 18
+  },
+  {
+    "zh": "慢",
+    "zhuyin": "ㄇㄢˋ",
+    "pinyin": "màn",
+    "de": "langsam (nachgehen: Uhr)",
+    "lektion": 18
+  },
+  {
+    "zh": "歡迎",
+    "zhuyin": "ㄏㄨㄢ ㄧㄥˊ",
+    "pinyin": "huān yíng",
+    "de": "willkommen",
+    "lektion": 19
+  },
+  {
+    "zh": "麻煩",
+    "zhuyin": "ㄇㄚˊ ㄈㄢˊ",
+    "pinyin": "má fán",
+    "de": "stören, umständlich, lästig",
+    "lektion": 19
+  },
+  {
+    "zh": "進",
+    "zhuyin": "ㄐㄧㄣˋ",
+    "pinyin": "jìn",
+    "de": "herein, hinein, (hin)gehen",
+    "lektion": 19
+  },
+  {
+    "zh": "山",
+    "zhuyin": "ㄕㄢ",
+    "pinyin": "shān",
+    "de": "der Berg",
+    "lektion": 20
+  },
+  {
+    "zh": "水",
+    "zhuyin": "ㄕㄨㄟˇ",
+    "pinyin": "shuěi",
+    "de": "das Wasser",
+    "lektion": 20
+  },
+  {
+    "zh": "幅",
+    "zhuyin": "ㄈㄨˊ",
+    "pinyin": "fú",
+    "de": "ein Stück (Zählwort für Gemälde oder Bilder)",
+    "lektion": 20
+  },
+  {
+    "zh": "打",
+    "zhuyin": "ㄉㄚˇ",
+    "pinyin": "dǎ",
+    "de": "schlagen, tippen, spielen",
+    "lektion": 21
+  },
+  {
+    "zh": "內",
+    "zhuyin": "ㄋㄟˋ",
+    "pinyin": "nèi",
+    "de": "innen, intern",
+    "lektion": 22
+  },
+  {
+    "zh": "通",
+    "zhuyin": "ㄊㄨㄥ",
+    "pinyin": "tōng",
+    "de": "durch, erreichen, hinführen",
+    "lektion": 23
+  },
+  {
+    "zh": "住",
+    "zhuyin": "ㄓㄨˋ",
+    "pinyin": "zhù",
+    "de": "wohnenู่",
+    "lektion": 24
+  },
+  {
+    "zh": "爸",
+    "zhuyin": "ㄅㄚˋ ・ㄅㄚ",
+    "pinyin": "bà ba",
+    "de": "Papa",
+    "lektion": 24
+  },
+  {
+    "zh": "父親",
+    "zhuyin": "ㄈㄨˋ ㄑㄧㄣ",
+    "pinyin": "fù qīn",
+    "de": "der Vater",
+    "lektion": 24
+  },
+  {
+    "zh": "週末",
+    "zhuyin": "ㄓㄡ ㄇㄛˋ",
+    "pinyin": "zhōu  mò",
+    "de": "das Wochenende",
+    "lektion": 25
+  },
+  {
+    "zh": "像",
+    "zhuyin": "ㄒㄧㄤˋ",
+    "pinyin": "xiàng",
+    "de": "ähnlich, scheinen",
+    "lektion": 26
+  },
+  {
+    "zh": "第",
+    "zhuyin": "ㄉㄧˋ",
+    "pinyin": "dì",
+    "de": "der Rang, die Reihenfolgeี่",
+    "lektion": 27
+  },
+  {
+    "zh": "銀",
+    "zhuyin": "ㄧㄣˊ",
+    "pinyin": "yín",
+    "de": "das Silber",
+    "lektion": 27
+  },
+  {
+    "zh": "行",
+    "zhuyin": "ㄒㄧㄥˊ ㄏㄤˊ",
+    "pinyin": "xíng háng",
+    "de": "die Firma, das Verhalten, die Zeile",
+    "lektion": 27
+  },
+  {
+    "zh": "向",
+    "zhuyin": "ㄒㄧㄤˋ",
+    "pinyin": "xiàng",
+    "de": "die Richtung, abbiegen",
+    "lektion": 27
+  },
+  {
+    "zh": "雙",
+    "zhuyin": "ㄕㄨㄤ",
+    "pinyin": "shuāng",
+    "de": "Paar, das Paar, zwei",
+    "lektion": 28
+  },
+  {
+    "zh": "影",
+    "zhuyin": "ㄧㄥˇ",
+    "pinyin": "yǐng",
+    "de": "der Schatten",
+    "lektion": 29
+  },
+  {
+    "zh": "票",
+    "zhuyin": "ㄆㄧㄠˋ",
+    "pinyin": "piào",
+    "de": "die Karte",
+    "lektion": 29
+  },
+  {
+    "zh": "結",
+    "zhuyin": "ㄐㄧㄝˊ",
+    "pinyin": "jié",
+    "de": "binden, knoten, Früchte tragen",
+    "lektion": 30
+  },
+  {
+    "zh": "結婚",
+    "zhuyin": "ㄐㄧㄝˊ ㄏㄨㄣ",
+    "pinyin": "jié  hūn",
+    "de": "heiraten",
+    "lektion": 30
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "nummer": 16,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "準備",
+      "zhuyin": "ㄓㄨㄣˇ ㄅㄟˋ",
+      "pinyin": "zhǔn bèi",
+      "de": "vorbereiten, vorhaben"
+    },
+    {
+      "zh": "些",
+      "zhuyin": "ㄒㄧㄝ",
+      "pinyin": "xiē",
+      "de": "einige, ein wenig; Zeichen für kleine Mengenangabe"
+    },
+    {
+      "zh": "具",
+      "zhuyin": "ㄐㄩˋ",
+      "pinyin": "jù",
+      "de": "der Gebrauchsgegenstand, das Werkzeug"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "我們應該準備一些畫具。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "紙、墨、硯都已經有了。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "應該再買幾枝毛筆。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "到那裡買呢？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "文具店、百貨公司都有賣，有的書店也賣。"
+    }
+  ],
+  "anwendung": []
+}

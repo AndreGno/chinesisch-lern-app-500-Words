@@ -1,0 +1,91 @@
+{
+  "nummer": 21,
+  "text": [
+    {
+      "sprecher": "李小姐",
+      "zh": "請問王先生在嗎？",
+      "pinyin": "Lǐ    xiǎo   jiě        qǐng  wèn  Wáng  xiān  shēng  zài    ma",
+      "de": "Ist Herr Wang bitte da?",
+      "audio": "audio/21-01.mp3"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "在，請你等一下，世平，你的電話。",
+      "pinyin": "Wáng  tài   tai          zài        qǐng    nǐ   děng   yí    xià         shì   píng        nǐ     de    diàn  huà",
+      "de": "Warten Sie bitte einen Augenblick! Shi-ping! Ein Gespräch für dich.",
+      "audio": "audio/21-02.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "誰打來的？",
+      "pinyin": "Wáng  xiān  shēng      shéi   dǎ      lái     de",
+      "de": "Wer ist am Telefon?",
+      "audio": "audio/21-03.mp3"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "不知道，是位小姐呢！",
+      "pinyin": "Wáng  tài      tai           bù    zhī   dào         shì   wèi  xiǎo   jiě    ne",
+      "de": "Keine Ahnung. Es ist eine Frau.",
+      "audio": "audio/21-04.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "喂，我是王世平。",
+      "pinyin": "Wáng  xiān  shēng      wèi          wǒ   shì  Wáng   shì   píng",
+      "de": "Hallo, hier spricht Wang Shi-ping.",
+      "audio": "audio/21-05.mp3"
+    }
+  ],
+  "woerter": [
+    {
+      "zh": "打",
+      "zhuyin": "ㄉㄚˇ",
+      "pinyin": "dǎ",
+      "de": "schlagen, tippen, spielen"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "李小姐",
+      "zh": "請問王先生在嗎？"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "在，請你等一下，世平，你的電話。"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "誰打來的？"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "不知道，是位小姐呢！"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "喂，我是王世平。"
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "王先生，您好。我是李玉梅。我明天有事，"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "請等一下，我查一查。好，查到了，"
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "３６４８９２１。謝謝你。"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "那裡，再見。"
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "再見。"
+    }
+  ],
+  "anwendung": []
+}

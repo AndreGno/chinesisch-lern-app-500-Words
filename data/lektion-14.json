@@ -1,0 +1,57 @@
+{
+  "nummer": 14,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "商量",
+      "zhuyin": "ㄕㄤ ㄌㄧㄤˊ",
+      "pinyin": "shāng liáng",
+      "de": "besprechen, diskutieren"
+    },
+    {
+      "zh": "地方",
+      "zhuyin": "ㄉㄧˋ ㄈㄤ",
+      "pinyin": "dì fāng",
+      "de": "der Platz, der Ort"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "昨天只跟你商量了上課的時間。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊！還沒商量上課的地方。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你覺得在那裡上課好呢？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "沒關係，那裡都可以。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你是老師，一定得隨你的方便。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "到我家來上課方便嗎？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "方便，方便。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那麼，明天晚上七點鐘，你到我家來。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "好的，再見。"
+    }
+  ],
+  "anwendung": []
+}

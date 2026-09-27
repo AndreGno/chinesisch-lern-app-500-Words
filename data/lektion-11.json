@@ -1,0 +1,47 @@
+{
+  "nummer": 11,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "星期",
+      "zhuyin": "ㄒㄧㄥ ㄑㄧˊ",
+      "pinyin": "xīng qí",
+      "de": "die Woche"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你一星期上幾次課？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一星期兩次。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "每次多久？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "每次兩個鐘頭。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "什麼時候上課？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "星期三下午從兩點上到四點，"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "星期六還上課，累不累？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "一點都不累。學中文很有意思。"
+    }
+  ],
+  "anwendung": []
+}

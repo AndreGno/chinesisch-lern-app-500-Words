@@ -1,0 +1,35 @@
+{
+  "nummer": 18,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "現在",
+      "zhuyin": "ㄒㄧㄢˋ ㄗㄞˋ",
+      "pinyin": "xiàn zài",
+      "de": "jetzt"
+    },
+    {
+      "zh": "快",
+      "zhuyin": "ㄎㄨㄞˋ",
+      "pinyin": "kuài",
+      "de": "schnell, bald, fast"
+    },
+    {
+      "zh": "慢",
+      "zhuyin": "ㄇㄢˋ",
+      "pinyin": "màn",
+      "de": "langsam (nachgehen: Uhr)"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "現在幾點了？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "已經快六點半了。"
+    }
+  ],
+  "anwendung": []
+}

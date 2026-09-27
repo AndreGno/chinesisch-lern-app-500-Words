@@ -1,0 +1,57 @@
+{
+  "nummer": 7,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "所",
+      "zhuyin": "ㄙㄨㄛˇ",
+      "pinyin": "suǒ",
+      "de": "Zählwort für Gebäude"
+    },
+    {
+      "zh": "多",
+      "zhuyin": "ㄉㄨㄛ",
+      "pinyin": "duō",
+      "de": "viel, viele"
+    },
+    {
+      "zh": "少",
+      "zhuyin": "ㄕㄠˇ",
+      "pinyin": "shǎo",
+      "de": "wenig"
+    },
+    {
+      "zh": "多少",
+      "zhuyin": "ㄉㄨㄛ  ㄕㄠˇ",
+      "pinyin": "duō   shǎo",
+      "de": "wie viel, wie viele, mehr oder weniger"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "這所學校有多少學生？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有兩千五百多個學生。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這所學校真不小。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是啊，這是所大學校。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "學校裡有沒有外國學生？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "外國學生很多。"
+    }
+  ],
+  "anwendung": []
+}

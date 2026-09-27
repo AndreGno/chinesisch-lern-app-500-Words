@@ -1,0 +1,63 @@
+{
+  "nummer": 19,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "歡迎",
+      "zhuyin": "ㄏㄨㄢ ㄧㄥˊ",
+      "pinyin": "huān yíng",
+      "de": "willkommen"
+    },
+    {
+      "zh": "麻煩",
+      "zhuyin": "ㄇㄚˊ ㄈㄢˊ",
+      "pinyin": "má fán",
+      "de": "stören, umständlich, lästig"
+    },
+    {
+      "zh": "進",
+      "zhuyin": "ㄐㄧㄣˋ",
+      "pinyin": "jìn",
+      "de": "herein, hinein, (hin)gehen"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "請問張先生在家嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "在，在，請問你們是…"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我叫林大中，這位是我太太。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "是林先生、林太太。歡迎，歡迎。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "來麻煩你們了。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那裡，請進，你們坐一會兒，他馬上就回來。"
+    },
+    {
+      "sprecher": "丙",
+      "zh": "對不起，讓你們久等了。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那裡，我們剛到。"
+    },
+    {
+      "sprecher": "丙",
+      "zh": "我們現在就一塊兒來畫畫吧。"
+    }
+  ],
+  "anwendung": []
+}

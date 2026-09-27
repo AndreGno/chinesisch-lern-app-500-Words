@@ -1,0 +1,57 @@
+{
+  "nummer": 30,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "結",
+      "zhuyin": "ㄐㄧㄝˊ",
+      "pinyin": "jié",
+      "de": "binden, knoten, Früchte tragen"
+    },
+    {
+      "zh": "結婚",
+      "zhuyin": "ㄐㄧㄝˊ ㄏㄨㄣ",
+      "pinyin": "jié  hūn",
+      "de": "heiraten"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "李先生結婚了沒有？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "早結婚了，孩子都長得比他高了。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他的孩子多大了？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "兒子十三歲了，女兒比較小，才五歲。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他的女兒長得怎麼樣？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "長得很像他太太，眼睛大大的，頭髮長長的。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "一定很漂亮。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "非常漂亮，就是笑起來少了一顆大門牙。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那才更可愛呢。"
+    }
+  ],
+  "anwendung": []
+}

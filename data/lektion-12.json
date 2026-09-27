@@ -1,0 +1,47 @@
+{
+  "nummer": 12,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "想",
+      "zhuyin": "ㄒㄧㄤˇ",
+      "pinyin": "xiǎng",
+      "de": "denken, vermissen, wollen / möchten"
+    },
+    {
+      "zh": "畫",
+      "zhuyin": "ㄏㄨㄚˋ",
+      "pinyin": "huà",
+      "de": "malen, zeichnen"
+    },
+    {
+      "zh": "得",
+      "zhuyin": "・ㄉㄜ",
+      "pinyin": "de",
+      "de": "eine Nachsilbe zu Verben"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "我想學畫國畫。你可以教我嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我畫得不好，只能教你一點簡單的。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你也會唱華語歌嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "會唱幾首。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼也教我唱華語歌吧。"
+    }
+  ],
+  "anwendung": []
+}

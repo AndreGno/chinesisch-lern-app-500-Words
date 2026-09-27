@@ -1,0 +1,53 @@
+{
+  "nummer": 15,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "要",
+      "zhuyin": "ㄧㄠˋ",
+      "pinyin": "yào",
+      "de": "wollen, möchten, verlangen, brauchen"
+    },
+    {
+      "zh": "別",
+      "zhuyin": "ㄅㄧㄝˊ",
+      "pinyin": "bié",
+      "de": "nicht; verneinende Befehlsform"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "太太，你要不要學畫畫？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我不要學。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你不喜歡畫畫嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不是不喜歡，只是覺得我沒有畫畫的天才。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "只要有興趣，天才是可以練習出來的。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "可是我每天都很忙。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "別一天到晚忙家事，有空應該出去走走。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "好吧，我就跟你一起去學吧。"
+    }
+  ],
+  "anwendung": []
+}

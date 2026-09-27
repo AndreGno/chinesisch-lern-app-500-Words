@@ -1,0 +1,51 @@
+{
+  "nummer": 6,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "有",
+      "zhuyin": "ㄧㄡˇ",
+      "pinyin": "yǒu",
+      "de": "haben, es gibt"
+    },
+    {
+      "zh": "幾",
+      "zhuyin": "ㄐㄧˇ",
+      "pinyin": "jǐ",
+      "de": "wie viel, wie viele, einige"
+    },
+    {
+      "zh": "個",
+      "zhuyin": "ㄍㄜˋ",
+      "pinyin": "gè",
+      "de": "（・ㄍㄜ；ge）das Stück (Zählwort)"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你有幾個學生？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我有二十五個學生。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他們都是大人吧？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不一定，有大人也有小孩。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "有女生嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "有，一半是女生，一半是男生。"
+    }
+  ],
+  "anwendung": []
+}

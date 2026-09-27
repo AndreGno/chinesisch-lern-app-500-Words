@@ -1,0 +1,148 @@
+{
+  "nummer": 2,
+  "text": [
+    {
+      "sprecher": "王先生",
+      "zh": "李先生，您好。",
+      "pinyin": "Wáng  xiān   shēng         Lǐ  shēng  xiān       nín     hǎo",
+      "de": "Guten Tag, Herr Li! Wie geht es Ihnen?",
+      "audio": "audio/02-01.mp3"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "王先生，你好。",
+      "pinyin": "Lǐ   xiān  shēng   Wáng  xiān  shēng      nǐ     hǎo",
+      "de": "Guten Tag, Herr Wang!",
+      "audio": "audio/02-02.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您太太好嗎？",
+      "pinyin": "Wáng  xiān  shēng      nín     tài    tai    hǎo   ma",
+      "de": "Wie geht es Ihrer Frau?",
+      "audio": "audio/02-03.mp3"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "她很好，謝謝你。",
+      "pinyin": "Lǐ   xiān   shēng      tā    hěn   hǎo        xiè    xie    nǐ",
+      "de": "Es geht ihr gut, danke!",
+      "audio": "audio/02-04.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您忙嗎？",
+      "pinyin": "Wáng  xiān  shēng      nín   máng  ma",
+      "de": "Sind Sie beschäftigt?",
+      "audio": "audio/02-05.mp3"
+    }
+  ],
+  "woerter": [
+    {
+      "zh": "忙",
+      "zhuyin": "ㄇㄤˊ",
+      "pinyin": "máng",
+      "de": "beschäftigt, viel zu tun haben"
+    },
+    {
+      "zh": "呢",
+      "zhuyin": "・ㄋㄜ",
+      "pinyin": "ne",
+      "de": "Wie Steht es mit...? Und...? ( Satzschlusspartikel, mit der eine"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "王先生",
+      "zh": "李先生，您好。"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "王先生，你好。"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您太太好嗎？"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "她很好，謝謝你。"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您忙嗎？"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我很忙，您呢？"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我不太忙。"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "您太太忙不忙？"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "她也不忙，我們都不太忙。"
+    }
+  ],
+  "anwendung": [
+    {
+      "sprecher": "王太太",
+      "zh": "李先生，你好。你忙不忙？",
+      "pinyin": "Wáng  tài   tai          Lǐ    xiān  shēng      nǐ    hǎo          nǐ  máng  bù   máng",
+      "de": "Hallo, Frau Li ! Haben Sie viel zu tun?"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我不太忙，你呢？",
+      "pinyin": "Lǐ   xiān  shēng     wǒ     bú    tài   máng       nǐ     ne",
+      "de": "Ich bin nicht sehr beschäftigt, und Sie?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我很忙。",
+      "pinyin": "Wáng  tài    tai          wǒ   hěn   máng",
+      "de": "Ich bin sehr beschäftigt."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "王先生也很忙嗎？",
+      "pinyin": "Lǐ   xiān  shēng    Wáng  xiān  shēng  yě    hěn   máng  ma",
+      "de": "Ist Herr Wang auch sehr beschäftigt?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "他也很忙，我們都很忙。",
+      "pinyin": "Wáng  tài    tai          tā      yě   hěn  máng      wǒ  men   dōu  hěn  máng",
+      "de": "Er ist auch sehr beschäftigt. Wir sind alle sehr beschäftigt."
+    },
+    {
+      "sprecher": "世平",
+      "zh": "你忙不忙？",
+      "pinyin": "shì   píng        nǐ   máng  bù   máng",
+      "de": "Bist du beschäftigt?"
+    },
+    {
+      "sprecher": "美華",
+      "zh": "我不太忙，你呢？",
+      "pinyin": "měi   huá        wǒ    bú    tài   máng        nǐ    ne",
+      "de": "Ich bin nicht sehr beschäftigt, und du?"
+    },
+    {
+      "sprecher": "世平",
+      "zh": "我也不太忙。",
+      "pinyin": "shì   píng       wǒ    yě     bú    tài   máng",
+      "de": "Ich bin auch nicht sehr beschäftigt."
+    },
+    {
+      "sprecher": "美華",
+      "zh": "我們都很好，我們都不忙。",
+      "pinyin": "měi   huá        wǒ   men  dōu  hěn   hǎo         wǒ  men   dōu   bù   máng",
+      "de": "Es geht uns allen gut. Wir sind alle nicht beschäftigt."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nummer": 29,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "影",
+      "zhuyin": "ㄧㄥˇ",
+      "pinyin": "yǐng",
+      "de": "der Schatten"
+    },
+    {
+      "zh": "票",
+      "zhuyin": "ㄆㄧㄠˋ",
+      "pinyin": "piào",
+      "de": "die Karte"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "我們去看電影好嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "今天是星期天，電影票不好買。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼到海邊去玩。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "對，海邊不但風景好，而且還可以游泳。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我們怎麼去？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們坐公共汽車去。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "車票一張多少錢？"
+    }
+  ],
+  "anwendung": []
+}

@@ -1,0 +1,47 @@
+{
+  "nummer": 20,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "山",
+      "zhuyin": "ㄕㄢ",
+      "pinyin": "shān",
+      "de": "der Berg"
+    },
+    {
+      "zh": "水",
+      "zhuyin": "ㄕㄨㄟˇ",
+      "pinyin": "shuěi",
+      "de": "das Wasser"
+    },
+    {
+      "zh": "幅",
+      "zhuyin": "ㄈㄨˊ",
+      "pinyin": "fú",
+      "de": "ein Stück (Zählwort für Gemälde oder Bilder)"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你們想學什麼？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我們想學山水畫。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我先畫一幅，你們看看。樹在前頭，山在後頭，"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "看起來不難，畫起來就不容易了。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "來，你們試試看。"
+    }
+  ],
+  "anwendung": []
+}

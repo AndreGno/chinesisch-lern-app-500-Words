@@ -1,0 +1,59 @@
+{
+  "nummer": 28,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "雙",
+      "zhuyin": "ㄕㄨㄤ",
+      "pinyin": "shuāng",
+      "de": "Paar, das Paar, zwei"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "我想上街去買東西。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "你想買什麼？"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "我想買一雙鞋子，兩雙襪子，同時想買一套運動衣。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "正好我也想買一條運動褲。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你要買什麼牌子的？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "什麼牌子都可以。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那麼我們到百貨公司看看。"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "百貨公司正在打折。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "名牌的衣服也在打折嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "名牌衣服打八折。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那也便宜不少。"
+    }
+  ],
+  "anwendung": []
+}

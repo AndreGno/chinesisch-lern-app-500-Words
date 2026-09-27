@@ -1,0 +1,172 @@
+{
+  "nummer": 1,
+  "text": [
+    {
+      "sprecher": "李太太",
+      "zh": "王先生，您早。",
+      "pinyin": "Lǐ     tài    tai       Wáng  xiān  shēng     nín   zǎo",
+      "de": "Guten Morgen, Herr Wang!",
+      "audio": "audio/01-01.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "早，李太太，您早。",
+      "pinyin": "Wáng  xiān  shēng   zǎo         Lǐ     tài    tai          nín   zǎo",
+      "de": "Guten Morgen, Frau Li!",
+      "audio": "audio/01-02.mp3"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "您好嗎？",
+      "pinyin": "Lǐ     tài     tai         nín   hǎo   ma",
+      "de": "Wie geht es Ihnen?",
+      "audio": "audio/01-03.mp3"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "王太太好嗎？",
+      "pinyin": "Lǐ     tài    tai      Wáng   tài     tai   hǎo   ma",
+      "de": "Wie geht es Frau Wang?",
+      "audio": "audio/01-04.mp3"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "她很好，謝謝。",
+      "pinyin": "Wáng  xiān  shēng       tā    hěn   hǎo         xiè   xie",
+      "de": "Es geht ihr gut, danke!",
+      "audio": "audio/01-05.mp3"
+    }
+  ],
+  "woerter": [
+    {
+      "zh": "王",
+      "zhuyin": "ㄨㄤˊ",
+      "pinyin": "Wáng",
+      "de": "Familienname, der König"
+    },
+    {
+      "zh": "李",
+      "zhuyin": "ㄌㄧˇ",
+      "pinyin": "Lǐ",
+      "de": "Familienname, die Pflaume"
+    },
+    {
+      "zh": "先生",
+      "zhuyin": "ㄒㄧㄢ  ㄕㄥ",
+      "pinyin": "xiān sheng",
+      "de": "der Mann, der Herr"
+    },
+    {
+      "zh": "太太",
+      "zhuyin": "ㄊㄞˋ  ・ㄊㄞ",
+      "pinyin": "tài  tai",
+      "de": "die Frau"
+    },
+    {
+      "zh": "你",
+      "zhuyin": "ㄋㄧˇ",
+      "pinyin": "nǐ",
+      "de": "du, dir, dich"
+    },
+    {
+      "zh": "您",
+      "zhuyin": "ㄋㄧㄣˊ",
+      "pinyin": "nín",
+      "de": "Sie (höfliche Form für “你”)"
+    },
+    {
+      "zh": "好",
+      "zhuyin": "ㄏㄠˇ",
+      "pinyin": "hǎo",
+      "de": "gut, schön, in Ordnung"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "李太太",
+      "zh": "王先生，您早。"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "早，李太太，您早。"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "您好嗎？"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我很好，謝謝您。"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "王太太好嗎？"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "她很好，謝謝。"
+    }
+  ],
+  "anwendung": [
+    {
+      "sprecher": "王先生",
+      "zh": "李太太，您早。",
+      "pinyin": "Wáng  xiān   shēng         Lǐ     tài    tai          nín   zǎo",
+      "de": "Guten Morgen, Frau Li!"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "早，王先生，您早。",
+      "pinyin": "Lǐ     tài    tai          zǎo       Wáng  xiān  shēng         nín    zǎo",
+      "de": "Guten Morgen, Herr Wang!"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您好嗎？",
+      "pinyin": "Wáng  xiān   shēng        nín   hǎo   ma",
+      "de": "Wie geht es Ihnen?"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "我很好，謝謝。",
+      "pinyin": "Lǐ     tài    tai          wǒ   hěn   hǎo        xiè   xie",
+      "de": "Mir geht es gut, danke schön!"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "李先生好嗎？",
+      "pinyin": "Wáng  xiān   shēng         Lǐ    xiān  shēng  hǎo    ma",
+      "de": "Wie geht es Herrn Li?"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "他很好，謝謝您。",
+      "pinyin": "Lǐ    tài    tai           tā    hěn   hǎo        xiè    xie   nín",
+      "de": "Es geht ihm gut, danke schön!"
+    },
+    {
+      "sprecher": "世平",
+      "zh": "美華，你早。",
+      "pinyin": "shì   píng       měi   huá         nǐ    zǎo",
+      "de": "Mei-hua, guten Morgen!"
+    },
+    {
+      "sprecher": "美華",
+      "zh": "早，世平，你早。",
+      "pinyin": "měi  huá         zǎo         shì   píng        nǐ     zǎo",
+      "de": "Guten Morgen, Shi-Ping!"
+    },
+    {
+      "sprecher": "世平",
+      "zh": "你好嗎？",
+      "pinyin": "shì   píng        nǐ    hǎo   ma",
+      "de": "Wie geht es dir?"
+    },
+    {
+      "sprecher": "美華",
+      "zh": "我很好，謝謝你。",
+      "pinyin": "měi   huá        wǒ   hěn   hǎo         xiè   xie    nǐ",
+      "de": "Mir geht es gut, danke schön!"
+    }
+  ]
+}

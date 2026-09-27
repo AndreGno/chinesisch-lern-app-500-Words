@@ -1,0 +1,49 @@
+{
+  "nummer": 4,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "學",
+      "zhuyin": "ㄒㄩㄝˊ",
+      "pinyin": "xué",
+      "de": "lernen"
+    },
+    {
+      "zh": "學校",
+      "zhuyin": "ㄒㄩㄝˊ  ㄒㄧㄠˋ",
+      "pinyin": "xué xiào",
+      "de": "die Schule"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "你到那裡去？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我到學校去。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "你去做什麼？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "我去學中文。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "李先生也去學中文嗎？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "不，他去教中文。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "他是老師，我們是學生。"
+    }
+  ],
+  "anwendung": []
+}

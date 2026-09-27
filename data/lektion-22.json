@@ -1,0 +1,51 @@
+{
+  "nummer": 22,
+  "text": [
+    {
+      "sprecher": "林先生",
+      "zh": "喂，我是林大中，請問王先生在嗎？",
+      "pinyin": "Lín  xiān  shēng     wèi          wǒ    shì    Lín    dà  zhōng       qǐng  wèn  Wáng xiān  shēng  zài  ma",
+      "de": "Hallo, hier spricht Lin Da-zhong. Ist Herr Wang zu Hause?",
+      "audio": "audio/22-01.mp3"
+    }
+  ],
+  "woerter": [
+    {
+      "zh": "內",
+      "zhuyin": "ㄋㄟˋ",
+      "pinyin": "nèi",
+      "de": "innen, intern"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "林先生",
+      "zh": "喂，我是林大中，請問王先生在嗎？"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "對不起，他不在，我是他太太。請問有什麼事嗎？"
+    },
+    {
+      "sprecher": "林先生",
+      "zh": "王太太，你好。是這樣的，因為有位老同學從"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "應該沒有問題，不過還得問問他。請你留個電話"
+    },
+    {
+      "sprecher": "林先生",
+      "zh": "我的電話是７２１４３８５。"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "他一回來，就給你回話。"
+    },
+    {
+      "sprecher": "林先生",
+      "zh": "謝謝你，我等他回話。"
+    }
+  ],
+  "anwendung": []
+}

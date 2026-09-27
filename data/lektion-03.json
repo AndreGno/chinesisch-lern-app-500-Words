@@ -1,0 +1,57 @@
+{
+  "nummer": 3,
+  "text": [],
+  "woerter": [
+    {
+      "zh": "這",
+      "zhuyin": "ㄓㄜˋ",
+      "pinyin": "zhè",
+      "de": "das, dieses, das hier"
+    },
+    {
+      "zh": "是",
+      "zhuyin": "ㄕˋ",
+      "pinyin": "shì",
+      "de": "sein (bin, bist, ist, sind, seid, sind)"
+    },
+    {
+      "zh": "那",
+      "zhuyin": "ㄋㄚˋ",
+      "pinyin": "nà",
+      "de": "das, jenes, das dort"
+    },
+    {
+      "zh": "什麼",
+      "zhuyin": "ㄕㄜˊ  ・ㄇㄜ",
+      "pinyin": "shé  me",
+      "de": "（ㄕㄣˊ  ・ㄇㄜ；shén  me）was"
+    }
+  ],
+  "wiederholung": [
+    {
+      "sprecher": "甲",
+      "zh": "這是什麼？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這是一枝筆。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "這是一枝什麼筆？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "這是一枝毛筆。"
+    },
+    {
+      "sprecher": "甲",
+      "zh": "那是本什麼書？"
+    },
+    {
+      "sprecher": "乙",
+      "zh": "那是本中文書。"
+    }
+  ],
+  "anwendung": []
+}
