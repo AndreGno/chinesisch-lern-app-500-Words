@@ -1,0 +1,56 @@
+"""Zerlegt den PDF-Rohtext in (Lektion, Abschnitt)-Buckets anhand der Fussmarker
+'一 課文 TEXT' / '二 字與詞 SCHRIFTZEICHEN UND WOERTER' / '三 溫習 WIEDERHOLUNG' /
+'四 應用 ANWENDUNG' und der Lektionsueberschrift '第X課'."""
+import re
+
+from zeichen_fix import fix_text
+
+CN_NUM = {c: i + 1 for i, c in enumerate("一二三四五六七八九十")}
+SECTION_MARKERS = [
+    (re.compile(r"一\s*課文\s*TEXT"), "課文"),
+    (re.compile(r"二\s*字與詞\s*SCHRIFTZEICHEN"), "字與詞"),
+    (re.compile(r"三\s*溫習\s*WIEDERHOLUNG"), "溫習"),
+    (re.compile(r"四\s*應用\s*ANWENDUNG"), "應用"),
+]
+LESSON_HEADER = re.compile(r"第([一二三四五六七八九十]{1,3})課")
+BOILERPLATE = re.compile(
+    r"^(五百字說華語|㈤百字說華語|Mit 500 Wörtern Chinesisch sprechen|中德文版|\d+)\s*$"
+)
+
+
+def _chinese_number_to_int(cn: str) -> int:
+    if cn == "十":
+        return 10
+    if len(cn) == 1:
+        return CN_NUM[cn]
+    if "十" in cn:
+        left, _, right = cn.partition("十")
+        tens = CN_NUM[left] if left else 1
+        ones = CN_NUM[right] if right else 0
+        return tens * 10 + ones
+    raise ValueError(f"Unbekannte chinesische Zahl: {cn}")
+
+
+def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
+    buckets: dict[int, dict[str, list[str]]] = {}
+    current_lesson = 1
+    for raw_page in raw_pages:
+        page = fix_text(raw_page)
+        section = None
+        for pattern, name in SECTION_MARKERS:
+            if pattern.search(page):
+                section = name
+                break
+        header_match = LESSON_HEADER.search(page)
+        if header_match:
+            current_lesson = _chinese_number_to_int(header_match.group(1))
+        if section is None:
+            continue
+        lesson_bucket = buckets.setdefault(current_lesson, {})
+        lines = [
+            line.strip()
+            for line in page.splitlines()
+            if line.strip() and not BOILERPLATE.match(line.strip())
+        ]
+        lesson_bucket.setdefault(section, []).extend(lines)
+    return buckets
