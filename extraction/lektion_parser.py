@@ -1,5 +1,5 @@
 """Zerlegt den PDF-Rohtext in (Lektion, Abschnitt)-Buckets anhand der Fußmarker
-'一 課文 TEXT' / '二 字與詞 SCHRIFTZEICHEN UND WOERTER' / '三 溫習 WIEDERHOLUNG' /
+'一 課文 TEXT' / '二 字與詞 SCHRIFTZEICHEN UND WÖRTER' / '三 溫習 WIEDERHOLUNG' /
 '四 應用 ANWENDUNG' und der Lektionsüberschrift '第X課'. Parst außerdem aus den
 gebuckten Zeilen der Abschnitte 課文/應用 Dialog-Triplets (Sprecher/Chinesisch,
 Pinyin, Deutsch), aus dem Abschnitt 字與詞 Vokabeleinträge
