@@ -38,6 +38,7 @@ def _chinese_number_to_int(cn: str) -> int:
 def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
     buckets: dict[int, dict[str, list[str]]] = {}
     current_lesson = 1
+    current_section = None
     for raw_page in raw_pages:
         page = fix_text(raw_page)
         section = None
@@ -47,8 +48,22 @@ def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
                 break
         header_match = LESSON_HEADER.search(page)
         if header_match:
-            current_lesson = _chinese_number_to_int(header_match.group(1))
-        if section is None:
+            new_lesson = _chinese_number_to_int(header_match.group(1))
+            if new_lesson < current_lesson:
+                # Der Anhang (z.B. Vokabelindex/Umschriftentabelle) zaehlt die
+                # Lektionsnummer wieder von vorne hoch und traegt nie einen
+                # Abschnittsmarker. Sobald die Nummer sinkt, ist der eigentliche
+                # Lektionsteil vorbei; ab hier nichts mehr weiterschreiben.
+                current_section = None
+                continue
+            current_lesson = new_lesson
+        # Der Abschnittsmarker steht laut PDF-Layout auf der ERSTEN Seite eines
+        # Abschnitts, nicht auf der letzten. Unmarkierte Folgeseiten gehoeren
+        # also zum zuletzt gesehenen Abschnitt (current_section), nicht zu
+        # einem erst spaeter erscheinenden.
+        if section is not None:
+            current_section = section
+        if current_section is None:
             continue
         lesson_bucket = buckets.setdefault(current_lesson, {})
         lines = [
@@ -56,12 +71,12 @@ def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
             for line in page.splitlines()
             if line.strip() and not BOILERPLATE.match(line.strip())
         ]
-        lesson_bucket.setdefault(section, []).extend(lines)
+        lesson_bucket.setdefault(current_section, []).extend(lines)
     return buckets
 
 
 DIALOGUE_LINE = re.compile(r"^([^：]{1,6})：(.+)$")
-TRANSLATION_LINE = re.compile(r"^.+ : .+$")
+TRANSLATION_PREFIX = re.compile(r"^[^:：]+\s*:\s*")
 
 
 def parse_dialogue(lines: list[str]) -> list[dict]:
@@ -69,16 +84,20 @@ def parse_dialogue(lines: list[str]) -> list[dict]:
     i = 0
     while i < len(lines) - 2:
         zh_match = DIALOGUE_LINE.match(lines[i])
-        de_match = TRANSLATION_LINE.match(lines[i + 2])
-        if zh_match and de_match:
-            _, de_text = lines[i + 2].split(" : ", 1)
+        is_translation_line = (
+            lines[i + 2]
+            and not DIALOGUE_LINE.match(lines[i + 2])
+            and not DIALOGUE_LINE.match(lines[i + 1])
+        )
+        if zh_match and is_translation_line:
+            de_text = TRANSLATION_PREFIX.sub("", lines[i + 2])
             entries.append(
                 {
                     "sprecher": zh_match.group(1),
                     "zh": zh_match.group(2),
                     # Pinyin-Zeile wird ungeprueft uebernommen: sie enthaelt laut
-                    # PDF-Struktur nie "：" oder " : ", kann also nie faelschlich
-                    # als Dialog- oder Uebersetzungszeile matchen.
+                    # PDF-Struktur nie "：", kann also nie faelschlich als
+                    # Dialogzeile matchen.
                     "pinyin": lines[i + 1],
                     "de": de_text,
                 }
@@ -89,7 +108,7 @@ def parse_dialogue(lines: list[str]) -> list[dict]:
     return entries
 
 
-VOKABEL_LINE = re.compile(r"^([一-鿿]+)（([^；]+)；([^）]+)）(.+)$")
+VOKABEL_LINE = re.compile(r"^([一-鿿]+)（([^；]+)；([^）]+)）(?:（[^）]+）)*(.+)$")
 
 
 def parse_vokabular(lines: list[str]) -> list[dict]:

@@ -1,4 +1,5 @@
 from fixtures.lektion_01_raw import PAGES
+from fixtures.lektion_16_multipage_raw import PAGES as MULTIPAGE_PAGES
 from lektion_parser import (
     parse_dialogue,
     parse_vokabular,
@@ -29,6 +30,40 @@ def test_wiederholung_section_has_no_translation_lines():
     buckets = split_into_buckets(PAGES)
     joined = "\n".join(buckets[1]["溫習"])
     assert "Guten Morgen" not in joined
+
+
+def test_multipage_section_keeps_unmarked_continuation_pages():
+    buckets = split_into_buckets(MULTIPAGE_PAGES)
+    joined = "\n".join(buckets[16]["字與詞"])
+    # Seiten 113-115 tragen keinen Marker, gehoeren aber noch zu 字與詞
+    # (der Marker fuer diesen Abschnitt stand bereits auf Seite 112).
+    assert "文具" in joined
+    assert "公司" in joined
+    assert "紙（ㄓˇ；zhǐ）das Papier" in joined
+
+
+def test_multipage_section_does_not_leak_into_wrong_bucket():
+    buckets = split_into_buckets(MULTIPAGE_PAGES)
+    joined = "\n".join(buckets[16]["溫習"])
+    # "工具"/"硯台" kommen nur in den unmarkierten 字與詞-Folgeseiten vor, nicht
+    # im eigentlichen 溫習-Wiederholungsdialog von Seite 116.
+    assert "工具" not in joined
+    assert "硯台" not in joined
+
+
+def test_lesson_number_regression_stops_forward_fill():
+    # Simuliert den Anhang (Seiten 227-236): kein Marker mehr vorhanden, aber
+    # die Kopfzeile zaehlt die Lektionsnummer wieder von vorne hoch. Sobald die
+    # erkannte Lektionsnummer sinkt, darf nicht mehr in den zuletzt offenen
+    # Abschnitt (hier: Lektion 2, 應用) weitergeschrieben werden.
+    pages = [
+        "第㆓課\n㆙：你好。\nHallo!\n 四    應用  ANWENDUNG\n",
+        "第㆒課\n生難字表\n王\n李\n先\n生\n",
+    ]
+    buckets = split_into_buckets(pages)
+    joined = "\n".join(buckets[2]["應用"])
+    assert "生難字表" not in joined
+    assert "王" not in joined
 
 
 def test_parse_dialogue_extracts_speaker_zh_pinyin_de():
@@ -62,6 +97,59 @@ def test_parse_dialogue_handles_multiple_lines():
     assert result[1]["sprecher"] == "王先生"
 
 
+def test_parse_dialogue_handles_bare_translation_with_no_speaker_prefix():
+    lines = [
+        "㆙：這是什麼？",
+        "zhè shì shé me",
+        "Was ist das?",
+    ]
+    result = parse_dialogue(lines)
+    assert result == [
+        {
+            "sprecher": "㆙",
+            "zh": "這是什麼？",
+            "pinyin": "zhè shì shé me",
+            "de": "Was ist das?",
+        }
+    ]
+
+
+def test_parse_dialogue_does_not_treat_adjacent_speaker_line_as_translation():
+    lines = [
+        "乙：這種筆一枝五百塊。",
+        "甲：五百塊？太貴了。",
+        "㆙：不好看沒關係。",
+        "pinyin fuer nicht gut aussehend",
+        "Macht nichts, wenn es nicht schön aussieht.",
+    ]
+    result = parse_dialogue(lines)
+    assert result == [
+        {
+            "sprecher": "㆙",
+            "zh": "不好看沒關係。",
+            "pinyin": "pinyin fuer nicht gut aussehend",
+            "de": "Macht nichts, wenn es nicht schön aussieht.",
+        }
+    ]
+
+
+def test_parse_dialogue_handles_translation_without_space_before_colon():
+    lines = [
+        "王先生：我很好，謝謝您。",
+        "Wáng xiān shēng wǒ hěn hǎo xiè xie nín",
+        "Herr Wang: Es geht mir gut, danke schön!",
+    ]
+    result = parse_dialogue(lines)
+    assert result == [
+        {
+            "sprecher": "王先生",
+            "zh": "我很好，謝謝您。",
+            "pinyin": "Wáng xiān shēng wǒ hěn hǎo xiè xie nín",
+            "de": "Es geht mir gut, danke schön!",
+        }
+    ]
+
+
 def test_parse_vokabular_extracts_entry():
     lines = ["先生（ㄒㄧㄢ ㄕㄥ；xiān sheng）der Mann, der Herr"]
     result = parse_vokabular(lines)
@@ -79,6 +167,19 @@ def test_parse_vokabular_ignores_non_matching_lines():
     lines = ["先生（ㄒㄧㄢ ㄕㄥ；xiān sheng）der Mann, der Herr", "王先生", "Wáng xiān shēng"]
     result = parse_vokabular(lines)
     assert len(result) == 1
+
+
+def test_parse_vokabular_skips_additional_pronunciation_blocks():
+    lines = ["什麼（ㄕㄜˊ ・ㄇㄜ；shé me）（ㄕㄣˊ ・ㄇㄜ；shén me）was"]
+    result = parse_vokabular(lines)
+    assert result == [
+        {
+            "zh": "什麼",
+            "zhuyin": "ㄕㄜˊ ・ㄇㄜ",
+            "pinyin": "shé me",
+            "de": "was",
+        }
+    ]
 
 
 def test_parse_wiederholung_extracts_speaker_and_zh_only():
