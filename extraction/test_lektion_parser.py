@@ -1,5 +1,5 @@
 from fixtures.lektion_01_raw import PAGES
-from lektion_parser import parse_dialogue, split_into_buckets
+from lektion_parser import parse_dialogue, parse_vokabular, split_into_buckets
 
 
 def test_splits_lektion_1_into_four_sections():
@@ -55,3 +55,22 @@ def test_parse_dialogue_handles_multiple_lines():
     result = parse_dialogue(lines)
     assert len(result) == 2
     assert result[1]["sprecher"] == "王先生"
+
+
+def test_parse_vokabular_extracts_entry():
+    lines = ["先生（ㄒㄧㄢ ㄕㄥ；xiān sheng）der Mann, der Herr"]
+    result = parse_vokabular(lines)
+    assert result == [
+        {
+            "zh": "先生",
+            "zhuyin": "ㄒㄧㄢ ㄕㄥ",
+            "pinyin": "xiān sheng",
+            "de": "der Mann, der Herr",
+        }
+    ]
+
+
+def test_parse_vokabular_ignores_non_matching_lines():
+    lines = ["先生（ㄒㄧㄢ ㄕㄥ；xiān sheng）der Mann, der Herr", "王先生", "Wáng xiān shēng"]
+    result = parse_vokabular(lines)
+    assert len(result) == 1

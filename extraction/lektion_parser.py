@@ -2,7 +2,8 @@
 '一 課文 TEXT' / '二 字與詞 SCHRIFTZEICHEN UND WOERTER' / '三 溫習 WIEDERHOLUNG' /
 '四 應用 ANWENDUNG' und der Lektionsueberschrift '第X課'. Parst ausserdem aus den
 gebuckten Zeilen der Abschnitte 課文/應用 Dialog-Triplets (Sprecher/Chinesisch,
-Pinyin, Deutsch)."""
+Pinyin, Deutsch) sowie aus dem Abschnitt 字與詞 Vokabeleintraege
+(Zeichen/Zhuyin/Pinyin/Deutsch)."""
 import re
 
 from zeichen_fix import fix_text
@@ -84,4 +85,23 @@ def parse_dialogue(lines: list[str]) -> list[dict]:
             i += 3
         else:
             i += 1
+    return entries
+
+
+VOKABEL_LINE = re.compile(r"^([一-鿿]+)（([^；]+)；([^）]+)）(.+)$")
+
+
+def parse_vokabular(lines: list[str]) -> list[dict]:
+    entries = []
+    for line in lines:
+        match = VOKABEL_LINE.match(line)
+        if match:
+            entries.append(
+                {
+                    "zh": match.group(1),
+                    "zhuyin": match.group(2).strip(),
+                    "pinyin": match.group(3).strip(),
+                    "de": match.group(4).strip(),
+                }
+            )
     return entries
