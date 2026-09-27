@@ -53,8 +53,42 @@ export function rendereTabInhalt(lektion, tabKey, container) {
       .map((e) => `<p class="zh">${e.sprecher}：${e.zh}</p>`)
       .join("");
   } else if (tabKey === "uebungen") {
-    import("./karteikarten.js").then(({ rendereKarteikarten }) => {
-      rendereKarteikarten(lektion.woerter, container);
+    container.innerHTML = `
+      <div class="uebungen-menu">
+        <button data-uebung="karteikarten">Karteikarten</button>
+        <button data-uebung="satzbau">Satzbau</button>
+        <button data-uebung="hoerverstehen">Hörverständnis</button>
+        <button data-uebung="aussprache">Aussprache</button>
+      </div>
+      <div id="uebung-inhalt"></div>
+    `;
+    const inhalt = container.querySelector("#uebung-inhalt");
+    container.querySelectorAll("[data-uebung]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const modul = btn.dataset.uebung;
+        try {
+          if (modul === "karteikarten") {
+            const { rendereKarteikarten } = await import("./karteikarten.js");
+            if (!inhalt.isConnected) return;
+            rendereKarteikarten(lektion.woerter, inhalt);
+          } else if (modul === "satzbau") {
+            const { rendereSatzbau } = await import("./satzbau.js");
+            if (!inhalt.isConnected) return;
+            rendereSatzbau(lektion.text, inhalt);
+          } else if (modul === "hoerverstehen") {
+            const { rendereHoerverstehen } = await import("./hoerverstehen.js");
+            if (!inhalt.isConnected) return;
+            rendereHoerverstehen(lektion.text, inhalt);
+          } else if (modul === "aussprache") {
+            const { rendereAussprache } = await import("./aussprache.js");
+            if (!inhalt.isConnected) return;
+            rendereAussprache(lektion.text, inhalt);
+          }
+        } catch (fehler) {
+          if (!inhalt.isConnected) return;
+          inhalt.innerHTML = `<p>Übung konnte nicht geladen werden: ${fehler.message}</p>`;
+        }
+      });
     });
   }
 }
