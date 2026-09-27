@@ -1,5 +1,10 @@
 from fixtures.lektion_01_raw import PAGES
-from lektion_parser import parse_dialogue, parse_vokabular, split_into_buckets
+from lektion_parser import (
+    parse_dialogue,
+    parse_vokabular,
+    parse_wiederholung,
+    split_into_buckets,
+)
 
 
 def test_splits_lektion_1_into_four_sections():
@@ -74,3 +79,12 @@ def test_parse_vokabular_ignores_non_matching_lines():
     lines = ["先生（ㄒㄧㄢ ㄕㄥ；xiān sheng）der Mann, der Herr", "王先生", "Wáng xiān shēng"]
     result = parse_vokabular(lines)
     assert len(result) == 1
+
+
+def test_parse_wiederholung_extracts_speaker_and_zh_only():
+    lines = ["王先生：李太太，您早。", "李太太：早，王先生，您早。"]
+    result = parse_wiederholung(lines)
+    assert result == [
+        {"sprecher": "王先生", "zh": "李太太，您早。"},
+        {"sprecher": "李太太", "zh": "早，王先生，您早。"},
+    ]
