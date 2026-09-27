@@ -1,0 +1,72 @@
+:root {
+  --rot: #b3202c;
+  --gold: #c9a227;
+  --bg: #faf7f2;
+  --karte-bg: #ffffff;
+  --text: #2a2320;
+  --radius: 12px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, .zh {
+  font-family: "Noto Sans TC", "Segoe UI", sans-serif;
+}
+
+header.kopf {
+  background: var(--rot);
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+header.kopf h1 { margin: 0; font-size: 1.5rem; }
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.lektion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.lektion-karte {
+  background: var(--karte-bg);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: var(--text);
+  border-top: 4px solid var(--gold);
+}
+
+.lektion-karte .zh { font-size: 1.3rem; margin: 0 0 0.25rem; }
+.lektion-karte .de { font-size: 0.9rem; opacity: 0.75; margin: 0; }
+
+.fortschritt-balken {
+  height: 6px;
+  background: #eee;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.fortschritt-balken > span {
+  display: block;
+  height: 100%;
+  background: var(--rot);
+}
+
+@media (max-width: 480px) {
+  main { padding: 0.5rem; }
+}
