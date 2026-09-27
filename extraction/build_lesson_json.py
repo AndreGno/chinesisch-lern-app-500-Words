@@ -1,6 +1,6 @@
-"""Baut aus den geparsten Abschnitten pro Lektion ein vollstaendiges JSON-Objekt und
-ordnet Audiodateien den Dialogzeilen ueber ihre Reihenfolge zu (Annahme: Sound-Clips im
-PDF liegen in Lesereihenfolge vor, wird beim manuellen Review gegengehoert)."""
+"""Baut aus den geparsten Abschnitten pro Lektion ein vollständiges JSON-Objekt und
+ordnet Audiodateien den Dialogzeilen über ihre Reihenfolge zu (Annahme: Sound-Clips im
+PDF liegen in Lesereihenfolge vor, wird beim manuellen Review gegengehört)."""
 from lektion_parser import parse_dialogue, parse_vokabular, parse_wiederholung
 
 

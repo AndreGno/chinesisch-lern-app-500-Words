@@ -38,7 +38,7 @@ def main() -> None:
     (DATA_DIR / "vokabular.json").write_text(
         json.dumps(all_vokabeln, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"vokabular.json geschrieben ({len(all_vokabeln)} Eintraege gesamt).")
+    print(f"vokabular.json geschrieben ({len(all_vokabeln)} Einträge gesamt).")
 
 
 if __name__ == "__main__":
