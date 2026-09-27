@@ -1,6 +1,8 @@
 """Zerlegt den PDF-Rohtext in (Lektion, Abschnitt)-Buckets anhand der Fussmarker
 '一 課文 TEXT' / '二 字與詞 SCHRIFTZEICHEN UND WOERTER' / '三 溫習 WIEDERHOLUNG' /
-'四 應用 ANWENDUNG' und der Lektionsueberschrift '第X課'."""
+'四 應用 ANWENDUNG' und der Lektionsueberschrift '第X課'. Parst ausserdem aus den
+gebuckten Zeilen der Abschnitte 課文/應用 Dialog-Triplets (Sprecher/Chinesisch,
+Pinyin, Deutsch)."""
 import re
 
 from zeichen_fix import fix_text
@@ -72,6 +74,9 @@ def parse_dialogue(lines: list[str]) -> list[dict]:
                 {
                     "sprecher": zh_match.group(1),
                     "zh": zh_match.group(2),
+                    # Pinyin-Zeile wird ungeprueft uebernommen: sie enthaelt laut
+                    # PDF-Struktur nie "：" oder " : ", kann also nie faelschlich
+                    # als Dialog- oder Uebersetzungszeile matchen.
                     "pinyin": lines[i + 1],
                     "de": de_text,
                 }
