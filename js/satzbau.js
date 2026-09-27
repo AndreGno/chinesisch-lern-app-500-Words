@@ -47,13 +47,15 @@ export function rendereSatzbau(dialogZeilen, container) {
       container.querySelector("#ergebnis").textContent =
         eingabe === korrekt ? "Richtig! ✓" : `Nicht ganz — richtig wäre: ${zielSatz.zh}`;
     });
+    // Listener wird bei jedem zeigeAufgabe()-Aufruf neu an das (bei jedem Aufruf frisch
+    // per innerHTML erzeugte) Button-Element gebunden, statt an container selbst — so
+    // sammeln sich bei wiederholtem Aufruf von rendereSatzbau() auf demselben Container
+    // (z.B. Übungen-Wechsel hin und zurück) keine delegierten Listener an.
+    container.querySelector("#ergebnis-weiter").addEventListener("click", () => {
+      index += 1;
+      zeigeAufgabe();
+    });
   }
 
   zeigeAufgabe();
-  container.addEventListener("click", (e) => {
-    if (e.target.id === "ergebnis-weiter") {
-      index += 1;
-      zeigeAufgabe();
-    }
-  });
 }
