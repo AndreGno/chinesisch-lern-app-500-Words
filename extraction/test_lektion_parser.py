@@ -1,5 +1,5 @@
 from fixtures.lektion_01_raw import PAGES
-from lektion_parser import split_into_buckets
+from lektion_parser import parse_dialogue, split_into_buckets
 
 
 def test_splits_lektion_1_into_four_sections():
@@ -24,3 +24,34 @@ def test_wiederholung_section_has_no_translation_lines():
     buckets = split_into_buckets(PAGES)
     joined = "\n".join(buckets[1]["溫習"])
     assert "Guten Morgen" not in joined
+
+
+def test_parse_dialogue_extracts_speaker_zh_pinyin_de():
+    lines = [
+        "李太太：王先生，您早。",
+        "Lǐ tài tai Wáng xiān shēng nín zǎo",
+        "Frau Li : Guten Morgen, Herr Wang!",
+    ]
+    result = parse_dialogue(lines)
+    assert result == [
+        {
+            "sprecher": "李太太",
+            "zh": "王先生，您早。",
+            "pinyin": "Lǐ tài tai Wáng xiān shēng nín zǎo",
+            "de": "Guten Morgen, Herr Wang!",
+        }
+    ]
+
+
+def test_parse_dialogue_handles_multiple_lines():
+    lines = [
+        "李太太：王先生，您早。",
+        "Lǐ tài tai Wáng xiān shēng nín zǎo",
+        "Frau Li : Guten Morgen, Herr Wang!",
+        "王先生：早，李太太，您早。",
+        "Wáng xiān shēng zǎo Lǐ tài tai nín zǎo",
+        "Herr Wang : Guten Morgen, Frau Li!",
+    ]
+    result = parse_dialogue(lines)
+    assert len(result) == 2
+    assert result[1]["sprecher"] == "王先生"

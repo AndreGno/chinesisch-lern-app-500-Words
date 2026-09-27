@@ -54,3 +54,29 @@ def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
         ]
         lesson_bucket.setdefault(section, []).extend(lines)
     return buckets
+
+
+DIALOGUE_LINE = re.compile(r"^([^：]{1,6})：(.+)$")
+TRANSLATION_LINE = re.compile(r"^.+ : .+$")
+
+
+def parse_dialogue(lines: list[str]) -> list[dict]:
+    entries = []
+    i = 0
+    while i < len(lines) - 2:
+        zh_match = DIALOGUE_LINE.match(lines[i])
+        de_match = TRANSLATION_LINE.match(lines[i + 2])
+        if zh_match and de_match:
+            _, de_text = lines[i + 2].split(" : ", 1)
+            entries.append(
+                {
+                    "sprecher": zh_match.group(1),
+                    "zh": zh_match.group(2),
+                    "pinyin": lines[i + 1],
+                    "de": de_text,
+                }
+            )
+            i += 3
+        else:
+            i += 1
+    return entries
