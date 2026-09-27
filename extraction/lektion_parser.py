@@ -56,7 +56,12 @@ def split_into_buckets(raw_pages: list[str]) -> dict[int, dict[str, list[str]]]:
                 # Lektionsteil vorbei; ab hier nichts mehr weiterschreiben.
                 current_section = None
                 continue
-            current_lesson = new_lesson
+            # Das Inhaltsverzeichnis (目錄) listet ebenfalls "第X課"-Ueberschriften
+            # fuer alle 30 Lektionen auf einmal auf, aber ohne Abschnittsmarker.
+            # Eine echte Lektionsseite traegt Header UND ihren ersten Marker
+            # immer gemeinsam; nur dann zaehlt die Lektionsnummer.
+            if section is not None:
+                current_lesson = new_lesson
         # Der Abschnittsmarker steht laut PDF-Layout auf der ERSTEN Seite eines
         # Abschnitts, nicht auf der letzten. Unmarkierte Folgeseiten gehoeren
         # also zum zuletzt gesehenen Abschnitt (current_section), nicht zu
@@ -108,7 +113,7 @@ def parse_dialogue(lines: list[str]) -> list[dict]:
     return entries
 
 
-VOKABEL_LINE = re.compile(r"^([一-鿿]+)（([^；]+)；([^）]+)）(?:（[^）]+）)*(.+)$")
+VOKABEL_LINE = re.compile(r"^([一-鿿]+)（([^；]+)；([^）]+)）(?:\s*（[^）]+）)*(.+)$")
 
 
 def parse_vokabular(lines: list[str]) -> list[dict]:

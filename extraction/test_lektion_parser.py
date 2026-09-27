@@ -51,6 +51,21 @@ def test_multipage_section_does_not_leak_into_wrong_bucket():
     assert "硯台" not in joined
 
 
+def test_table_of_contents_headers_without_marker_do_not_advance_lesson():
+    # Das Inhaltsverzeichnis listet "第一課".."第三十課" ohne Abschnittsmarker
+    # auf. Ein Header allein (ohne Marker auf derselben Seite) darf die
+    # Lektionsnummer nicht vorspulen, sonst landet der gesamte Lektion-1-Inhalt
+    # faelschlich in einem viel spaeteren Lektions-Bucket.
+    pages = [
+        "目錄 INHALT\n第一課 您早… 1\n第二課 您好嗎？… 7\n",
+        "第十六課 到那裡去買？… 105\n第三十課 …… 212\n",
+        "㆙：您早。\nnín zǎo\nGuten Morgen!\n第㆒課\n Lektion 1\n 一    課文  TEXT\n",
+    ]
+    buckets = split_into_buckets(pages)
+    assert set(buckets.keys()) == {1}
+    assert "Guten Morgen!" not in "\n".join(buckets.get(16, {}).get("課文", []))
+
+
 def test_lesson_number_regression_stops_forward_fill():
     # Simuliert den Anhang (Seiten 227-236): kein Marker mehr vorhanden, aber
     # die Kopfzeile zaehlt die Lektionsnummer wieder von vorne hoch. Sobald die
@@ -178,6 +193,19 @@ def test_parse_vokabular_skips_additional_pronunciation_blocks():
             "zhuyin": "ㄕㄜˊ ・ㄇㄜ",
             "pinyin": "shé me",
             "de": "was",
+        }
+    ]
+
+
+def test_parse_vokabular_skips_additional_pronunciation_block_with_space():
+    lines = ["個（ㄍㄜˋ；gè） （・ㄍㄜ；ge）das Stück (Zählwort)"]
+    result = parse_vokabular(lines)
+    assert result == [
+        {
+            "zh": "個",
+            "zhuyin": "ㄍㄜˋ",
+            "pinyin": "gè",
+            "de": "das Stück (Zählwort)",
         }
     ]
 
