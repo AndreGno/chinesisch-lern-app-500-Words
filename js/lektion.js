@@ -3,6 +3,7 @@ const TABS = [
   { key: "woerter", label: "字與詞 Wörter" },
   { key: "wiederholung", label: "溫習 Wiederholung" },
   { key: "anwendung", label: "應用 Anwendung" },
+  { key: "uebungen", label: "Übungen" },
 ];
 
 export function rendereTabs(lektion, container, onWahl) {
@@ -51,5 +52,9 @@ export function rendereTabInhalt(lektion, tabKey, container) {
     container.innerHTML = lektion.wiederholung
       .map((e) => `<p class="zh">${e.sprecher}：${e.zh}</p>`)
       .join("");
+  } else if (tabKey === "uebungen") {
+    import("./karteikarten.js").then(({ rendereKarteikarten }) => {
+      rendereKarteikarten(lektion.woerter, container);
+    });
   }
 }
