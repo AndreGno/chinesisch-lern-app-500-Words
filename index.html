@@ -9,6 +9,13 @@
 <body>
   <header class="kopf">
     <h1>五百字說華語 <span style="font-weight:normal">— Mit 500 Wörtern Chinesisch sprechen</span></h1>
+    <div class="fortschritt-aktionen">
+      <button id="export-btn">Fortschritt exportieren</button>
+      <label class="datei-label">
+        Fortschritt importieren
+        <input type="file" id="import-input" accept="application/json" hidden />
+      </label>
+    </div>
   </header>
   <main>
     <div id="lektion-grid" class="lektion-grid">Lade Lektionen…</div>
